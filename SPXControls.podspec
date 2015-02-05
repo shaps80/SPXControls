@@ -1,38 +1,15 @@
-#
-# Be sure to run `pod lib lint SPXControls.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "SPXControls"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of SPXControls."
-  s.description      = <<-DESC
-                       An optional longer description of SPXControls
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SPXControls"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.version          = "1.0.0"
+  s.summary          = "Provides custom controls used throughout my applications."
+  s.homepage         = "https://github.com/shaps80/SPXControls"
+#s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Shaps Mohsenin" => "shaps@theappbusiness.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SPXControls.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { "Shaps Mohsenin" => "shapsuk@me.com" }
+  s.source           = { :git => "https://github.com/shaps80/SPXControls.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/shaps'
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'SPXControls' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#s.dependency 'SPXDefines'
 end
