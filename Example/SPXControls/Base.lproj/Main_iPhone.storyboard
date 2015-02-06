@@ -26,7 +26,7 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                     <connections>
-                                                        <outlet property="dataValidator" destination="r7s-1z-8za" id="4gD-hz-Mju"/>
+                                                        <outlet property="dataValidator" destination="r7s-1z-8za" id="GLJ-Zt-jQy"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>

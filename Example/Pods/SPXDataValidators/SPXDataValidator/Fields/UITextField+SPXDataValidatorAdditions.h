@@ -14,5 +14,12 @@
  *  This category on UITextField adds support for using SPXDataValidator's to validate input
  */
 @interface UITextField (SPXDataValidatorAdditions) <SPXDataField>
+
+
+/**
+ *  Returns the data validator applied to this field
+ */
 @property (nonatomic, readonly) IBOutlet id <SPXDataValidator> dataValidator;
+
+
 @end
