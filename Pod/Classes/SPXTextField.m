@@ -164,9 +164,9 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
   self.floatingLabel.text = placeholder;
 }
 
-- (void)applyValidator:(id<SPXDataValidator>)validator
+- (void)setDataValidator:(id<SPXDataValidator>)dataValidator
 {
-  [super applyValidator:validator];
+  [super setDataValidator:dataValidator];
   [self updateFloatingLabel];
 }
 
