@@ -50,7 +50,7 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
     self.floatingLabel.frame = self.floatingLabelRect;
   }
   
-  NSString *text = self.capitalizeFloatingLabel ? self.placeholder.uppercaseString : self.placeholder;
+  NSString *text = self.capitalizeFloatingLabel ? self.floatingText.uppercaseString : self.floatingText;
   UIColor *textColor = self.isEditing ? self.activeTintColor : self.inactiveTintColor;
   
   NSError *error = nil;
@@ -66,6 +66,11 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
   };
   
   self.floatingLabel.attributedText = [[NSAttributedString alloc] initWithString:text attributes:attributes];
+}
+
+- (NSString *)floatingText
+{
+  return _floatingText ?: self.placeholder;
 }
 
 - (void)hideFloatingLabel:(BOOL)animated

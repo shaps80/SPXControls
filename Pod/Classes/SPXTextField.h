@@ -33,5 +33,6 @@ IB_DESIGNABLE
 @property (nonatomic, strong) IBInspectable UIColor *invalidTintColor;
 @property (nonatomic, assign) IBInspectable CGFloat verticalSpacing;
 @property (nonatomic, assign) IBInspectable BOOL capitalizeFloatingLabel;
+@property (nonatomic, strong) IBInspectable NSString *floatingText;
 
 @end
