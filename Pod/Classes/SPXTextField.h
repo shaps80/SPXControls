@@ -25,7 +25,6 @@
 
 #import "UITextField+SPXDataValidatorAdditions.h"
 
-IB_DESIGNABLE
 @interface SPXTextField : UITextField
 
 @property (nonatomic, strong) IBInspectable UIColor *activeTintColor;
