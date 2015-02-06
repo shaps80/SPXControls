@@ -1,1474 +1,1401 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>027770A95522D184748B5BB2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-SPXControls.a</string>
-			<key>path</key>
-			<string>libPods-SPXControls.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>049E3BC0C7E146B8A38F4F36</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C19E5C19C94410121D515EC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>05265B4A3EA79C59AD2616E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E096E46ED1D21C7460E95A23</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>05E54CAD416B05B82BB77157</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>29F833441EEA5C9586494ACC</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>EA9DAC219F3C29C13732F661</string>
-			<key>productRefGroup</key>
-			<string>5F62652DF0961CE702036E31</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>0D11DA9627B12297615BB2E5</string>
-				<string>3E43E7AE4286B3CCA49D17E2</string>
-				<string>0964963B82131B5652EA8843</string>
-				<string>F28DD1359ECA08631FF94FF3</string>
-			</array>
-		</dict>
-		<key>0717BA8264036B500AC5F73E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AE994B2E01C0D2C55BE02D9A</string>
-				<string>682BD9D40F4BA34C16FEA9C6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0964963B82131B5652EA8843</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C50516757C9BE7F3E21A74D7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1619BBC2042DA9DAB0C266DB</string>
-				<string>FA7617A6A7296152D44C3805</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B9E976CE40DDA628D0DE4DE5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>9BC3292FA50B7BADB4617CCE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>0D11DA9627B12297615BB2E5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6091A0FC39CEEE71198A958C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>40BD658E01D90F918844A098</string>
-				<string>049E3BC0C7E146B8A38F4F36</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A1283A110CB84BCF0F1080F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SPXControls</string>
-			<key>productName</key>
-			<string>Pods-SPXControls</string>
-			<key>productReference</key>
-			<string>027770A95522D184748B5BB2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>11D0142BAE8AE9E5F9A0ECEB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7513362F934B764C723911E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1619BBC2042DA9DAB0C266DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>966B7F2CA0E4D0EE7B3FF1F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1774ACE0E413AAF1D423DB92</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E054C15A02356C5CE4F22020</string>
-				<string>99E917AFCAEEB24C8EDDE7CC</string>
-				<string>F1A250F3DB1446DC9FF39602</string>
-				<string>52BF629C0903FEC6574781E2</string>
-				<string>B452A268D3AB489BFE5EBB64</string>
-				<string>CC76EEB4CC0C6A48B9813CAB</string>
-				<string>C476F1710B056281724BF5AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SPXControls</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-SPXControls</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17A962DBE43D5A5D724D2D87</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>05E54CAD416B05B82BB77157</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3E43E7AE4286B3CCA49D17E2</string>
-			<key>remoteInfo</key>
-			<string>Pods-SPXControls-SPXControls</string>
-		</dict>
-		<key>1AFD285B569DC451DD380351</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1BEEFD4FF1095BDCAEAA97CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>1C674A81172F7775ABFECA14</key>
-		<dict>
-			<key>fileRef</key>
-			<string>384AD7911FA154B6F9A21EF1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1CDCEDD998AF7C44180F90C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-SPXControls.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-SPXControls/Pods-Tests-SPXControls.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>215C512FFCC757319278D69F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>59594ACCFE8DC89AF78529CF</string>
-				<string>D931D15D73EA907ECB7004C6</string>
-				<string>F0ED6E88B853182142D8B4EF</string>
-				<string>63A6460D800F8D895AFAE263</string>
-				<string>AE5FBAB8192465C50EC046E8</string>
-				<string>E52C2EEBDC3F7AAADCDA4579</string>
-				<string>D4E9D3DBA08C5C0A7D4D9C65</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2279C40E6EBF4DFAA5FFC601</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D4E9D3DBA08C5C0A7D4D9C65</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2358D3267A41272B46FA7622</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-SPXControls-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-SPXControls/Pods-Tests-SPXControls-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29F833441EEA5C9586494ACC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1AFD285B569DC451DD380351</string>
-				<string>B286F785ABAE16C6F2D87A0C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2C9F386D5507B1D8C452B818</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A7B2D9138EB8C5DFAB5C78D1</string>
-				<string>86B979323AC203E3F13A070B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>37CE3DB139688FB5DB15933B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66E78AE940E568F4C4DA5566</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>384AD7911FA154B6F9A21EF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SPXTextField.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D1E3E237D6EA8E96EAEC1D9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F63A8EB90A2B381CC513D6D9</string>
-				<string>05265B4A3EA79C59AD2616E9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3E3325C20A70A2650EBD91F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SPXControls-SPXControls-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E43E7AE4286B3CCA49D17E2</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2C9F386D5507B1D8C452B818</string>
-			<key>buildPhases</key>
-			<array>
-				<string>47C069662D4C163E4819ED2F</string>
-				<string>FB908CD119DDBD978711DEC5</string>
-				<string>37CE3DB139688FB5DB15933B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SPXControls-SPXControls</string>
-			<key>productName</key>
-			<string>Pods-SPXControls-SPXControls</string>
-			<key>productReference</key>
-			<string>7A82F289747008A6A7F9E67C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>40BD658E01D90F918844A098</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B901BD4E28E666A42A575132</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4782A1912349F8B76C5384AC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C476F1710B056281724BF5AB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>47C069662D4C163E4819ED2F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F879865E31A2B84E664C4C75</string>
-				<string>91BD1D125A80B20C2E466AA9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52BF629C0903FEC6574781E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SPXControls-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54B97CD516B63735119AD105</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1774ACE0E413AAF1D423DB92</string>
-				<string>215C512FFCC757319278D69F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>59594ACCFE8DC89AF78529CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>599CCD089E902BFDD18C9D62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SPXControls-SPXControls-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F62652DF0961CE702036E31</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>027770A95522D184748B5BB2</string>
-				<string>7A82F289747008A6A7F9E67C</string>
-				<string>9BC3292FA50B7BADB4617CCE</string>
-				<string>AF8353DE44513DEBBB42717C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6091A0FC39CEEE71198A958C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FACFCCCA3544FA144E686623</string>
-				<string>4782A1912349F8B76C5384AC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>63A6460D800F8D895AFAE263</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66E78AE940E568F4C4DA5566</key>
-		<dict>
-			<key>fileRef</key>
-			<string>384AD7911FA154B6F9A21EF1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>682BD9D40F4BA34C16FEA9C6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2358D3267A41272B46FA7622</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>688390B22363DD3D08C6CEB2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1C674A81172F7775ABFECA14</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6ABE2B2D357E064ADAF5171B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E52C2EEBDC3F7AAADCDA4579</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6DC44797D56E24FF6A748205</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9989CC5BF5FB67B3DE0B09C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7513362F934B764C723911E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9989CC5BF5FB67B3DE0B09C2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79DC6E62DE67E8984B190140</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B08B1094E006AA67B1CD14B5</string>
-				<string>599CCD089E902BFDD18C9D62</string>
-				<string>3E3325C20A70A2650EBD91F3</string>
-				<string>AEE38FAE56E1092B04A1DF1E</string>
-				<string>1CDCEDD998AF7C44180F90C9</string>
-				<string>2358D3267A41272B46FA7622</string>
-				<string>85834B8F6ACAA2B882F4F62B</string>
-				<string>844A0A5F36AAA79E6D8DF676</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-SPXControls-SPXControls</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A82F289747008A6A7F9E67C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-SPXControls-SPXControls.a</string>
-			<key>path</key>
-			<string>libPods-SPXControls-SPXControls.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7C26B237871657A360FED0F9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>05E54CAD416B05B82BB77157</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F28DD1359ECA08631FF94FF3</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-SPXControls</string>
-		</dict>
-		<key>844A0A5F36AAA79E6D8DF676</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-SPXControls-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85834B8F6ACAA2B882F4F62B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-SPXControls-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-SPXControls/Pods-Tests-SPXControls-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86B979323AC203E3F13A070B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>599CCD089E902BFDD18C9D62</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SPXControls-SPXControls/Pods-SPXControls-SPXControls-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>89BCF860737B4A8E38DA0896</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9989CC5BF5FB67B3DE0B09C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>903774EC9F1A5825CC70AB94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9989CC5BF5FB67B3DE0B09C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91BD1D125A80B20C2E466AA9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E096E46ED1D21C7460E95A23</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>966B7F2CA0E4D0EE7B3FF1F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0ED6E88B853182142D8B4EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9989CC5BF5FB67B3DE0B09C2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>99E917AFCAEEB24C8EDDE7CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-SPXControls-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9BC3292FA50B7BADB4617CCE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-Tests.a</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A1283A110CB84BCF0F1080F9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-SPXControls-SPXControls</string>
-			<key>target</key>
-			<string>3E43E7AE4286B3CCA49D17E2</string>
-			<key>targetProxy</key>
-			<string>17A962DBE43D5A5D724D2D87</string>
-		</dict>
-		<key>A7B2D9138EB8C5DFAB5C78D1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>599CCD089E902BFDD18C9D62</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SPXControls-SPXControls/Pods-SPXControls-SPXControls-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A8AB1798677C2531978B944E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B395916785EEFB096D8E81AF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pod</string>
-			<key>path</key>
-			<string>Pod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE5FBAB8192465C50EC046E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE994B2E01C0D2C55BE02D9A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2358D3267A41272B46FA7622</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AEE38FAE56E1092B04A1DF1E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SPXControls-SPXControls-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF8353DE44513DEBBB42717C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-Tests-SPXControls.a</string>
-			<key>path</key>
-			<string>libPods-Tests-SPXControls.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B08B1094E006AA67B1CD14B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SPXControls-SPXControls.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B286F785ABAE16C6F2D87A0C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B395916785EEFB096D8E81AF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>384AD7911FA154B6F9A21EF1</string>
-				<string>E096E46ED1D21C7460E95A23</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B452A268D3AB489BFE5EBB64</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-SPXControls-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B901BD4E28E666A42A575132</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F1A250F3DB1446DC9FF39602</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B9E976CE40DDA628D0DE4DE5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-SPXControls</string>
-			<key>target</key>
-			<string>F28DD1359ECA08631FF94FF3</string>
-			<key>targetProxy</key>
-			<string>7C26B237871657A360FED0F9</string>
-		</dict>
-		<key>C19E5C19C94410121D515EC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9989CC5BF5FB67B3DE0B09C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C476F1710B056281724BF5AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SPXControls.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C50516757C9BE7F3E21A74D7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6ABE2B2D357E064ADAF5171B</string>
-				<string>2279C40E6EBF4DFAA5FFC601</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C75B056A3A1EB3F458BD6D8B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>903774EC9F1A5825CC70AB94</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CC76EEB4CC0C6A48B9813CAB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SPXControls.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D4E9D3DBA08C5C0A7D4D9C65</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D931D15D73EA907ECB7004C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E054C15A02356C5CE4F22020</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-SPXControls-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E096E46ED1D21C7460E95A23</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SPXTextField.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E52C2EEBDC3F7AAADCDA4579</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA9DAC219F3C29C13732F661</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1BEEFD4FF1095BDCAEAA97CF</string>
-				<string>F6F2589CB1E05801324B049D</string>
-				<string>11D0142BAE8AE9E5F9A0ECEB</string>
-				<string>5F62652DF0961CE702036E31</string>
-				<string>54B97CD516B63735119AD105</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC1D436EF6357E31176C628F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A8AB1798677C2531978B944E</string>
-				<string>79DC6E62DE67E8984B190140</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SPXControls</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0ED6E88B853182142D8B4EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1A250F3DB1446DC9FF39602</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SPXControls-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F28DD1359ECA08631FF94FF3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0717BA8264036B500AC5F73E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3D1E3E237D6EA8E96EAEC1D9</string>
-				<string>C75B056A3A1EB3F458BD6D8B</string>
-				<string>688390B22363DD3D08C6CEB2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-SPXControls</string>
-			<key>productName</key>
-			<string>Pods-Tests-SPXControls</string>
-			<key>productReference</key>
-			<string>AF8353DE44513DEBBB42717C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F63A8EB90A2B381CC513D6D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85834B8F6ACAA2B882F4F62B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F6F2589CB1E05801324B049D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EC1D436EF6357E31176C628F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F879865E31A2B84E664C4C75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E3325C20A70A2650EBD91F3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FA7617A6A7296152D44C3805</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>89BCF860737B4A8E38DA0896</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FACFCCCA3544FA144E686623</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CC76EEB4CC0C6A48B9813CAB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FB908CD119DDBD978711DEC5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6DC44797D56E24FF6A748205</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>05E54CAD416B05B82BB77157</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031090762434B178667249A9 /* SPXDataField.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F94921D032429FB1D4380F /* SPXDataField.h */; };
+		0CAA0FD87E19538CC6AF47B5 /* SPXAssertionsInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D13A3F9B71B6655850D785 /* SPXAssertionsInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		108AC6D16B491F8523A02FA5 /* SPXDescriptionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCF8405C3EF0883795D9424 /* SPXDescriptionInternal.h */; };
+		1413D218BA7408192BF39CE6 /* SPXAssertionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F0E19F0A48FE20A1D3697E /* SPXAssertionDefines.h */; };
+		1495EBC1034381897BE3B63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
+		14E52C7059AF711FC22735DB /* Pods-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603136C1764699D464C6C4B /* Pods-SPXControls-dummy.m */; };
+		1579D1F2D60E72FDE209C180 /* SPXRegexDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC9CC6E0746A6359A19BADA /* SPXRegexDataValidator.h */; };
+		186DDBCCBAECCC19B7519BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
+		1928894116E2E71D35F77EE7 /* UITextView+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA88D0C192BF2DD1BF02949D /* UITextView+SPXDataValidatorAdditions.h */; };
+		198F6A7FCCF4F86B0ECA1D92 /* SPXPasswordValidationField.h in Headers */ = {isa = PBXBuildFile; fileRef = 974636D07EFF84120381F1F6 /* SPXPasswordValidationField.h */; };
+		201B7A70674F9258D595CD26 /* UITextField+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D89AE7F2A0D951D0C045A559 /* UITextField+SPXDataValidatorAdditions.h */; };
+		21929CEEE27DD05575CEE7E8 /* SPXDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5CC3630E7B890D0AEEFB5C /* SPXDefines.h */; };
+		21DC965DB71773A97367B462 /* UITextView+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E61BEE9249183C89972F1A46 /* UITextView+SPXDataValidatorAdditions.m */; };
+		260DE286A9EE7BC9B75F3281 /* SPXCompoundDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F70D71D5E40ADA837BCB4700 /* SPXCompoundDataValidator.h */; };
+		2668FC54377AC7431FB987A4 /* SPXDescriptionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B798E5F294381A8A3595DA06 /* SPXDescriptionDefines.h */; };
+		2A35638E6AC90CCB5122C48A /* SPXEncodingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0CD2CD590FCA4265E333E0 /* SPXEncodingDefines.h */; };
+		2BBEC8E00DD3774582602BC4 /* SPXRegexDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C45B2C038B1C07DDF1C023C6 /* SPXRegexDataValidator.m */; };
+		2C745979C0BF2FAB10DF37FF /* SPXNonEmptyDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F3527DC615C25112ECB16103 /* SPXNonEmptyDataValidator.h */; };
+		33D1D052DD8DCEB660FF2D14 /* SPXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A70328DD20856BF1273FF9 /* SPXTextField.m */; };
+		33EF416DAA1106BD894B93A0 /* SPXDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 943478D0652D9F4AEEF2B4EE /* SPXDataValidator.h */; };
+		3ABDE2C9F03A06531BDC52E0 /* SPXDefinesCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E7B335A15870121AA24745 /* SPXDefinesCommon.h */; };
+		3D3EF0FCC6A9E7686D4781E0 /* SPXFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E304433290056EFFFCAF50FC /* SPXFormValidator.h */; };
+		437E9A0376F3D6A98813E8CE /* SPXRegexDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC9CC6E0746A6359A19BADA /* SPXRegexDataValidator.h */; };
+		48A9A1276F4B0C0DAB2A400D /* SPXBlockDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7AD9F0E61951319409FF0C7 /* SPXBlockDataValidator.h */; };
+		4B29406B5439EA4063FEC274 /* SPXDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5CC3630E7B890D0AEEFB5C /* SPXDefines.h */; };
+		4EF1DD489FEE49E8632BD9AB /* SPXEncodingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0CD2CD590FCA4265E333E0 /* SPXEncodingDefines.h */; };
+		51C364B5B6E05E24C76CE41E /* SPXPasswordValidationField.h in Headers */ = {isa = PBXBuildFile; fileRef = 974636D07EFF84120381F1F6 /* SPXPasswordValidationField.h */; };
+		57E24E477CF9A940AE1C9C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
+		5A412D014BB87120FD4A2454 /* SPXNonEmptyDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F3527DC615C25112ECB16103 /* SPXNonEmptyDataValidator.h */; };
+		5A7AD29F588A8352CE3EEE7F /* SPXDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 943478D0652D9F4AEEF2B4EE /* SPXDataValidator.h */; };
+		5AABC75B725EF7CBA7E57C87 /* SPXNonEmptyDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C111102DFD3D3F682F07205 /* SPXNonEmptyDataValidator.m */; };
+		5B3DB79084847F344FFE8D29 /* SPXAssertionsInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D13A3F9B71B6655850D785 /* SPXAssertionsInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		62E3D1F044BE27B638A02781 /* UITextField+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988A4A9FDEA4787ED8F41A /* UITextField+SPXDataValidatorAdditions.m */; };
+		653B1C76C3E170B5034D72A7 /* SPXLoggingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 370080C912195AAC1D603634 /* SPXLoggingInternal.h */; };
+		67CB3964A47A600B3DE04FC7 /* Pods-Tests-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2094507C3D3ADDB1385D39F0 /* Pods-Tests-SPXControls-dummy.m */; };
+		6B13C229BF9B8757AD16DE71 /* SPXCompoundDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F70D71D5E40ADA837BCB4700 /* SPXCompoundDataValidator.h */; };
+		6B6331E4A419443F027C92FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
+		73CD463B45AB9D7A6125D710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
+		78461723B2BE5C9B108617A3 /* SPXBlockDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC91EE13361CE59AC6EC46D /* SPXBlockDataValidator.m */; };
+		78B85052D4DA559FC6D7C907 /* SPXBlockDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7AD9F0E61951319409FF0C7 /* SPXBlockDataValidator.h */; };
+		79F69EFD1797FB3E19A379B3 /* Pods-Tests-SPXDataValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E1E54FFFE606ACFEF35FB /* Pods-Tests-SPXDataValidators-dummy.m */; };
+		7C1D9DA0C6520B59E43F5B1E /* UITextField+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D89AE7F2A0D951D0C045A559 /* UITextField+SPXDataValidatorAdditions.h */; };
+		7E76E14E9DE31B60CB798692 /* SPXLoggingInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CC970EE70DD4A907DBE6B9 /* SPXLoggingInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7ED62CF960F6B8D36D541231 /* SPXFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 05254E8DBDB5FB6AA2E8A5EA /* SPXFormValidator.m */; };
+		8C19992CF9A81DB93BA8ED50 /* SPXLoggingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8EED867E4F39A41BA46305 /* SPXLoggingDefines.h */; };
+		8EDFB2B87C577AC92DB5FCD7 /* SPXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A70328DD20856BF1273FF9 /* SPXTextField.m */; };
+		919D1B9D21CF1C2976578B5B /* SPXAssertionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 444F0156993BB141C60F1BF5 /* SPXAssertionsInternal.h */; };
+		970F2B062262A9FD8E5228F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
+		982F6A8ED19A4735001C040F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
+		9BB9077DAA8A9FAB0F235C1C /* SPXNonEmptyDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C111102DFD3D3F682F07205 /* SPXNonEmptyDataValidator.m */; };
+		9C6FF839272E1F3E0A730C50 /* SPXPasswordValidationField.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E5FACA0A1DE748535814E5 /* SPXPasswordValidationField.m */; };
+		A1757900B77AA535D620C11B /* Pods-SPXControls-SPXDataValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15019357B2F209296DE1DE2B /* Pods-SPXControls-SPXDataValidators-dummy.m */; };
+		A411747BFB99324342DE6873 /* SPXAssertionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F0E19F0A48FE20A1D3697E /* SPXAssertionDefines.h */; };
+		A46FE1DA128FBD19993959AF /* SPXBlockDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC91EE13361CE59AC6EC46D /* SPXBlockDataValidator.m */; };
+		A4E1EA40368A357E261EE270 /* UITextField+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988A4A9FDEA4787ED8F41A /* UITextField+SPXDataValidatorAdditions.m */; };
+		AE135712E41373A3D9410E50 /* SPXTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 713EFB8E38107ED97A1A9D71 /* SPXTextField.h */; };
+		AED437AEED92BFB6E05A6884 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514EFA8AAC5618623A0E4427 /* Pods-Tests-dummy.m */; };
+		AF635905DAD84B7094E8F875 /* UITextView+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA88D0C192BF2DD1BF02949D /* UITextView+SPXDataValidatorAdditions.h */; };
+		B0224ACF7DBB4DA140879DC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
+		B6013EE0683E5B9AA139CDB3 /* SPXDescriptionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B798E5F294381A8A3595DA06 /* SPXDescriptionDefines.h */; };
+		B734E1ACDA7C9382BAF5F3B2 /* SPXDescriptionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCF8405C3EF0883795D9424 /* SPXDescriptionInternal.h */; };
+		BA1A04A4110515AA06D03AAD /* SPXFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E304433290056EFFFCAF50FC /* SPXFormValidator.h */; };
+		BA253EBFD7F79BC59A8576B0 /* SPXTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 713EFB8E38107ED97A1A9D71 /* SPXTextField.h */; };
+		C337DFFBF80651CAC9FF1DFD /* SPXEncodingInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = D94C856F5F837691B49D1E02 /* SPXEncodingInternals.h */; };
+		C8AE41892959D524AED2A518 /* SPXAssertionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 444F0156993BB141C60F1BF5 /* SPXAssertionsInternal.h */; };
+		CC1DD70A969A8C41B7EB5313 /* SPXFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 05254E8DBDB5FB6AA2E8A5EA /* SPXFormValidator.m */; };
+		CEC27B78370237A2772387BE /* SPXLoggingInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CC970EE70DD4A907DBE6B9 /* SPXLoggingInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CEC59B2057D5B6181CE25C6C /* SPXLoggingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 370080C912195AAC1D603634 /* SPXLoggingInternal.h */; };
+		CFBD1F43A6F6119AE32D7EFF /* Pods-SPXControls-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D95AAE3444FF5818D52AC95 /* Pods-SPXControls-SPXControls-dummy.m */; };
+		D56E343D35562B78A11F4C68 /* SPXEncodingInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = D94C856F5F837691B49D1E02 /* SPXEncodingInternals.h */; };
+		DC0EF5AB8EA6745E346EB9FA /* UITextView+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E61BEE9249183C89972F1A46 /* UITextView+SPXDataValidatorAdditions.m */; };
+		E76D6C2269FF7C1C7308F96C /* SPXCompoundDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 320EC1777BE1D7AA94E8F1C8 /* SPXCompoundDataValidator.m */; };
+		EB243906DAC1B1DCD07017CB /* SPXPasswordValidationField.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E5FACA0A1DE748535814E5 /* SPXPasswordValidationField.m */; };
+		ECC5E3D84B647B549B868CCA /* SPXRegexDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C45B2C038B1C07DDF1C023C6 /* SPXRegexDataValidator.m */; };
+		EF0A21B229BBFA29C1B1231C /* Pods-SPXControls-SPXDefines-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87145C873BEC9F3A979B5C29 /* Pods-SPXControls-SPXDefines-dummy.m */; };
+		EF73451A55F310AC14429432 /* SPXDefinesCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E7B335A15870121AA24745 /* SPXDefinesCommon.h */; };
+		EFA79B06EDC511D8B62E3212 /* Pods-Tests-SPXDefines-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C24A1DBC66882F9D6A6B63CE /* Pods-Tests-SPXDefines-dummy.m */; };
+		F049E7D61E077905CD22BF01 /* SPXCompoundDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 320EC1777BE1D7AA94E8F1C8 /* SPXCompoundDataValidator.m */; };
+		F7926A46DA399F9808F9A0C4 /* SPXDataField.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F94921D032429FB1D4380F /* SPXDataField.h */; };
+		F9ACF77D9B935C26A65ECC67 /* SPXLoggingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8EED867E4F39A41BA46305 /* SPXLoggingDefines.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CCA6257F755FF33CD7666F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C82B482DCAE4FDA227A90F4;
+			remoteInfo = "Pods-SPXControls-SPXDefines";
+		};
+		1125D4864EB8D6EA3951F93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77E39204BCCA1C82B0D5C93E;
+			remoteInfo = "Pods-SPXControls-SPXDataValidators";
+		};
+		4410B78A918C01C2813FAFA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F80B45C1C2741A64A1D45B;
+			remoteInfo = "Pods-Tests-SPXDefines";
+		};
+		5B7C8AA967AC5665FA110D07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3ADA34799ECAA088208B4B;
+			remoteInfo = "Pods-SPXControls-SPXControls";
+		};
+		61752DD9A919D8D1F1B3A8E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BE41502DB7C691FA828A78;
+			remoteInfo = "Pods-Tests-SPXControls";
+		};
+		8051966BE941065CF14C96C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C82B482DCAE4FDA227A90F4;
+			remoteInfo = "Pods-SPXControls-SPXDefines";
+		};
+		81F303AE4A5567137DEEFDE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 192553CCE8100943FA589050;
+			remoteInfo = "Pods-Tests-SPXDataValidators";
+		};
+		B345233B07A875F03818334B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F80B45C1C2741A64A1D45B;
+			remoteInfo = "Pods-Tests-SPXDefines";
+		};
+		D4F6C1CB1FB77596DF454FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 192553CCE8100943FA589050;
+			remoteInfo = "Pods-Tests-SPXDataValidators";
+		};
+		F9F28E1C148B5A8878995D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77E39204BCCA1C82B0D5C93E;
+			remoteInfo = "Pods-SPXControls-SPXDataValidators";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05254E8DBDB5FB6AA2E8A5EA /* SPXFormValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXFormValidator.m; path = SPXDataValidator/Form/SPXFormValidator.m; sourceTree = "<group>"; };
+		0DA80AD1F49DD4C039C63650 /* libPods-Tests-SPXDataValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXDataValidators.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD3410AA18FABD1F003A410 /* Pods-SPXControls-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-environment.h"; sourceTree = "<group>"; };
+		11CC970EE70DD4A907DBE6B9 /* SPXLoggingInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXLoggingInternal.m; path = Classes/SPXLogging/SPXLoggingInternal.m; sourceTree = "<group>"; };
+		15019357B2F209296DE1DE2B /* Pods-SPXControls-SPXDataValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXDataValidators-dummy.m"; sourceTree = "<group>"; };
+		18A659CE50D7E28A2A586352 /* Pods-Tests-SPXDefines-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDefines-Private.xcconfig"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-Private.xcconfig"; sourceTree = "<group>"; };
+		18FAF9B5EF9ED32001DCD256 /* Pods-SPXControls-SPXControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXControls.xcconfig"; sourceTree = "<group>"; };
+		1D95AAE3444FF5818D52AC95 /* Pods-SPXControls-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXControls-dummy.m"; sourceTree = "<group>"; };
+		1FCE28EC002BDCEC903EDFA0 /* Pods-Tests-SPXDataValidators-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDataValidators-Private.xcconfig"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-Private.xcconfig"; sourceTree = "<group>"; };
+		2094507C3D3ADDB1385D39F0 /* Pods-Tests-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXControls-dummy.m"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-dummy.m"; sourceTree = "<group>"; };
+		2744ED7E264CDC0C91A10562 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2906D6EF95814DD8DE8614E3 /* libPods-SPXControls-SPXDefines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXDefines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC458615412A6DD59A205E5 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CCB12D56441F43CCA4B0E64 /* Pods-SPXControls-SPXDataValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXDataValidators-prefix.pch"; sourceTree = "<group>"; };
+		308C1F75A8DC4A63AACB590B /* Pods-Tests-SPXControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXControls.xcconfig"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls.xcconfig"; sourceTree = "<group>"; };
+		320EC1777BE1D7AA94E8F1C8 /* SPXCompoundDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXCompoundDataValidator.m; path = SPXDataValidator/Validators/SPXCompoundDataValidator.m; sourceTree = "<group>"; };
+		370080C912195AAC1D603634 /* SPXLoggingInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXLoggingInternal.h; path = Classes/SPXLogging/SPXLoggingInternal.h; sourceTree = "<group>"; };
+		3EC91EE13361CE59AC6EC46D /* SPXBlockDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXBlockDataValidator.m; path = SPXDataValidator/Validators/SPXBlockDataValidator.m; sourceTree = "<group>"; };
+		402FD4D6466B74ACB82ACB59 /* Pods-Tests-SPXDataValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDataValidators.xcconfig"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators.xcconfig"; sourceTree = "<group>"; };
+		411D02DC16F1E891B1A85A7B /* Pods-SPXControls-SPXDataValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDataValidators.xcconfig"; sourceTree = "<group>"; };
+		444F0156993BB141C60F1BF5 /* SPXAssertionsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXAssertionsInternal.h; path = Classes/SPXAsserts/SPXAssertionsInternal.h; sourceTree = "<group>"; };
+		45E5FACA0A1DE748535814E5 /* SPXPasswordValidationField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXPasswordValidationField.m; path = SPXDataValidator/Fields/SPXPasswordValidationField.m; sourceTree = "<group>"; };
+		4F6E39F34E04403F18AF6B84 /* Pods-SPXControls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPXControls-acknowledgements.markdown"; sourceTree = "<group>"; };
+		514EFA8AAC5618623A0E4427 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		5337E3C044EB9D655B9FBA5D /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		54D739C308FB37FF88934559 /* libPods-Tests-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BCD93FC8C6DA0B019B59B4 /* Pods-Tests-SPXControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXControls-Private.xcconfig"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-Private.xcconfig"; sourceTree = "<group>"; };
+		57F0E19F0A48FE20A1D3697E /* SPXAssertionDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXAssertionDefines.h; path = Classes/SPXAsserts/SPXAssertionDefines.h; sourceTree = "<group>"; };
+		5BCF8405C3EF0883795D9424 /* SPXDescriptionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDescriptionInternal.h; path = Classes/SPXDescription/SPXDescriptionInternal.h; sourceTree = "<group>"; };
+		5D8EED867E4F39A41BA46305 /* SPXLoggingDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXLoggingDefines.h; path = Classes/SPXLogging/SPXLoggingDefines.h; sourceTree = "<group>"; };
+		631331D994B517FDB2C0F457 /* Pods-SPXControls-SPXDefines.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDefines.xcconfig"; sourceTree = "<group>"; };
+		69EA1EFE0FEAC6961AF89F9C /* Pods-SPXControls-SPXControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXControls-prefix.pch"; sourceTree = "<group>"; };
+		6CF4898BF24C37079CCB0A3E /* Pods-SPXControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls.release.xcconfig"; sourceTree = "<group>"; };
+		6F44E800535683CCB6493526 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		713EFB8E38107ED97A1A9D71 /* SPXTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SPXTextField.h; sourceTree = "<group>"; };
+		7390BADC9C2628EF6E3A5AB6 /* Pods-Tests-SPXDefines-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXDefines-prefix.pch"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-prefix.pch"; sourceTree = "<group>"; };
+		79F94921D032429FB1D4380F /* SPXDataField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDataField.h; path = SPXDataValidator/Fields/SPXDataField.h; sourceTree = "<group>"; };
+		7D2C1FE8E2F378C757C5595B /* Pods-Tests-SPXDefines.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDefines.xcconfig"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines.xcconfig"; sourceTree = "<group>"; };
+		7D2DD0DC2E507F86CB25F660 /* Pods-SPXControls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPXControls-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E0A127C1C1AC388BD85316C /* libPods-SPXControls-SPXDataValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXDataValidators.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		802C02761C4D1EF6B66939D8 /* Pods-SPXControls-SPXDefines-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDefines-Private.xcconfig"; sourceTree = "<group>"; };
+		859E1E54FFFE606ACFEF35FB /* Pods-Tests-SPXDataValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXDataValidators-dummy.m"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-dummy.m"; sourceTree = "<group>"; };
+		8603136C1764699D464C6C4B /* Pods-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-dummy.m"; sourceTree = "<group>"; };
+		87145C873BEC9F3A979B5C29 /* Pods-SPXControls-SPXDefines-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXDefines-dummy.m"; sourceTree = "<group>"; };
+		8F5CC3630E7B890D0AEEFB5C /* SPXDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDefines.h; path = Classes/SPXDefines.h; sourceTree = "<group>"; };
+		93FE9662EB7CA7042CB4020D /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		943478D0652D9F4AEEF2B4EE /* SPXDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDataValidator.h; path = SPXDataValidator/SPXDataValidator.h; sourceTree = "<group>"; };
+		974636D07EFF84120381F1F6 /* SPXPasswordValidationField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXPasswordValidationField.h; path = SPXDataValidator/Fields/SPXPasswordValidationField.h; sourceTree = "<group>"; };
+		9C111102DFD3D3F682F07205 /* SPXNonEmptyDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXNonEmptyDataValidator.m; path = SPXDataValidator/Validators/SPXNonEmptyDataValidator.m; sourceTree = "<group>"; };
+		9C8465EEB39380BEC804313F /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		A17CEAFB0CE6B9438FFEDBF4 /* libPods-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D13A3F9B71B6655850D785 /* SPXAssertionsInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXAssertionsInternal.m; path = Classes/SPXAsserts/SPXAssertionsInternal.m; sourceTree = "<group>"; };
+		A9A70328DD20856BF1273FF9 /* SPXTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SPXTextField.m; sourceTree = "<group>"; };
+		AA88D0C192BF2DD1BF02949D /* UITextView+SPXDataValidatorAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+SPXDataValidatorAdditions.h"; path = "SPXDataValidator/Fields/UITextView+SPXDataValidatorAdditions.h"; sourceTree = "<group>"; };
+		AE988A4A9FDEA4787ED8F41A /* UITextField+SPXDataValidatorAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+SPXDataValidatorAdditions.m"; path = "SPXDataValidator/Fields/UITextField+SPXDataValidatorAdditions.m"; sourceTree = "<group>"; };
+		B0A79DDBE4BCCD19AF3BC1D8 /* Pods-SPXControls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPXControls-resources.sh"; sourceTree = "<group>"; };
+		B798E5F294381A8A3595DA06 /* SPXDescriptionDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDescriptionDefines.h; path = Classes/SPXDescription/SPXDescriptionDefines.h; sourceTree = "<group>"; };
+		B7AD9F0E61951319409FF0C7 /* SPXBlockDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXBlockDataValidator.h; path = SPXDataValidator/Validators/SPXBlockDataValidator.h; sourceTree = "<group>"; };
+		B875DFB407D9BDC0C34968CE /* libPods-Tests-SPXDefines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXDefines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC389DFD7DD16916F0962F90 /* Pods-SPXControls-SPXDefines-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXDefines-prefix.pch"; sourceTree = "<group>"; };
+		C24A1DBC66882F9D6A6B63CE /* Pods-Tests-SPXDefines-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXDefines-dummy.m"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-dummy.m"; sourceTree = "<group>"; };
+		C45B2C038B1C07DDF1C023C6 /* SPXRegexDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXRegexDataValidator.m; path = SPXDataValidator/Validators/SPXRegexDataValidator.m; sourceTree = "<group>"; };
+		CCD511826E4D1B3CE403E6AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2E7B335A15870121AA24745 /* SPXDefinesCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDefinesCommon.h; path = Classes/SPXDefinesCommon.h; sourceTree = "<group>"; };
+		D59348DFD5DA486FCD43F3E1 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D89AE7F2A0D951D0C045A559 /* UITextField+SPXDataValidatorAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+SPXDataValidatorAdditions.h"; path = "SPXDataValidator/Fields/UITextField+SPXDataValidatorAdditions.h"; sourceTree = "<group>"; };
+		D94C856F5F837691B49D1E02 /* SPXEncodingInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXEncodingInternals.h; path = Classes/SPXEncoding/SPXEncodingInternals.h; sourceTree = "<group>"; };
+		DC0CD2CD590FCA4265E333E0 /* SPXEncodingDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXEncodingDefines.h; path = Classes/SPXEncoding/SPXEncodingDefines.h; sourceTree = "<group>"; };
+		DCFB21BEFC8CAEDEA01C5835 /* Pods-Tests-SPXDataValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXDataValidators-prefix.pch"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-prefix.pch"; sourceTree = "<group>"; };
+		DDC9CC6E0746A6359A19BADA /* SPXRegexDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXRegexDataValidator.h; path = SPXDataValidator/Validators/SPXRegexDataValidator.h; sourceTree = "<group>"; };
+		DEA1F4E2BFAB5B6F759D88A4 /* Pods-SPXControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls.debug.xcconfig"; sourceTree = "<group>"; };
+		E304433290056EFFFCAF50FC /* SPXFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXFormValidator.h; path = SPXDataValidator/Form/SPXFormValidator.h; sourceTree = "<group>"; };
+		E5D281CD37175F3C204B5401 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61BEE9249183C89972F1A46 /* UITextView+SPXDataValidatorAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+SPXDataValidatorAdditions.m"; path = "SPXDataValidator/Fields/UITextView+SPXDataValidatorAdditions.m"; sourceTree = "<group>"; };
+		E8E4568E9565CC584DC1A6E0 /* Pods-SPXControls-SPXControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXControls-Private.xcconfig"; sourceTree = "<group>"; };
+		EA9AA6EC7ACFD61AC3E42ABE /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDataValidators-Private.xcconfig"; sourceTree = "<group>"; };
+		EBE03CB096EF3F700849AA01 /* Pods-Tests-SPXControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXControls-prefix.pch"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch"; sourceTree = "<group>"; };
+		F3527DC615C25112ECB16103 /* SPXNonEmptyDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXNonEmptyDataValidator.h; path = SPXDataValidator/Validators/SPXNonEmptyDataValidator.h; sourceTree = "<group>"; };
+		F70D71D5E40ADA837BCB4700 /* SPXCompoundDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXCompoundDataValidator.h; path = SPXDataValidator/Validators/SPXCompoundDataValidator.h; sourceTree = "<group>"; };
+		FEC13B7703329C7E77BC6377 /* libPods-SPXControls-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DDD262CD4A8D7CD7369FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6331E4A419443F027C92FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407183C526048F338FA05BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186DDBCCBAECCC19B7519BFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8789C6AEA2C48FB888192264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E24E477CF9A940AE1C9C8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3189C92D42FBC93844BA5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1495EBC1034381897BE3B63D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EA20B14BFD0849C6ADF782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CD463B45AB9D7A6125D710 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFA5111D2B9255DDD9DA061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0224ACF7DBB4DA140879DC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF55D606DF17E994FA58E082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982F6A8ED19A4735001C040F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8A94BB4D44E8303349A9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970F2B062262A9FD8E5228F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A1D14CEFA3B80A41F5B763 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
+		0B9CE8B12C5026AB1A70C5FA /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Encoding;
+			sourceTree = "<group>";
+		};
+		0D213CDC888F533CC71605FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17CEAFB0CE6B9438FFEDBF4 /* libPods-SPXControls.a */,
+				FEC13B7703329C7E77BC6377 /* libPods-SPXControls-SPXControls.a */,
+				7E0A127C1C1AC388BD85316C /* libPods-SPXControls-SPXDataValidators.a */,
+				2906D6EF95814DD8DE8614E3 /* libPods-SPXControls-SPXDefines.a */,
+				E5D281CD37175F3C204B5401 /* libPods-Tests.a */,
+				54D739C308FB37FF88934559 /* libPods-Tests-SPXControls.a */,
+				0DA80AD1F49DD4C039C63650 /* libPods-Tests-SPXDataValidators.a */,
+				B875DFB407D9BDC0C34968CE /* libPods-Tests-SPXDefines.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10077B1FB617A8CCD0EA0BF4 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Description;
+			sourceTree = "<group>";
+		};
+		1603A89DA10D2E3A6A8DF6F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90B9ECF28979D4555893E409 /* SPXDataValidators */,
+				2E2936C3142AD017AB1FDCCE /* SPXDefines */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A2B295B3AA0B5E462B1FA0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30B4CB4FE980EF6A531C904B /* Pods-SPXControls */,
+				A1F6E0743B502C298B5DA430 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E2936C3142AD017AB1FDCCE /* SPXDefines */ = {
+			isa = PBXGroup;
+			children = (
+				57F0E19F0A48FE20A1D3697E /* SPXAssertionDefines.h */,
+				444F0156993BB141C60F1BF5 /* SPXAssertionsInternal.h */,
+				A3D13A3F9B71B6655850D785 /* SPXAssertionsInternal.m */,
+				8F5CC3630E7B890D0AEEFB5C /* SPXDefines.h */,
+				D2E7B335A15870121AA24745 /* SPXDefinesCommon.h */,
+				B798E5F294381A8A3595DA06 /* SPXDescriptionDefines.h */,
+				5BCF8405C3EF0883795D9424 /* SPXDescriptionInternal.h */,
+				DC0CD2CD590FCA4265E333E0 /* SPXEncodingDefines.h */,
+				D94C856F5F837691B49D1E02 /* SPXEncodingInternals.h */,
+				5D8EED867E4F39A41BA46305 /* SPXLoggingDefines.h */,
+				370080C912195AAC1D603634 /* SPXLoggingInternal.h */,
+				11CC970EE70DD4A907DBE6B9 /* SPXLoggingInternal.m */,
+				C2B4A73D575811D0C606CD0E /* Asserts */,
+				10077B1FB617A8CCD0EA0BF4 /* Description */,
+				0B9CE8B12C5026AB1A70C5FA /* Encoding */,
+				06A1D14CEFA3B80A41F5B763 /* Logging */,
+				B03760C4FA10C589D5FAE919 /* Support Files */,
+			);
+			path = SPXDefines;
+			sourceTree = "<group>";
+		};
+		30B4CB4FE980EF6A531C904B /* Pods-SPXControls */ = {
+			isa = PBXGroup;
+			children = (
+				4F6E39F34E04403F18AF6B84 /* Pods-SPXControls-acknowledgements.markdown */,
+				7D2DD0DC2E507F86CB25F660 /* Pods-SPXControls-acknowledgements.plist */,
+				8603136C1764699D464C6C4B /* Pods-SPXControls-dummy.m */,
+				0DD3410AA18FABD1F003A410 /* Pods-SPXControls-environment.h */,
+				B0A79DDBE4BCCD19AF3BC1D8 /* Pods-SPXControls-resources.sh */,
+				DEA1F4E2BFAB5B6F759D88A4 /* Pods-SPXControls.debug.xcconfig */,
+				6CF4898BF24C37079CCB0A3E /* Pods-SPXControls.release.xcconfig */,
+			);
+			name = "Pods-SPXControls";
+			path = "Target Support Files/Pods-SPXControls";
+			sourceTree = "<group>";
+		};
+		45F701882275F350C63464BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E73EE4EAE4B343D2B5EC940D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4C1563E7379E5E3C1CF9F143 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6235B0FC118A614148BA23 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90B9ECF28979D4555893E409 /* SPXDataValidators */ = {
+			isa = PBXGroup;
+			children = (
+				B7AD9F0E61951319409FF0C7 /* SPXBlockDataValidator.h */,
+				3EC91EE13361CE59AC6EC46D /* SPXBlockDataValidator.m */,
+				F70D71D5E40ADA837BCB4700 /* SPXCompoundDataValidator.h */,
+				320EC1777BE1D7AA94E8F1C8 /* SPXCompoundDataValidator.m */,
+				79F94921D032429FB1D4380F /* SPXDataField.h */,
+				943478D0652D9F4AEEF2B4EE /* SPXDataValidator.h */,
+				E304433290056EFFFCAF50FC /* SPXFormValidator.h */,
+				05254E8DBDB5FB6AA2E8A5EA /* SPXFormValidator.m */,
+				F3527DC615C25112ECB16103 /* SPXNonEmptyDataValidator.h */,
+				9C111102DFD3D3F682F07205 /* SPXNonEmptyDataValidator.m */,
+				974636D07EFF84120381F1F6 /* SPXPasswordValidationField.h */,
+				45E5FACA0A1DE748535814E5 /* SPXPasswordValidationField.m */,
+				DDC9CC6E0746A6359A19BADA /* SPXRegexDataValidator.h */,
+				C45B2C038B1C07DDF1C023C6 /* SPXRegexDataValidator.m */,
+				D89AE7F2A0D951D0C045A559 /* UITextField+SPXDataValidatorAdditions.h */,
+				AE988A4A9FDEA4787ED8F41A /* UITextField+SPXDataValidatorAdditions.m */,
+				AA88D0C192BF2DD1BF02949D /* UITextView+SPXDataValidatorAdditions.h */,
+				E61BEE9249183C89972F1A46 /* UITextView+SPXDataValidatorAdditions.m */,
+				EC7DCF6893616CE865324F20 /* Support Files */,
+			);
+			path = SPXDataValidators;
+			sourceTree = "<group>";
+		};
+		9603D45E86FA5C60D423BA9F /* SPXControls */ = {
+			isa = PBXGroup;
+			children = (
+				45F701882275F350C63464BC /* Pod */,
+				BD1F9E37007AA643B0734897 /* Support Files */,
+			);
+			name = SPXControls;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B6235B0FC118A614148BA23 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CCD511826E4D1B3CE403E6AC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9CE27C69AF5881760D88294F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9603D45E86FA5C60D423BA9F /* SPXControls */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A1F6E0743B502C298B5DA430 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BC458615412A6DD59A205E5 /* Pods-Tests-acknowledgements.markdown */,
+				2744ED7E264CDC0C91A10562 /* Pods-Tests-acknowledgements.plist */,
+				514EFA8AAC5618623A0E4427 /* Pods-Tests-dummy.m */,
+				9C8465EEB39380BEC804313F /* Pods-Tests-environment.h */,
+				5337E3C044EB9D655B9FBA5D /* Pods-Tests-resources.sh */,
+				93FE9662EB7CA7042CB4020D /* Pods-Tests.debug.xcconfig */,
+				D59348DFD5DA486FCD43F3E1 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		B03760C4FA10C589D5FAE919 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				631331D994B517FDB2C0F457 /* Pods-SPXControls-SPXDefines.xcconfig */,
+				802C02761C4D1EF6B66939D8 /* Pods-SPXControls-SPXDefines-Private.xcconfig */,
+				87145C873BEC9F3A979B5C29 /* Pods-SPXControls-SPXDefines-dummy.m */,
+				BC389DFD7DD16916F0962F90 /* Pods-SPXControls-SPXDefines-prefix.pch */,
+				7D2C1FE8E2F378C757C5595B /* Pods-Tests-SPXDefines.xcconfig */,
+				18A659CE50D7E28A2A586352 /* Pods-Tests-SPXDefines-Private.xcconfig */,
+				C24A1DBC66882F9D6A6B63CE /* Pods-Tests-SPXDefines-dummy.m */,
+				7390BADC9C2628EF6E3A5AB6 /* Pods-Tests-SPXDefines-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SPXControls-SPXDefines";
+			sourceTree = "<group>";
+		};
+		BD1F9E37007AA643B0734897 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FAF9B5EF9ED32001DCD256 /* Pods-SPXControls-SPXControls.xcconfig */,
+				E8E4568E9565CC584DC1A6E0 /* Pods-SPXControls-SPXControls-Private.xcconfig */,
+				1D95AAE3444FF5818D52AC95 /* Pods-SPXControls-SPXControls-dummy.m */,
+				69EA1EFE0FEAC6961AF89F9C /* Pods-SPXControls-SPXControls-prefix.pch */,
+				308C1F75A8DC4A63AACB590B /* Pods-Tests-SPXControls.xcconfig */,
+				55BCD93FC8C6DA0B019B59B4 /* Pods-Tests-SPXControls-Private.xcconfig */,
+				2094507C3D3ADDB1385D39F0 /* Pods-Tests-SPXControls-dummy.m */,
+				EBE03CB096EF3F700849AA01 /* Pods-Tests-SPXControls-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SPXControls-SPXControls";
+			sourceTree = "<group>";
+		};
+		C2B4A73D575811D0C606CD0E /* Asserts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Asserts;
+			sourceTree = "<group>";
+		};
+		C2FD468840F33B33E74512D5 = {
+			isa = PBXGroup;
+			children = (
+				6F44E800535683CCB6493526 /* Podfile */,
+				9CE27C69AF5881760D88294F /* Development Pods */,
+				4C1563E7379E5E3C1CF9F143 /* Frameworks */,
+				1603A89DA10D2E3A6A8DF6F0 /* Pods */,
+				0D213CDC888F533CC71605FE /* Products */,
+				1A2B295B3AA0B5E462B1FA0D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E73EE4EAE4B343D2B5EC940D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				713EFB8E38107ED97A1A9D71 /* SPXTextField.h */,
+				A9A70328DD20856BF1273FF9 /* SPXTextField.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC7DCF6893616CE865324F20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				411D02DC16F1E891B1A85A7B /* Pods-SPXControls-SPXDataValidators.xcconfig */,
+				EA9AA6EC7ACFD61AC3E42ABE /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */,
+				15019357B2F209296DE1DE2B /* Pods-SPXControls-SPXDataValidators-dummy.m */,
+				2CCB12D56441F43CCA4B0E64 /* Pods-SPXControls-SPXDataValidators-prefix.pch */,
+				402FD4D6466B74ACB82ACB59 /* Pods-Tests-SPXDataValidators.xcconfig */,
+				1FCE28EC002BDCEC903EDFA0 /* Pods-Tests-SPXDataValidators-Private.xcconfig */,
+				859E1E54FFFE606ACFEF35FB /* Pods-Tests-SPXDataValidators-dummy.m */,
+				DCFB21BEFC8CAEDEA01C5835 /* Pods-Tests-SPXDataValidators-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SPXControls-SPXDataValidators";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0809C25D996056E7E25680EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A9A1276F4B0C0DAB2A400D /* SPXBlockDataValidator.h in Headers */,
+				260DE286A9EE7BC9B75F3281 /* SPXCompoundDataValidator.h in Headers */,
+				F7926A46DA399F9808F9A0C4 /* SPXDataField.h in Headers */,
+				33EF416DAA1106BD894B93A0 /* SPXDataValidator.h in Headers */,
+				3D3EF0FCC6A9E7686D4781E0 /* SPXFormValidator.h in Headers */,
+				5A412D014BB87120FD4A2454 /* SPXNonEmptyDataValidator.h in Headers */,
+				51C364B5B6E05E24C76CE41E /* SPXPasswordValidationField.h in Headers */,
+				1579D1F2D60E72FDE209C180 /* SPXRegexDataValidator.h in Headers */,
+				7C1D9DA0C6520B59E43F5B1E /* UITextField+SPXDataValidatorAdditions.h in Headers */,
+				1928894116E2E71D35F77EE7 /* UITextView+SPXDataValidatorAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60136EF5825429872A876DA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A411747BFB99324342DE6873 /* SPXAssertionDefines.h in Headers */,
+				919D1B9D21CF1C2976578B5B /* SPXAssertionsInternal.h in Headers */,
+				4B29406B5439EA4063FEC274 /* SPXDefines.h in Headers */,
+				EF73451A55F310AC14429432 /* SPXDefinesCommon.h in Headers */,
+				B6013EE0683E5B9AA139CDB3 /* SPXDescriptionDefines.h in Headers */,
+				B734E1ACDA7C9382BAF5F3B2 /* SPXDescriptionInternal.h in Headers */,
+				4EF1DD489FEE49E8632BD9AB /* SPXEncodingDefines.h in Headers */,
+				C337DFFBF80651CAC9FF1DFD /* SPXEncodingInternals.h in Headers */,
+				F9ACF77D9B935C26A65ECC67 /* SPXLoggingDefines.h in Headers */,
+				CEC59B2057D5B6181CE25C6C /* SPXLoggingInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C0474593CB7CD06FE576F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1413D218BA7408192BF39CE6 /* SPXAssertionDefines.h in Headers */,
+				C8AE41892959D524AED2A518 /* SPXAssertionsInternal.h in Headers */,
+				21929CEEE27DD05575CEE7E8 /* SPXDefines.h in Headers */,
+				3ABDE2C9F03A06531BDC52E0 /* SPXDefinesCommon.h in Headers */,
+				2668FC54377AC7431FB987A4 /* SPXDescriptionDefines.h in Headers */,
+				108AC6D16B491F8523A02FA5 /* SPXDescriptionInternal.h in Headers */,
+				2A35638E6AC90CCB5122C48A /* SPXEncodingDefines.h in Headers */,
+				D56E343D35562B78A11F4C68 /* SPXEncodingInternals.h in Headers */,
+				8C19992CF9A81DB93BA8ED50 /* SPXLoggingDefines.h in Headers */,
+				653B1C76C3E170B5034D72A7 /* SPXLoggingInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9A93079080F34B9D5CF9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA253EBFD7F79BC59A8576B0 /* SPXTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2BFC444C95281E3DB3915F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B85052D4DA559FC6D7C907 /* SPXBlockDataValidator.h in Headers */,
+				6B13C229BF9B8757AD16DE71 /* SPXCompoundDataValidator.h in Headers */,
+				031090762434B178667249A9 /* SPXDataField.h in Headers */,
+				5A7AD29F588A8352CE3EEE7F /* SPXDataValidator.h in Headers */,
+				BA1A04A4110515AA06D03AAD /* SPXFormValidator.h in Headers */,
+				2C745979C0BF2FAB10DF37FF /* SPXNonEmptyDataValidator.h in Headers */,
+				198F6A7FCCF4F86B0ECA1D92 /* SPXPasswordValidationField.h in Headers */,
+				437E9A0376F3D6A98813E8CE /* SPXRegexDataValidator.h in Headers */,
+				201B7A70674F9258D595CD26 /* UITextField+SPXDataValidatorAdditions.h in Headers */,
+				AF635905DAD84B7094E8F875 /* UITextView+SPXDataValidatorAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9FF71972931EA4BF2FD02F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE135712E41373A3D9410E50 /* SPXTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		192553CCE8100943FA589050 /* Pods-Tests-SPXDataValidators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F54ECB2AA7ABE0522D59C5 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDataValidators" */;
+			buildPhases = (
+				F4C459E9A77A8DD4D678947C /* Sources */,
+				A7EA20B14BFD0849C6ADF782 /* Frameworks */,
+				CB2BFC444C95281E3DB3915F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-SPXDataValidators";
+			productName = "Pods-Tests-SPXDataValidators";
+			productReference = 0DA80AD1F49DD4C039C63650 /* libPods-Tests-SPXDataValidators.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C82B482DCAE4FDA227A90F4 /* Pods-SPXControls-SPXDefines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F9A483D3BBC1CDB57D4D66 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDefines" */;
+			buildPhases = (
+				1F8262393174BD79676BFC7E /* Sources */,
+				BEFA5111D2B9255DDD9DA061 /* Frameworks */,
+				63C0474593CB7CD06FE576F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SPXControls-SPXDefines";
+			productName = "Pods-SPXControls-SPXDefines";
+			productReference = 2906D6EF95814DD8DE8614E3 /* libPods-SPXControls-SPXDefines.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3F3ADA34799ECAA088208B4B /* Pods-SPXControls-SPXControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8358000E1279F62ECBAAED95 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXControls" */;
+			buildPhases = (
+				729B4B7EF65E16D7B4B7DC65 /* Sources */,
+				A3189C92D42FBC93844BA5D3 /* Frameworks */,
+				F9FF71972931EA4BF2FD02F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4869EBC69E234D26ED8242D7 /* PBXTargetDependency */,
+				1D6A0F977302ACBFE6B7DDFA /* PBXTargetDependency */,
+			);
+			name = "Pods-SPXControls-SPXControls";
+			productName = "Pods-SPXControls-SPXControls";
+			productReference = FEC13B7703329C7E77BC6377 /* libPods-SPXControls-SPXControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55BE41502DB7C691FA828A78 /* Pods-Tests-SPXControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA90878C7D5DBEA7EA8040B0 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXControls" */;
+			buildPhases = (
+				2AE75707348D47A439BA7252 /* Sources */,
+				FA8A94BB4D44E8303349A9BE /* Frameworks */,
+				82E9A93079080F34B9D5CF9D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BCD6C047E3203743F735674 /* PBXTargetDependency */,
+				196277962E871F80135E9365 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-SPXControls";
+			productName = "Pods-Tests-SPXControls";
+			productReference = 54D739C308FB37FF88934559 /* libPods-Tests-SPXControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		77E39204BCCA1C82B0D5C93E /* Pods-SPXControls-SPXDataValidators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A868AB921EB4F22491E535C4 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDataValidators" */;
+			buildPhases = (
+				23F2F6B01E88A8739A66F44B /* Sources */,
+				21DDD262CD4A8D7CD7369FFD /* Frameworks */,
+				0809C25D996056E7E25680EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SPXControls-SPXDataValidators";
+			productName = "Pods-SPXControls-SPXDataValidators";
+			productReference = 7E0A127C1C1AC388BD85316C /* libPods-SPXControls-SPXDataValidators.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89F80B45C1C2741A64A1D45B /* Pods-Tests-SPXDefines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E36D7B73085B4ADCD1AE781 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDefines" */;
+			buildPhases = (
+				1C885B55E1CCBE7649FDAFED /* Sources */,
+				DF55D606DF17E994FA58E082 /* Frameworks */,
+				60136EF5825429872A876DA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-SPXDefines";
+			productName = "Pods-Tests-SPXDefines";
+			productReference = B875DFB407D9BDC0C34968CE /* libPods-Tests-SPXDefines.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFD02468FE06DB18AF02176D /* Pods-SPXControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C210E27E37DA093E8678C7AE /* Build configuration list for PBXNativeTarget "Pods-SPXControls" */;
+			buildPhases = (
+				037E7381BED1F7D03A4AF83D /* Sources */,
+				407183C526048F338FA05BF7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA62B40753FE9D1ED3368DBC /* PBXTargetDependency */,
+				8A5DFB6D3A23810F081E92CE /* PBXTargetDependency */,
+				521FA0913F98A4AD34B78AB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPXControls";
+			productName = "Pods-SPXControls";
+			productReference = A17CEAFB0CE6B9438FFEDBF4 /* libPods-SPXControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C83EB8B76EA102DE5686225A /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEB1F3DE76AA93FC4717CAF /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				BBC05F19E0912ECDB9A07216 /* Sources */,
+				8789C6AEA2C48FB888192264 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1995470F0816898F230281D5 /* PBXTargetDependency */,
+				6F1C6278A0ADB3E56B86A7FD /* PBXTargetDependency */,
+				8855BF31810424F86150D94F /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = E5D281CD37175F3C204B5401 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB71018608D4E33BB9538FF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 169534BB789CC962EFB46406 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2FD468840F33B33E74512D5;
+			productRefGroup = 0D213CDC888F533CC71605FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD02468FE06DB18AF02176D /* Pods-SPXControls */,
+				3F3ADA34799ECAA088208B4B /* Pods-SPXControls-SPXControls */,
+				77E39204BCCA1C82B0D5C93E /* Pods-SPXControls-SPXDataValidators */,
+				3C82B482DCAE4FDA227A90F4 /* Pods-SPXControls-SPXDefines */,
+				C83EB8B76EA102DE5686225A /* Pods-Tests */,
+				55BE41502DB7C691FA828A78 /* Pods-Tests-SPXControls */,
+				192553CCE8100943FA589050 /* Pods-Tests-SPXDataValidators */,
+				89F80B45C1C2741A64A1D45B /* Pods-Tests-SPXDefines */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037E7381BED1F7D03A4AF83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E52C7059AF711FC22735DB /* Pods-SPXControls-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C885B55E1CCBE7649FDAFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA79B06EDC511D8B62E3212 /* Pods-Tests-SPXDefines-dummy.m in Sources */,
+				0CAA0FD87E19538CC6AF47B5 /* SPXAssertionsInternal.m in Sources */,
+				CEC27B78370237A2772387BE /* SPXLoggingInternal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8262393174BD79676BFC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0A21B229BBFA29C1B1231C /* Pods-SPXControls-SPXDefines-dummy.m in Sources */,
+				5B3DB79084847F344FFE8D29 /* SPXAssertionsInternal.m in Sources */,
+				7E76E14E9DE31B60CB798692 /* SPXLoggingInternal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F2F6B01E88A8739A66F44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1757900B77AA535D620C11B /* Pods-SPXControls-SPXDataValidators-dummy.m in Sources */,
+				78461723B2BE5C9B108617A3 /* SPXBlockDataValidator.m in Sources */,
+				E76D6C2269FF7C1C7308F96C /* SPXCompoundDataValidator.m in Sources */,
+				7ED62CF960F6B8D36D541231 /* SPXFormValidator.m in Sources */,
+				9BB9077DAA8A9FAB0F235C1C /* SPXNonEmptyDataValidator.m in Sources */,
+				EB243906DAC1B1DCD07017CB /* SPXPasswordValidationField.m in Sources */,
+				ECC5E3D84B647B549B868CCA /* SPXRegexDataValidator.m in Sources */,
+				62E3D1F044BE27B638A02781 /* UITextField+SPXDataValidatorAdditions.m in Sources */,
+				21DC965DB71773A97367B462 /* UITextView+SPXDataValidatorAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE75707348D47A439BA7252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CB3964A47A600B3DE04FC7 /* Pods-Tests-SPXControls-dummy.m in Sources */,
+				33D1D052DD8DCEB660FF2D14 /* SPXTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729B4B7EF65E16D7B4B7DC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD1F43A6F6119AE32D7EFF /* Pods-SPXControls-SPXControls-dummy.m in Sources */,
+				8EDFB2B87C577AC92DB5FCD7 /* SPXTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC05F19E0912ECDB9A07216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED437AEED92BFB6E05A6884 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C459E9A77A8DD4D678947C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F69EFD1797FB3E19A379B3 /* Pods-Tests-SPXDataValidators-dummy.m in Sources */,
+				A46FE1DA128FBD19993959AF /* SPXBlockDataValidator.m in Sources */,
+				F049E7D61E077905CD22BF01 /* SPXCompoundDataValidator.m in Sources */,
+				CC1DD70A969A8C41B7EB5313 /* SPXFormValidator.m in Sources */,
+				5AABC75B725EF7CBA7E57C87 /* SPXNonEmptyDataValidator.m in Sources */,
+				9C6FF839272E1F3E0A730C50 /* SPXPasswordValidationField.m in Sources */,
+				2BBEC8E00DD3774582602BC4 /* SPXRegexDataValidator.m in Sources */,
+				A4E1EA40368A357E261EE270 /* UITextField+SPXDataValidatorAdditions.m in Sources */,
+				DC0EF5AB8EA6745E346EB9FA /* UITextView+SPXDataValidatorAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196277962E871F80135E9365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SPXDefines";
+			target = 89F80B45C1C2741A64A1D45B /* Pods-Tests-SPXDefines */;
+			targetProxy = 4410B78A918C01C2813FAFA0 /* PBXContainerItemProxy */;
+		};
+		1995470F0816898F230281D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SPXControls";
+			target = 55BE41502DB7C691FA828A78 /* Pods-Tests-SPXControls */;
+			targetProxy = 61752DD9A919D8D1F1B3A8E8 /* PBXContainerItemProxy */;
+		};
+		1D6A0F977302ACBFE6B7DDFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPXControls-SPXDefines";
+			target = 3C82B482DCAE4FDA227A90F4 /* Pods-SPXControls-SPXDefines */;
+			targetProxy = 0CCA6257F755FF33CD7666F2 /* PBXContainerItemProxy */;
+		};
+		4869EBC69E234D26ED8242D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPXControls-SPXDataValidators";
+			target = 77E39204BCCA1C82B0D5C93E /* Pods-SPXControls-SPXDataValidators */;
+			targetProxy = F9F28E1C148B5A8878995D17 /* PBXContainerItemProxy */;
+		};
+		521FA0913F98A4AD34B78AB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPXControls-SPXDefines";
+			target = 3C82B482DCAE4FDA227A90F4 /* Pods-SPXControls-SPXDefines */;
+			targetProxy = 8051966BE941065CF14C96C2 /* PBXContainerItemProxy */;
+		};
+		6F1C6278A0ADB3E56B86A7FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SPXDataValidators";
+			target = 192553CCE8100943FA589050 /* Pods-Tests-SPXDataValidators */;
+			targetProxy = D4F6C1CB1FB77596DF454FE9 /* PBXContainerItemProxy */;
+		};
+		8855BF31810424F86150D94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SPXDefines";
+			target = 89F80B45C1C2741A64A1D45B /* Pods-Tests-SPXDefines */;
+			targetProxy = B345233B07A875F03818334B /* PBXContainerItemProxy */;
+		};
+		8A5DFB6D3A23810F081E92CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPXControls-SPXDataValidators";
+			target = 77E39204BCCA1C82B0D5C93E /* Pods-SPXControls-SPXDataValidators */;
+			targetProxy = 1125D4864EB8D6EA3951F93E /* PBXContainerItemProxy */;
+		};
+		9BCD6C047E3203743F735674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SPXDataValidators";
+			target = 192553CCE8100943FA589050 /* Pods-Tests-SPXDataValidators */;
+			targetProxy = 81F303AE4A5567137DEEFDE6 /* PBXContainerItemProxy */;
+		};
+		FA62B40753FE9D1ED3368DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPXControls-SPXControls";
+			target = 3F3ADA34799ECAA088208B4B /* Pods-SPXControls-SPXControls */;
+			targetProxy = 5B7C8AA967AC5665FA110D07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AA9EF8938B9BE8F21EAD241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59348DFD5DA486FCD43F3E1 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2281B815BE05326BB38D0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9AA6EC7ACFD61AC3E42ABE /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDataValidators/Pods-SPXControls-SPXDataValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		373A116EB34B0BC0BF3968EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BCD93FC8C6DA0B019B59B4 /* Pods-Tests-SPXControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39950434956067B204E5F94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E4568E9565CC584DC1A6E0 /* Pods-SPXControls-SPXControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXControls/Pods-SPXControls-SPXControls-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		43C91BDD222FABDC10E94EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCE28EC002BDCEC903EDFA0 /* Pods-Tests-SPXDataValidators-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		582ACB6BD1C01EFBEDEAC7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9AA6EC7ACFD61AC3E42ABE /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDataValidators/Pods-SPXControls-SPXDataValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E4AB1501636C9845A3C85BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A659CE50D7E28A2A586352 /* Pods-Tests-SPXDefines-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		909936A0BBC1C555FFF78200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E4568E9565CC584DC1A6E0 /* Pods-SPXControls-SPXControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXControls/Pods-SPXControls-SPXControls-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93B33D50957C38DA88452610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BCD93FC8C6DA0B019B59B4 /* Pods-Tests-SPXControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AB77FB32D2381BC63E9A06CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23E85EA4F1440DE50804127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA1F4E2BFAB5B6F759D88A4 /* Pods-SPXControls.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3C9108C5CD45A4C01A4C6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		B649EE09CED707777938E817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802C02761C4D1EF6B66939D8 /* Pods-SPXControls-SPXDefines-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDefines/Pods-SPXControls-SPXDefines-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2899CB0215ED7A6D614A004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A659CE50D7E28A2A586352 /* Pods-Tests-SPXDefines-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C70B472A18E671D51E652E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF4898BF24C37079CCB0A3E /* Pods-SPXControls.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F393DD75A20D6A2BC7D84CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802C02761C4D1EF6B66939D8 /* Pods-SPXControls-SPXDefines-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDefines/Pods-SPXControls-SPXDefines-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F5FFAEBE46DAE7973DB359CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCE28EC002BDCEC903EDFA0 /* Pods-Tests-SPXDataValidators-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD8893184280E56893706E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93FE9662EB7CA7042CB4020D /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169534BB789CC962EFB46406 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C9108C5CD45A4C01A4C6CD /* Debug */,
+				AB77FB32D2381BC63E9A06CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E36D7B73085B4ADCD1AE781 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDefines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2899CB0215ED7A6D614A004 /* Debug */,
+				6E4AB1501636C9845A3C85BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F54ECB2AA7ABE0522D59C5 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDataValidators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FFAEBE46DAE7973DB359CD /* Debug */,
+				43C91BDD222FABDC10E94EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8358000E1279F62ECBAAED95 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909936A0BBC1C555FFF78200 /* Debug */,
+				39950434956067B204E5F94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A868AB921EB4F22491E535C4 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDataValidators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582ACB6BD1C01EFBEDEAC7AA /* Debug */,
+				2281B815BE05326BB38D0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA90878C7D5DBEA7EA8040B0 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373A116EB34B0BC0BF3968EA /* Debug */,
+				93B33D50957C38DA88452610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C210E27E37DA093E8678C7AE /* Build configuration list for PBXNativeTarget "Pods-SPXControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23E85EA4F1440DE50804127 /* Debug */,
+				C70B472A18E671D51E652E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F9A483D3BBC1CDB57D4D66 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDefines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F393DD75A20D6A2BC7D84CB9 /* Debug */,
+				B649EE09CED707777938E817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEB1F3DE76AA93FC4717CAF /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8893184280E56893706E44 /* Debug */,
+				1AA9EF8938B9BE8F21EAD241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB71018608D4E33BB9538FF8 /* Project object */;
+}

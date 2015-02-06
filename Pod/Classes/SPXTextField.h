@@ -27,4 +27,9 @@
 
 @interface SPXTextField : UITextField
 
+@property (nonatomic, strong) UIColor *activeTintColor;
+@property (nonatomic, strong) UIColor *inactiveTintColor;
+@property (nonatomic, strong) UIColor *invalidTintColor;
+@property (nonatomic, assign) CGFloat verticalSpacing;
+
 @end

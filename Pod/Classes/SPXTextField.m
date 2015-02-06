@@ -1,5 +1,5 @@
 /*
-   Copyright (c) 2015 Shaps Mohsenin. All rights reserved.
+ Copyright (c) 2015 Shaps Mohsenin. All rights reserved.
  
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
@@ -24,9 +24,214 @@
  */
 
 #import "SPXTextField.h"
+#import "SPXDefines.h"
+#import "UITextField+SPXDataValidatorAdditions.h"
+
+static CGFloat const SPXTextFieldVerticalAdjustment = 7.0f;
+static CGFloat const SPXTextFieldFontAdjustment = 1.5f;
+static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
+
+@interface SPXTextField ()
+@property (nonatomic, strong) UILabel *floatingLabel;
+@property (nonatomic, assign) BOOL requiresUpdate;
+@end
 
 @implementation SPXTextField
 
+- (void)animateWithBlock:(void (^)())block
+{
+  [UIView animateWithDuration:SPXTextFieldAnimationDuration delay:0 usingSpringWithDamping:0.5 initialSpringVelocity:0.5 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+    !block ?: block();
+  } completion:nil];
+}
 
+- (void)updateFloatingLabel
+{
+  if (!self.requiresUpdate) {
+    self.floatingLabel.frame = self.floatingLabelRect;
+  }
+
+  self.floatingLabel.text = self.placeholder;
+  self.floatingLabel.textColor = self.isEditing ? self.activeTintColor : self.inactiveTintColor;
+
+  NSError *error = nil;
+  if (![self isFirstResponder] && ![self validateWithError:&error]) {
+    self.floatingLabel.textColor = self.invalidTintColor;
+    self.floatingLabel.text = error.localizedDescription;
+  }
+}
+
+- (void)hideFloatingLabel
+{
+  CGRect rect = self.floatingLabelRect;
+  rect.origin.y += SPXTextFieldVerticalAdjustment / 2;
+  
+  [self animateWithBlock:^{
+    self.floatingLabel.alpha = 0;
+    self.floatingLabel.frame = rect;
+  }];
+}
+
+- (void)showFloatingLabel:(BOOL)animated
+{
+  if (animated) {
+    [self animateWithBlock:^{
+      self.floatingLabel.alpha = 1;
+      self.floatingLabel.frame = self.floatingLabelRect;
+    }];
+  } else {
+    self.floatingLabel.alpha = 1;
+    self.floatingLabel.frame = self.floatingLabelRect;
+  }
+}
+
+#pragma mark - Notifications
+
+- (void)textFieldDidBeginEditing:(NSNotification *)notification
+{
+  if (![self validateWithError:nil]) {
+    return;
+  }
+  
+  [self updateFloatingLabel];
+}
+
+- (void)textFieldDidEndEditing:(NSNotification *)notification
+{
+  [self updateFloatingLabel];
+}
+
+- (void)textFieldTextDidChange:(NSNotification *)notification
+{
+  [self updateFloatingLabel];
+  
+  BOOL requiresUpdate = self.requiresUpdate;
+  self.requiresUpdate = !self.text.length;
+  
+  if (requiresUpdate != self.requiresUpdate) {
+    if (self.requiresUpdate) {
+      [self hideFloatingLabel];
+    } else {
+      [self showFloatingLabel:YES];
+    }
+  }
+}
+
+#pragma mark - Lifecycle
+
+- (void)dealloc
+{
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (void)awakeFromNib
+{
+  [super awakeFromNib];
+  
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldDidBeginEditing:) name:UITextFieldTextDidBeginEditingNotification object:self];
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldDidEndEditing:) name:UITextFieldTextDidEndEditingNotification object:self];
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldTextDidChange:) name:UITextFieldTextDidChangeNotification object:self];
+  
+  [self updateFloatingLabel];
+  [self textFieldTextDidChange:nil];
+}
+
+- (void)setPlaceholder:(NSString *)placeholder
+{
+  [super setPlaceholder:placeholder];
+  self.floatingLabel.frame = self.floatingLabelRect;
+  self.floatingLabel.text = placeholder;
+}
+
+- (void)applyValidator:(id<SPXDataValidator>)validator
+{
+  [super applyValidator:validator];
+  [self updateFloatingLabel];
+}
+
+- (UILabel *)floatingLabel
+{
+  if (_floatingLabel) {
+    return _floatingLabel;
+  }
+  
+  _floatingLabel = [[UILabel alloc] initWithFrame:self.floatingLabelRect];
+  _floatingLabel.text = self.placeholder;
+  _floatingLabel.textColor = self.tintColor;
+  _floatingLabel.adjustsFontSizeToFitWidth = NO;
+  _floatingLabel.lineBreakMode = NSLineBreakByTruncatingTail;
+  _floatingLabel.font = [self.font fontWithSize:self.font.pointSize / SPXTextFieldFontAdjustment];
+  
+  [self addSubview:_floatingLabel];
+  
+  return _floatingLabel;
+}
+
+- (void)setFont:(UIFont *)font
+{
+  [super setFont:font];
+  self.floatingLabel.font = [self.font fontWithSize:font.pointSize / SPXTextFieldFontAdjustment];
+}
+
+- (void)setText:(NSString *)text
+{
+  [super setText:text];
+  [self textFieldTextDidChange:nil];
+}
+
+#pragma mark - Layout
+
+- (CGRect)floatingLabelRect
+{
+  return CGRectOffset([self editingRectForBounds:self.bounds], 0, -self.font.lineHeight - 1 - self.verticalSpacing);
+}
+
+- (CGRect)textRectForBounds:(CGRect)bounds
+{
+  return CGRectOffset([super textRectForBounds:bounds], 0, SPXTextFieldVerticalAdjustment + self.verticalSpacing / 2);
+}
+
+- (CGRect)editingRectForBounds:(CGRect)bounds
+{
+  return CGRectOffset([super editingRectForBounds:bounds], 0, SPXTextFieldVerticalAdjustment + self.verticalSpacing / 2);
+}
+
+- (CGRect)clearButtonRectForBounds:(CGRect)bounds
+{
+  return CGRectOffset([super clearButtonRectForBounds:bounds], 0, SPXTextFieldVerticalAdjustment + self.verticalSpacing / 2);
+}
+
+- (CGRect)leftViewRectForBounds:(CGRect)bounds
+{
+  return CGRectOffset([super leftViewRectForBounds:bounds], 0, SPXTextFieldVerticalAdjustment + self.verticalSpacing / 2);
+}
+
+- (CGRect)rightViewRectForBounds:(CGRect)bounds
+{
+  return CGRectOffset([super rightViewRectForBounds:bounds], 0, SPXTextFieldVerticalAdjustment + self.verticalSpacing / 2);
+}
+
+#pragma mark - Colors
+
+- (void)setTintColor:(UIColor *)tintColor
+{
+  [super setTintColor:tintColor];
+  self.activeTintColor = tintColor;
+}
+
+- (UIColor *)activeTintColor
+{
+  return self.tintColor;
+}
+
+- (UIColor *)inactiveTintColor
+{
+  return [UIColor colorWithRed:0.737 green:0.737 blue:0.761 alpha:1.000];
+}
+
+- (UIColor *)invalidTintColor
+{
+  return [UIColor colorWithRed:0.796 green:0.000 blue:0.000 alpha:1.000];
+}
 
 @end

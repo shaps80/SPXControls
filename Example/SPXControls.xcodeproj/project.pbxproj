@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		40A5FC2C02655ABF0520987B /* libPods-SPXControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA129240973EA0A1D983B678 /* libPods-SPXControls.a */; };
-		5412D55C1A8432D1002D5A9C /* SPXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5412D55B1A8432D1002D5A9C /* SPXTextField.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -376,7 +375,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SPXAppDelegate.m in Sources */,
-				5412D55C1A8432D1002D5A9C /* SPXTextField.m in Sources */,
 				6003F5A7195388D20070C39A /* SPXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

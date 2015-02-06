@@ -7,23 +7,25 @@
 //
 
 #import "SPXViewController.h"
+#import "SPXTextField.h"
+#import "UITextField+SPXDataValidatorAdditions.h"
+#import "SPXRegexDataValidator.h"
 
 @interface SPXViewController ()
-
+@property (nonatomic, weak) IBOutlet SPXTextField *textField;
 @end
 
 @implementation SPXViewController
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super viewDidLoad];
+  
+  self.textField.text = @"Shaps Server";
+  self.textField.placeholder = @"Server name";
+  self.textField.verticalSpacing = 10;
+  [self.textField applyValidator:[SPXRegexDataValidator emailValidator]];
 }
 
 @end
+
