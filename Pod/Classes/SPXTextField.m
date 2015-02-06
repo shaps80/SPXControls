@@ -25,9 +25,8 @@
 
 #import "SPXTextField.h"
 #import "SPXDefines.h"
-#import "UITextField+SPXDataValidatorAdditions.h"
 
-static CGFloat const SPXTextFieldVerticalAdjustment = 7.0f;
+static CGFloat const SPXTextFieldVerticalAdjustment = 8.0f;
 static CGFloat const SPXTextFieldFontAdjustment = 1.5f;
 static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
 
@@ -50,26 +49,39 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
   if (!self.requiresUpdate) {
     self.floatingLabel.frame = self.floatingLabelRect;
   }
-
-  self.floatingLabel.text = self.placeholder;
-  self.floatingLabel.textColor = self.isEditing ? self.activeTintColor : self.inactiveTintColor;
-
+  
+  NSString *text = self.capitalizeFloatingLabel ? self.placeholder.uppercaseString : self.placeholder;
+  UIColor *textColor = self.isEditing ? self.activeTintColor : self.inactiveTintColor;
+  
   NSError *error = nil;
   if (![self isFirstResponder] && ![self validateWithError:&error]) {
-    self.floatingLabel.textColor = self.invalidTintColor;
-    self.floatingLabel.text = error.localizedDescription;
+    textColor = self.invalidTintColor;
+    text = self.capitalizeFloatingLabel ? error.localizedDescription.uppercaseString : error.localizedDescription;
   }
+  
+  NSDictionary *attributes = @
+  {
+    NSForegroundColorAttributeName : textColor,
+    NSStrokeWidthAttributeName : @(-1),
+  };
+  
+  self.floatingLabel.attributedText = [[NSAttributedString alloc] initWithString:text attributes:attributes];
 }
 
-- (void)hideFloatingLabel
+- (void)hideFloatingLabel:(BOOL)animated
 {
   CGRect rect = self.floatingLabelRect;
-  rect.origin.y += SPXTextFieldVerticalAdjustment / 2;
+  rect.origin.y += SPXTextFieldVerticalAdjustment;
   
-  [self animateWithBlock:^{
+  if (animated) {
+    [self animateWithBlock:^{
+      self.floatingLabel.alpha = 0;
+      self.floatingLabel.frame = rect;
+    }];
+  } else {
     self.floatingLabel.alpha = 0;
     self.floatingLabel.frame = rect;
-  }];
+  }
 }
 
 - (void)showFloatingLabel:(BOOL)animated
@@ -86,6 +98,15 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
 }
 
 #pragma mark - Notifications
+
+- (void)willMoveToSuperview:(UIView *)newSuperview
+{
+  if (self.hasText) {
+    [self showFloatingLabel:NO];
+  } else {
+    [self hideFloatingLabel:NO];
+  }
+}
 
 - (void)textFieldDidBeginEditing:(NSNotification *)notification
 {
@@ -110,7 +131,7 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
   
   if (requiresUpdate != self.requiresUpdate) {
     if (self.requiresUpdate) {
-      [self hideFloatingLabel];
+      [self hideFloatingLabel:YES];
     } else {
       [self showFloatingLabel:YES];
     }
@@ -156,7 +177,7 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
   }
   
   _floatingLabel = [[UILabel alloc] initWithFrame:self.floatingLabelRect];
-  _floatingLabel.text = self.placeholder;
+  _floatingLabel.text = self.capitalizeFloatingLabel ? self.placeholder.uppercaseString : self.placeholder;
   _floatingLabel.textColor = self.tintColor;
   _floatingLabel.adjustsFontSizeToFitWidth = NO;
   _floatingLabel.lineBreakMode = NSLineBreakByTruncatingTail;
@@ -183,16 +204,30 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
 
 - (CGRect)floatingLabelRect
 {
-  return CGRectOffset([self editingRectForBounds:self.bounds], 0, -self.font.lineHeight - 1 - self.verticalSpacing);
+  return CGRectOffset(self.bounds, 0, -self.font.lineHeight - 2 - self.verticalSpacing + SPXTextFieldVerticalAdjustment);
+}
+
+- (void)setVerticalSpacing:(CGFloat)verticalSpacing
+{
+  _verticalSpacing = verticalSpacing;
+  [self updateFloatingLabel];
 }
 
 - (CGRect)textRectForBounds:(CGRect)bounds
 {
+  if (!self.text.length) {
+    return [super textRectForBounds:bounds];
+  }
+  
   return CGRectOffset([super textRectForBounds:bounds], 0, SPXTextFieldVerticalAdjustment + self.verticalSpacing / 2);
 }
 
 - (CGRect)editingRectForBounds:(CGRect)bounds
 {
+  if (!self.text.length) {
+    return [super textRectForBounds:bounds];
+  }
+  
   return CGRectOffset([super editingRectForBounds:bounds], 0, SPXTextFieldVerticalAdjustment + self.verticalSpacing / 2);
 }
 
@@ -221,17 +256,17 @@ static CGFloat const SPXTextFieldAnimationDuration = 1.0f;
 
 - (UIColor *)activeTintColor
 {
-  return self.tintColor;
+  return _activeTintColor ?: self.tintColor;
 }
 
 - (UIColor *)inactiveTintColor
 {
-  return [UIColor colorWithRed:0.737 green:0.737 blue:0.761 alpha:1.000];
+  return _inactiveTintColor ?: [UIColor colorWithRed:0.737 green:0.737 blue:0.761 alpha:1.000];
 }
 
 - (UIColor *)invalidTintColor
 {
-  return [UIColor colorWithRed:0.796 green:0.000 blue:0.000 alpha:1.000];
+  return _invalidTintColor ?: [UIColor colorWithRed:0.796 green:0.000 blue:0.000 alpha:1.000];
 }
 
 @end

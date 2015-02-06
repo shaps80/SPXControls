@@ -7,750 +7,661 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		031090762434B178667249A9 /* SPXDataField.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F94921D032429FB1D4380F /* SPXDataField.h */; };
-		0CAA0FD87E19538CC6AF47B5 /* SPXAssertionsInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D13A3F9B71B6655850D785 /* SPXAssertionsInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		108AC6D16B491F8523A02FA5 /* SPXDescriptionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCF8405C3EF0883795D9424 /* SPXDescriptionInternal.h */; };
-		1413D218BA7408192BF39CE6 /* SPXAssertionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F0E19F0A48FE20A1D3697E /* SPXAssertionDefines.h */; };
-		1495EBC1034381897BE3B63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
-		14E52C7059AF711FC22735DB /* Pods-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603136C1764699D464C6C4B /* Pods-SPXControls-dummy.m */; };
-		1579D1F2D60E72FDE209C180 /* SPXRegexDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC9CC6E0746A6359A19BADA /* SPXRegexDataValidator.h */; };
-		186DDBCCBAECCC19B7519BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
-		1928894116E2E71D35F77EE7 /* UITextView+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA88D0C192BF2DD1BF02949D /* UITextView+SPXDataValidatorAdditions.h */; };
-		198F6A7FCCF4F86B0ECA1D92 /* SPXPasswordValidationField.h in Headers */ = {isa = PBXBuildFile; fileRef = 974636D07EFF84120381F1F6 /* SPXPasswordValidationField.h */; };
-		201B7A70674F9258D595CD26 /* UITextField+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D89AE7F2A0D951D0C045A559 /* UITextField+SPXDataValidatorAdditions.h */; };
-		21929CEEE27DD05575CEE7E8 /* SPXDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5CC3630E7B890D0AEEFB5C /* SPXDefines.h */; };
-		21DC965DB71773A97367B462 /* UITextView+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E61BEE9249183C89972F1A46 /* UITextView+SPXDataValidatorAdditions.m */; };
-		260DE286A9EE7BC9B75F3281 /* SPXCompoundDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F70D71D5E40ADA837BCB4700 /* SPXCompoundDataValidator.h */; };
-		2668FC54377AC7431FB987A4 /* SPXDescriptionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B798E5F294381A8A3595DA06 /* SPXDescriptionDefines.h */; };
-		2A35638E6AC90CCB5122C48A /* SPXEncodingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0CD2CD590FCA4265E333E0 /* SPXEncodingDefines.h */; };
-		2BBEC8E00DD3774582602BC4 /* SPXRegexDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C45B2C038B1C07DDF1C023C6 /* SPXRegexDataValidator.m */; };
-		2C745979C0BF2FAB10DF37FF /* SPXNonEmptyDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F3527DC615C25112ECB16103 /* SPXNonEmptyDataValidator.h */; };
-		33D1D052DD8DCEB660FF2D14 /* SPXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A70328DD20856BF1273FF9 /* SPXTextField.m */; };
-		33EF416DAA1106BD894B93A0 /* SPXDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 943478D0652D9F4AEEF2B4EE /* SPXDataValidator.h */; };
-		3ABDE2C9F03A06531BDC52E0 /* SPXDefinesCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E7B335A15870121AA24745 /* SPXDefinesCommon.h */; };
-		3D3EF0FCC6A9E7686D4781E0 /* SPXFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E304433290056EFFFCAF50FC /* SPXFormValidator.h */; };
-		437E9A0376F3D6A98813E8CE /* SPXRegexDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC9CC6E0746A6359A19BADA /* SPXRegexDataValidator.h */; };
-		48A9A1276F4B0C0DAB2A400D /* SPXBlockDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7AD9F0E61951319409FF0C7 /* SPXBlockDataValidator.h */; };
-		4B29406B5439EA4063FEC274 /* SPXDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5CC3630E7B890D0AEEFB5C /* SPXDefines.h */; };
-		4EF1DD489FEE49E8632BD9AB /* SPXEncodingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0CD2CD590FCA4265E333E0 /* SPXEncodingDefines.h */; };
-		51C364B5B6E05E24C76CE41E /* SPXPasswordValidationField.h in Headers */ = {isa = PBXBuildFile; fileRef = 974636D07EFF84120381F1F6 /* SPXPasswordValidationField.h */; };
-		57E24E477CF9A940AE1C9C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
-		5A412D014BB87120FD4A2454 /* SPXNonEmptyDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F3527DC615C25112ECB16103 /* SPXNonEmptyDataValidator.h */; };
-		5A7AD29F588A8352CE3EEE7F /* SPXDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 943478D0652D9F4AEEF2B4EE /* SPXDataValidator.h */; };
-		5AABC75B725EF7CBA7E57C87 /* SPXNonEmptyDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C111102DFD3D3F682F07205 /* SPXNonEmptyDataValidator.m */; };
-		5B3DB79084847F344FFE8D29 /* SPXAssertionsInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D13A3F9B71B6655850D785 /* SPXAssertionsInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		62E3D1F044BE27B638A02781 /* UITextField+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988A4A9FDEA4787ED8F41A /* UITextField+SPXDataValidatorAdditions.m */; };
-		653B1C76C3E170B5034D72A7 /* SPXLoggingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 370080C912195AAC1D603634 /* SPXLoggingInternal.h */; };
-		67CB3964A47A600B3DE04FC7 /* Pods-Tests-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2094507C3D3ADDB1385D39F0 /* Pods-Tests-SPXControls-dummy.m */; };
-		6B13C229BF9B8757AD16DE71 /* SPXCompoundDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F70D71D5E40ADA837BCB4700 /* SPXCompoundDataValidator.h */; };
-		6B6331E4A419443F027C92FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
-		73CD463B45AB9D7A6125D710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
-		78461723B2BE5C9B108617A3 /* SPXBlockDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC91EE13361CE59AC6EC46D /* SPXBlockDataValidator.m */; };
-		78B85052D4DA559FC6D7C907 /* SPXBlockDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7AD9F0E61951319409FF0C7 /* SPXBlockDataValidator.h */; };
-		79F69EFD1797FB3E19A379B3 /* Pods-Tests-SPXDataValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E1E54FFFE606ACFEF35FB /* Pods-Tests-SPXDataValidators-dummy.m */; };
-		7C1D9DA0C6520B59E43F5B1E /* UITextField+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D89AE7F2A0D951D0C045A559 /* UITextField+SPXDataValidatorAdditions.h */; };
-		7E76E14E9DE31B60CB798692 /* SPXLoggingInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CC970EE70DD4A907DBE6B9 /* SPXLoggingInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7ED62CF960F6B8D36D541231 /* SPXFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 05254E8DBDB5FB6AA2E8A5EA /* SPXFormValidator.m */; };
-		8C19992CF9A81DB93BA8ED50 /* SPXLoggingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8EED867E4F39A41BA46305 /* SPXLoggingDefines.h */; };
-		8EDFB2B87C577AC92DB5FCD7 /* SPXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A70328DD20856BF1273FF9 /* SPXTextField.m */; };
-		919D1B9D21CF1C2976578B5B /* SPXAssertionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 444F0156993BB141C60F1BF5 /* SPXAssertionsInternal.h */; };
-		970F2B062262A9FD8E5228F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
-		982F6A8ED19A4735001C040F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
-		9BB9077DAA8A9FAB0F235C1C /* SPXNonEmptyDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C111102DFD3D3F682F07205 /* SPXNonEmptyDataValidator.m */; };
-		9C6FF839272E1F3E0A730C50 /* SPXPasswordValidationField.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E5FACA0A1DE748535814E5 /* SPXPasswordValidationField.m */; };
-		A1757900B77AA535D620C11B /* Pods-SPXControls-SPXDataValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15019357B2F209296DE1DE2B /* Pods-SPXControls-SPXDataValidators-dummy.m */; };
-		A411747BFB99324342DE6873 /* SPXAssertionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F0E19F0A48FE20A1D3697E /* SPXAssertionDefines.h */; };
-		A46FE1DA128FBD19993959AF /* SPXBlockDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC91EE13361CE59AC6EC46D /* SPXBlockDataValidator.m */; };
-		A4E1EA40368A357E261EE270 /* UITextField+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE988A4A9FDEA4787ED8F41A /* UITextField+SPXDataValidatorAdditions.m */; };
-		AE135712E41373A3D9410E50 /* SPXTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 713EFB8E38107ED97A1A9D71 /* SPXTextField.h */; };
-		AED437AEED92BFB6E05A6884 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514EFA8AAC5618623A0E4427 /* Pods-Tests-dummy.m */; };
-		AF635905DAD84B7094E8F875 /* UITextView+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA88D0C192BF2DD1BF02949D /* UITextView+SPXDataValidatorAdditions.h */; };
-		B0224ACF7DBB4DA140879DC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD511826E4D1B3CE403E6AC /* Foundation.framework */; };
-		B6013EE0683E5B9AA139CDB3 /* SPXDescriptionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B798E5F294381A8A3595DA06 /* SPXDescriptionDefines.h */; };
-		B734E1ACDA7C9382BAF5F3B2 /* SPXDescriptionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCF8405C3EF0883795D9424 /* SPXDescriptionInternal.h */; };
-		BA1A04A4110515AA06D03AAD /* SPXFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E304433290056EFFFCAF50FC /* SPXFormValidator.h */; };
-		BA253EBFD7F79BC59A8576B0 /* SPXTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 713EFB8E38107ED97A1A9D71 /* SPXTextField.h */; };
-		C337DFFBF80651CAC9FF1DFD /* SPXEncodingInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = D94C856F5F837691B49D1E02 /* SPXEncodingInternals.h */; };
-		C8AE41892959D524AED2A518 /* SPXAssertionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 444F0156993BB141C60F1BF5 /* SPXAssertionsInternal.h */; };
-		CC1DD70A969A8C41B7EB5313 /* SPXFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 05254E8DBDB5FB6AA2E8A5EA /* SPXFormValidator.m */; };
-		CEC27B78370237A2772387BE /* SPXLoggingInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CC970EE70DD4A907DBE6B9 /* SPXLoggingInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CEC59B2057D5B6181CE25C6C /* SPXLoggingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 370080C912195AAC1D603634 /* SPXLoggingInternal.h */; };
-		CFBD1F43A6F6119AE32D7EFF /* Pods-SPXControls-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D95AAE3444FF5818D52AC95 /* Pods-SPXControls-SPXControls-dummy.m */; };
-		D56E343D35562B78A11F4C68 /* SPXEncodingInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = D94C856F5F837691B49D1E02 /* SPXEncodingInternals.h */; };
-		DC0EF5AB8EA6745E346EB9FA /* UITextView+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E61BEE9249183C89972F1A46 /* UITextView+SPXDataValidatorAdditions.m */; };
-		E76D6C2269FF7C1C7308F96C /* SPXCompoundDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 320EC1777BE1D7AA94E8F1C8 /* SPXCompoundDataValidator.m */; };
-		EB243906DAC1B1DCD07017CB /* SPXPasswordValidationField.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E5FACA0A1DE748535814E5 /* SPXPasswordValidationField.m */; };
-		ECC5E3D84B647B549B868CCA /* SPXRegexDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C45B2C038B1C07DDF1C023C6 /* SPXRegexDataValidator.m */; };
-		EF0A21B229BBFA29C1B1231C /* Pods-SPXControls-SPXDefines-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87145C873BEC9F3A979B5C29 /* Pods-SPXControls-SPXDefines-dummy.m */; };
-		EF73451A55F310AC14429432 /* SPXDefinesCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E7B335A15870121AA24745 /* SPXDefinesCommon.h */; };
-		EFA79B06EDC511D8B62E3212 /* Pods-Tests-SPXDefines-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C24A1DBC66882F9D6A6B63CE /* Pods-Tests-SPXDefines-dummy.m */; };
-		F049E7D61E077905CD22BF01 /* SPXCompoundDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 320EC1777BE1D7AA94E8F1C8 /* SPXCompoundDataValidator.m */; };
-		F7926A46DA399F9808F9A0C4 /* SPXDataField.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F94921D032429FB1D4380F /* SPXDataField.h */; };
-		F9ACF77D9B935C26A65ECC67 /* SPXLoggingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8EED867E4F39A41BA46305 /* SPXLoggingDefines.h */; };
+		0128DDE26081BDF6A34FF669 /* UITextView+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F16843B8BB656C927E8434 /* UITextView+SPXDataValidatorAdditions.h */; };
+		032B541648881C28F4B14E2F /* UITextField+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E16D96685300B86B94F70DEA /* UITextField+SPXDataValidatorAdditions.m */; };
+		047893709098D7F526B7635D /* SPXDescriptionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9567F88B0FCB9E49098FD0 /* SPXDescriptionInternal.h */; };
+		04AF895C6A65215580C6F142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459909E6B7D63E6934A93B4 /* Foundation.framework */; };
+		0B055D46FCF1A2D0CC5AEDAA /* SPXCompoundDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D09597C6A7420570DC81F80D /* SPXCompoundDataValidator.m */; };
+		0FBAAE27505A2A867DB48CDE /* SPXDataField.h in Headers */ = {isa = PBXBuildFile; fileRef = F75B9A3C530B9A812FACC7AC /* SPXDataField.h */; };
+		13699C7970542D6708015860 /* SPXLoggingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 669D6E060CF4720168660498 /* SPXLoggingInternal.h */; };
+		210B0CBC8C2526CF87672518 /* SPXDescriptionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 671F4A118B70015A81EDAB3D /* SPXDescriptionDefines.h */; };
+		213F1E9CAA456235978E4D45 /* Pods-SPXControls-SPXDefines-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C29748842491D70AA6B20EAE /* Pods-SPXControls-SPXDefines-dummy.m */; };
+		2A68860265BC56957DEB92AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459909E6B7D63E6934A93B4 /* Foundation.framework */; };
+		2F39D3F4ED59B4CF990676F4 /* SPXLoggingInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A7A5FD9B46A5D7E146357F /* SPXLoggingInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		348DA7749BEE4F428F85B682 /* SPXFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F0616B6811EECDF3F66009 /* SPXFormValidator.m */; };
+		34D14BCA196B20F326464387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459909E6B7D63E6934A93B4 /* Foundation.framework */; };
+		38805263F4E782A7DEC4EB48 /* Pods-SPXControls-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D69D5532D77FE6546B7AA2 /* Pods-SPXControls-SPXControls-dummy.m */; };
+		3BB322E76804016E40CF9B07 /* SPXDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F857D77DCEAB64307448996 /* SPXDataValidator.h */; };
+		3C663EA099E2A905A405FA92 /* SPXBlockDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD20EE12A022B15601B2BF /* SPXBlockDataValidator.m */; };
+		3EC247D6983248874DE49EDC /* SPXDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1930BF3D2C0A698DAB948309 /* SPXDefines.h */; };
+		4157AAC94147CE645F32770A /* SPXAssertionsInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6FE27A7CCE69416706471 /* SPXAssertionsInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		420961AD4CA8060BD4E41882 /* UITextField+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D530E4F644AAB3A4BEB6FBD1 /* UITextField+SPXDataValidatorAdditions.h */; };
+		4222CA459CB79569565DFAC3 /* SPXBlockDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD9D0B78CCE3366E057C6AA /* SPXBlockDataValidator.h */; };
+		48E58247D8416623DEB5AFB9 /* Pods-Tests-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBAFABED382AE7AFB2E0D59 /* Pods-Tests-SPXControls-dummy.m */; };
+		4A19D57203831480F7ED06FB /* SPXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 43239E3DEBDFD68C5F16233C /* SPXTextField.m */; };
+		4A84509C0B7DD59F419CC7D0 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2679798D08D663C541B742 /* Pods-Tests-dummy.m */; };
+		4F4595B91B1682D0C90517A3 /* SPXPasswordValidationField.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1AABE6020BE69D09AC09F2 /* SPXPasswordValidationField.h */; };
+		52785181DE14C229FB6306BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459909E6B7D63E6934A93B4 /* Foundation.framework */; };
+		53CEF3BBD30DCBCD78844F91 /* SPXFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F0616B6811EECDF3F66009 /* SPXFormValidator.m */; };
+		54E8B9BCD24655F1E9506C45 /* SPXDataField.h in Headers */ = {isa = PBXBuildFile; fileRef = F75B9A3C530B9A812FACC7AC /* SPXDataField.h */; };
+		558FC0AB7D94CA4FF29A2988 /* SPXNonEmptyDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDFF0C9D07F527447651185 /* SPXNonEmptyDataValidator.m */; };
+		58F520063694A6A7A254139A /* SPXPasswordValidationField.m in Sources */ = {isa = PBXBuildFile; fileRef = E67259AD3CF71A499460E01A /* SPXPasswordValidationField.m */; };
+		5C9566F5E8A48F6D9C1940D6 /* SPXEncodingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6310E144F7388BB1F85DF1A4 /* SPXEncodingDefines.h */; };
+		6072C3C803CB337C699FBDD7 /* SPXNonEmptyDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 16AF6F452A35096F8E45B763 /* SPXNonEmptyDataValidator.h */; };
+		60BE2CBCEF03DE750E8DA2C3 /* SPXNonEmptyDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 16AF6F452A35096F8E45B763 /* SPXNonEmptyDataValidator.h */; };
+		66966000A6D97DAE7A226BF8 /* UITextField+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E16D96685300B86B94F70DEA /* UITextField+SPXDataValidatorAdditions.m */; };
+		6D650AB0C846F070BFE8B927 /* SPXEncodingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6310E144F7388BB1F85DF1A4 /* SPXEncodingDefines.h */; };
+		6F10488A9E61823BD23E5630 /* SPXRegexDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = C709047C144E19FF8075F1F4 /* SPXRegexDataValidator.h */; };
+		6FD56F07A68F63292E783E27 /* SPXRegexDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9E77830047B40B361DAF2 /* SPXRegexDataValidator.m */; };
+		71020BFEC3CCF806B15583D8 /* UITextView+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F16843B8BB656C927E8434 /* UITextView+SPXDataValidatorAdditions.h */; };
+		728BFE65A4033122D2DE0C30 /* SPXPasswordValidationField.m in Sources */ = {isa = PBXBuildFile; fileRef = E67259AD3CF71A499460E01A /* SPXPasswordValidationField.m */; };
+		770F409FDB5EF3A96377F1FB /* SPXNonEmptyDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDFF0C9D07F527447651185 /* SPXNonEmptyDataValidator.m */; };
+		79818E91230E9B1DED6C0C18 /* SPXAssertionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 18433613D52BDB773820C587 /* SPXAssertionsInternal.h */; };
+		7B54D63CE232D805E8827C6A /* SPXDescriptionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 671F4A118B70015A81EDAB3D /* SPXDescriptionDefines.h */; };
+		7BA02D5C3CE6DBBCAC72C0AE /* SPXTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E0F8AF6E7F15E2542D2D36 /* SPXTextField.h */; };
+		7C57FEB6B14FA5E53F21F3FD /* SPXDefinesCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE994144B85888BD38B0AC8 /* SPXDefinesCommon.h */; };
+		7FC57D3F337452E1B0A5FE44 /* Pods-Tests-SPXDefines-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B3098071A1D5B8B11946C9 /* Pods-Tests-SPXDefines-dummy.m */; };
+		80E09A3CE0CC8E1A0A7DAF28 /* SPXFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 06FDC7666C0499AFF8D1A008 /* SPXFormValidator.h */; };
+		84CA961D1F74F1E3FFDA2AB4 /* Pods-SPXControls-SPXDataValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04967CFEB98CD118EE0A0995 /* Pods-SPXControls-SPXDataValidators-dummy.m */; };
+		8ABAADD1E25EB17F50CD7CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459909E6B7D63E6934A93B4 /* Foundation.framework */; };
+		8EF22AC9608C9C8483DFDC87 /* SPXEncodingInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AC221652E18CB20316381C /* SPXEncodingInternals.h */; };
+		931F83FF124AED8F6BE267C9 /* SPXTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E0F8AF6E7F15E2542D2D36 /* SPXTextField.h */; };
+		939EB837A2AE7CEA37D4A793 /* SPXLoggingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1B2B9D586C0183015E003B /* SPXLoggingDefines.h */; };
+		9537C7CA2F7E41233771C3D2 /* SPXRegexDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = C709047C144E19FF8075F1F4 /* SPXRegexDataValidator.h */; };
+		9A15C0D3D8959E2A66B80374 /* Pods-SPXControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E86911B5139EBEB9F6F1DFE2 /* Pods-SPXControls-dummy.m */; };
+		9B3A5AB9C02C5CAC68B557E8 /* SPXLoggingInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A7A5FD9B46A5D7E146357F /* SPXLoggingInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9D94022203963AB9ABE93AEF /* SPXAssertionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 18433613D52BDB773820C587 /* SPXAssertionsInternal.h */; };
+		A1ACE65608C006B95D4084E1 /* SPXLoggingInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 669D6E060CF4720168660498 /* SPXLoggingInternal.h */; };
+		A28AFC5915357C993BF06CCA /* SPXLoggingDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1B2B9D586C0183015E003B /* SPXLoggingDefines.h */; };
+		A5311C4F0FCEE8D18BE4A753 /* SPXDescriptionInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9567F88B0FCB9E49098FD0 /* SPXDescriptionInternal.h */; };
+		AA023B7E031402CEE87C9383 /* SPXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 43239E3DEBDFD68C5F16233C /* SPXTextField.m */; };
+		ADBF8FEE088F474BFCEFFD10 /* UITextField+SPXDataValidatorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D530E4F644AAB3A4BEB6FBD1 /* UITextField+SPXDataValidatorAdditions.h */; };
+		ADC3B47E3197F17E92E4D935 /* SPXBlockDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD9D0B78CCE3366E057C6AA /* SPXBlockDataValidator.h */; };
+		B104EC70D70C75F34C8F4F76 /* SPXEncodingInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AC221652E18CB20316381C /* SPXEncodingInternals.h */; };
+		B591F8F68E38297794E6D378 /* SPXDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1930BF3D2C0A698DAB948309 /* SPXDefines.h */; };
+		B6E7CC4C56ED70ED96EE768B /* SPXBlockDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD20EE12A022B15601B2BF /* SPXBlockDataValidator.m */; };
+		B9DED52ED1291E282FBC8391 /* SPXFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 06FDC7666C0499AFF8D1A008 /* SPXFormValidator.h */; };
+		BB57534E201CDD09DE7D75D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459909E6B7D63E6934A93B4 /* Foundation.framework */; };
+		BC91BA9170CE0BB1A77E35D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459909E6B7D63E6934A93B4 /* Foundation.framework */; };
+		BDC993DCCAC9DB33C7717BD6 /* SPXDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F857D77DCEAB64307448996 /* SPXDataValidator.h */; };
+		BF6E89BCF088BB0F8BA6A74F /* SPXAssertionsInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6FE27A7CCE69416706471 /* SPXAssertionsInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C236CE901CF53E646DB6BEC0 /* SPXAssertionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F54FBDEAF577B848B57036DE /* SPXAssertionDefines.h */; };
+		C705FEB92B88E20B71F0DDCB /* SPXPasswordValidationField.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1AABE6020BE69D09AC09F2 /* SPXPasswordValidationField.h */; };
+		C7D50370A8F7160F4992A984 /* SPXCompoundDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 601514524F2EBE62265B8E2D /* SPXCompoundDataValidator.h */; };
+		C9EA62DF23F7728A1DA31E07 /* SPXCompoundDataValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 601514524F2EBE62265B8E2D /* SPXCompoundDataValidator.h */; };
+		CD4A384135DDF262DD814B5F /* SPXDefinesCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE994144B85888BD38B0AC8 /* SPXDefinesCommon.h */; };
+		CE48C90F6097A8D9E135307A /* SPXCompoundDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D09597C6A7420570DC81F80D /* SPXCompoundDataValidator.m */; };
+		D8568C729DC6383B81768BF5 /* SPXRegexDataValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9E77830047B40B361DAF2 /* SPXRegexDataValidator.m */; };
+		E245D1F26C39214EAA5424A9 /* Pods-Tests-SPXDataValidators-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1FC22324AD6613940297F0 /* Pods-Tests-SPXDataValidators-dummy.m */; };
+		E47AA0F7C210FAB84AD49217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459909E6B7D63E6934A93B4 /* Foundation.framework */; };
+		E53AD752647651FEBE989ED1 /* SPXAssertionDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F54FBDEAF577B848B57036DE /* SPXAssertionDefines.h */; };
+		F446EE30B6DA0B8D561E9BB2 /* UITextView+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D51EE33E9C790EF9BFD60E98 /* UITextView+SPXDataValidatorAdditions.m */; };
+		F96FE57AEFAE5FC6EE8F65C7 /* UITextView+SPXDataValidatorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D51EE33E9C790EF9BFD60E98 /* UITextView+SPXDataValidatorAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0CCA6257F755FF33CD7666F2 /* PBXContainerItemProxy */ = {
+		11D439F59EB9BB7AA659BA28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3C82B482DCAE4FDA227A90F4;
+			remoteGlobalIDString = 6F0910235F3CFA52FA6353BA;
 			remoteInfo = "Pods-SPXControls-SPXDefines";
 		};
-		1125D4864EB8D6EA3951F93E /* PBXContainerItemProxy */ = {
+		22A49EAAB09F9DB0DDEF7610 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 77E39204BCCA1C82B0D5C93E;
-			remoteInfo = "Pods-SPXControls-SPXDataValidators";
-		};
-		4410B78A918C01C2813FAFA0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 89F80B45C1C2741A64A1D45B;
+			remoteGlobalIDString = 1F7AE4A6C05EE58759504E5A;
 			remoteInfo = "Pods-Tests-SPXDefines";
 		};
-		5B7C8AA967AC5665FA110D07 /* PBXContainerItemProxy */ = {
+		4010737AE2E36CCF16161E74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F3ADA34799ECAA088208B4B;
-			remoteInfo = "Pods-SPXControls-SPXControls";
+			remoteGlobalIDString = 6F0910235F3CFA52FA6353BA;
+			remoteInfo = "Pods-SPXControls-SPXDefines";
 		};
-		61752DD9A919D8D1F1B3A8E8 /* PBXContainerItemProxy */ = {
+		408DDFF2D1C99803602F66F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55BE41502DB7C691FA828A78;
+			remoteGlobalIDString = 1F7AE4A6C05EE58759504E5A;
+			remoteInfo = "Pods-Tests-SPXDefines";
+		};
+		41FDC6DB468AD327840113F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04CD695301FE5F700A22EAD;
 			remoteInfo = "Pods-Tests-SPXControls";
 		};
-		8051966BE941065CF14C96C2 /* PBXContainerItemProxy */ = {
+		7DA36F1340622ED9567865AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3C82B482DCAE4FDA227A90F4;
-			remoteInfo = "Pods-SPXControls-SPXDefines";
-		};
-		81F303AE4A5567137DEEFDE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 192553CCE8100943FA589050;
+			remoteGlobalIDString = 46C39CBE3E31EB1FF22F26EA;
 			remoteInfo = "Pods-Tests-SPXDataValidators";
 		};
-		B345233B07A875F03818334B /* PBXContainerItemProxy */ = {
+		A78CE30147190035C17C1B9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 89F80B45C1C2741A64A1D45B;
-			remoteInfo = "Pods-Tests-SPXDefines";
+			remoteGlobalIDString = 99B0A7EAAB16CEF5985AA3F9;
+			remoteInfo = "Pods-SPXControls-SPXControls";
 		};
-		D4F6C1CB1FB77596DF454FE9 /* PBXContainerItemProxy */ = {
+		A8E9567638671917B2ABD60E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 192553CCE8100943FA589050;
+			remoteGlobalIDString = AB3A776A2DFE264944DBC71B;
+			remoteInfo = "Pods-SPXControls-SPXDataValidators";
+		};
+		C8313BB1C57591D7EBD0C4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46C39CBE3E31EB1FF22F26EA;
 			remoteInfo = "Pods-Tests-SPXDataValidators";
 		};
-		F9F28E1C148B5A8878995D17 /* PBXContainerItemProxy */ = {
+		CAA55CDD58F187FB9E32FE7C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB71018608D4E33BB9538FF8 /* Project object */;
+			containerPortal = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 77E39204BCCA1C82B0D5C93E;
+			remoteGlobalIDString = AB3A776A2DFE264944DBC71B;
 			remoteInfo = "Pods-SPXControls-SPXDataValidators";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05254E8DBDB5FB6AA2E8A5EA /* SPXFormValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXFormValidator.m; path = SPXDataValidator/Form/SPXFormValidator.m; sourceTree = "<group>"; };
-		0DA80AD1F49DD4C039C63650 /* libPods-Tests-SPXDataValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXDataValidators.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DD3410AA18FABD1F003A410 /* Pods-SPXControls-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-environment.h"; sourceTree = "<group>"; };
-		11CC970EE70DD4A907DBE6B9 /* SPXLoggingInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXLoggingInternal.m; path = Classes/SPXLogging/SPXLoggingInternal.m; sourceTree = "<group>"; };
-		15019357B2F209296DE1DE2B /* Pods-SPXControls-SPXDataValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXDataValidators-dummy.m"; sourceTree = "<group>"; };
-		18A659CE50D7E28A2A586352 /* Pods-Tests-SPXDefines-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDefines-Private.xcconfig"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-Private.xcconfig"; sourceTree = "<group>"; };
-		18FAF9B5EF9ED32001DCD256 /* Pods-SPXControls-SPXControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXControls.xcconfig"; sourceTree = "<group>"; };
-		1D95AAE3444FF5818D52AC95 /* Pods-SPXControls-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXControls-dummy.m"; sourceTree = "<group>"; };
-		1FCE28EC002BDCEC903EDFA0 /* Pods-Tests-SPXDataValidators-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDataValidators-Private.xcconfig"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-Private.xcconfig"; sourceTree = "<group>"; };
-		2094507C3D3ADDB1385D39F0 /* Pods-Tests-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXControls-dummy.m"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-dummy.m"; sourceTree = "<group>"; };
-		2744ED7E264CDC0C91A10562 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2906D6EF95814DD8DE8614E3 /* libPods-SPXControls-SPXDefines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXDefines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BC458615412A6DD59A205E5 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CCB12D56441F43CCA4B0E64 /* Pods-SPXControls-SPXDataValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXDataValidators-prefix.pch"; sourceTree = "<group>"; };
-		308C1F75A8DC4A63AACB590B /* Pods-Tests-SPXControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXControls.xcconfig"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls.xcconfig"; sourceTree = "<group>"; };
-		320EC1777BE1D7AA94E8F1C8 /* SPXCompoundDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXCompoundDataValidator.m; path = SPXDataValidator/Validators/SPXCompoundDataValidator.m; sourceTree = "<group>"; };
-		370080C912195AAC1D603634 /* SPXLoggingInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXLoggingInternal.h; path = Classes/SPXLogging/SPXLoggingInternal.h; sourceTree = "<group>"; };
-		3EC91EE13361CE59AC6EC46D /* SPXBlockDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXBlockDataValidator.m; path = SPXDataValidator/Validators/SPXBlockDataValidator.m; sourceTree = "<group>"; };
-		402FD4D6466B74ACB82ACB59 /* Pods-Tests-SPXDataValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDataValidators.xcconfig"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators.xcconfig"; sourceTree = "<group>"; };
-		411D02DC16F1E891B1A85A7B /* Pods-SPXControls-SPXDataValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDataValidators.xcconfig"; sourceTree = "<group>"; };
-		444F0156993BB141C60F1BF5 /* SPXAssertionsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXAssertionsInternal.h; path = Classes/SPXAsserts/SPXAssertionsInternal.h; sourceTree = "<group>"; };
-		45E5FACA0A1DE748535814E5 /* SPXPasswordValidationField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXPasswordValidationField.m; path = SPXDataValidator/Fields/SPXPasswordValidationField.m; sourceTree = "<group>"; };
-		4F6E39F34E04403F18AF6B84 /* Pods-SPXControls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPXControls-acknowledgements.markdown"; sourceTree = "<group>"; };
-		514EFA8AAC5618623A0E4427 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		5337E3C044EB9D655B9FBA5D /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		54D739C308FB37FF88934559 /* libPods-Tests-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55BCD93FC8C6DA0B019B59B4 /* Pods-Tests-SPXControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXControls-Private.xcconfig"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-Private.xcconfig"; sourceTree = "<group>"; };
-		57F0E19F0A48FE20A1D3697E /* SPXAssertionDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXAssertionDefines.h; path = Classes/SPXAsserts/SPXAssertionDefines.h; sourceTree = "<group>"; };
-		5BCF8405C3EF0883795D9424 /* SPXDescriptionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDescriptionInternal.h; path = Classes/SPXDescription/SPXDescriptionInternal.h; sourceTree = "<group>"; };
-		5D8EED867E4F39A41BA46305 /* SPXLoggingDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXLoggingDefines.h; path = Classes/SPXLogging/SPXLoggingDefines.h; sourceTree = "<group>"; };
-		631331D994B517FDB2C0F457 /* Pods-SPXControls-SPXDefines.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDefines.xcconfig"; sourceTree = "<group>"; };
-		69EA1EFE0FEAC6961AF89F9C /* Pods-SPXControls-SPXControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXControls-prefix.pch"; sourceTree = "<group>"; };
-		6CF4898BF24C37079CCB0A3E /* Pods-SPXControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls.release.xcconfig"; sourceTree = "<group>"; };
-		6F44E800535683CCB6493526 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		713EFB8E38107ED97A1A9D71 /* SPXTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SPXTextField.h; sourceTree = "<group>"; };
-		7390BADC9C2628EF6E3A5AB6 /* Pods-Tests-SPXDefines-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXDefines-prefix.pch"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-prefix.pch"; sourceTree = "<group>"; };
-		79F94921D032429FB1D4380F /* SPXDataField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDataField.h; path = SPXDataValidator/Fields/SPXDataField.h; sourceTree = "<group>"; };
-		7D2C1FE8E2F378C757C5595B /* Pods-Tests-SPXDefines.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDefines.xcconfig"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines.xcconfig"; sourceTree = "<group>"; };
-		7D2DD0DC2E507F86CB25F660 /* Pods-SPXControls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPXControls-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E0A127C1C1AC388BD85316C /* libPods-SPXControls-SPXDataValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXDataValidators.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		802C02761C4D1EF6B66939D8 /* Pods-SPXControls-SPXDefines-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDefines-Private.xcconfig"; sourceTree = "<group>"; };
-		859E1E54FFFE606ACFEF35FB /* Pods-Tests-SPXDataValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXDataValidators-dummy.m"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-dummy.m"; sourceTree = "<group>"; };
-		8603136C1764699D464C6C4B /* Pods-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-dummy.m"; sourceTree = "<group>"; };
-		87145C873BEC9F3A979B5C29 /* Pods-SPXControls-SPXDefines-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXDefines-dummy.m"; sourceTree = "<group>"; };
-		8F5CC3630E7B890D0AEEFB5C /* SPXDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDefines.h; path = Classes/SPXDefines.h; sourceTree = "<group>"; };
-		93FE9662EB7CA7042CB4020D /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		943478D0652D9F4AEEF2B4EE /* SPXDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDataValidator.h; path = SPXDataValidator/SPXDataValidator.h; sourceTree = "<group>"; };
-		974636D07EFF84120381F1F6 /* SPXPasswordValidationField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXPasswordValidationField.h; path = SPXDataValidator/Fields/SPXPasswordValidationField.h; sourceTree = "<group>"; };
-		9C111102DFD3D3F682F07205 /* SPXNonEmptyDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXNonEmptyDataValidator.m; path = SPXDataValidator/Validators/SPXNonEmptyDataValidator.m; sourceTree = "<group>"; };
-		9C8465EEB39380BEC804313F /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		A17CEAFB0CE6B9438FFEDBF4 /* libPods-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3D13A3F9B71B6655850D785 /* SPXAssertionsInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXAssertionsInternal.m; path = Classes/SPXAsserts/SPXAssertionsInternal.m; sourceTree = "<group>"; };
-		A9A70328DD20856BF1273FF9 /* SPXTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SPXTextField.m; sourceTree = "<group>"; };
-		AA88D0C192BF2DD1BF02949D /* UITextView+SPXDataValidatorAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+SPXDataValidatorAdditions.h"; path = "SPXDataValidator/Fields/UITextView+SPXDataValidatorAdditions.h"; sourceTree = "<group>"; };
-		AE988A4A9FDEA4787ED8F41A /* UITextField+SPXDataValidatorAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+SPXDataValidatorAdditions.m"; path = "SPXDataValidator/Fields/UITextField+SPXDataValidatorAdditions.m"; sourceTree = "<group>"; };
-		B0A79DDBE4BCCD19AF3BC1D8 /* Pods-SPXControls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPXControls-resources.sh"; sourceTree = "<group>"; };
-		B798E5F294381A8A3595DA06 /* SPXDescriptionDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDescriptionDefines.h; path = Classes/SPXDescription/SPXDescriptionDefines.h; sourceTree = "<group>"; };
-		B7AD9F0E61951319409FF0C7 /* SPXBlockDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXBlockDataValidator.h; path = SPXDataValidator/Validators/SPXBlockDataValidator.h; sourceTree = "<group>"; };
-		B875DFB407D9BDC0C34968CE /* libPods-Tests-SPXDefines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXDefines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC389DFD7DD16916F0962F90 /* Pods-SPXControls-SPXDefines-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXDefines-prefix.pch"; sourceTree = "<group>"; };
-		C24A1DBC66882F9D6A6B63CE /* Pods-Tests-SPXDefines-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXDefines-dummy.m"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-dummy.m"; sourceTree = "<group>"; };
-		C45B2C038B1C07DDF1C023C6 /* SPXRegexDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXRegexDataValidator.m; path = SPXDataValidator/Validators/SPXRegexDataValidator.m; sourceTree = "<group>"; };
-		CCD511826E4D1B3CE403E6AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2E7B335A15870121AA24745 /* SPXDefinesCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDefinesCommon.h; path = Classes/SPXDefinesCommon.h; sourceTree = "<group>"; };
-		D59348DFD5DA486FCD43F3E1 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D89AE7F2A0D951D0C045A559 /* UITextField+SPXDataValidatorAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+SPXDataValidatorAdditions.h"; path = "SPXDataValidator/Fields/UITextField+SPXDataValidatorAdditions.h"; sourceTree = "<group>"; };
-		D94C856F5F837691B49D1E02 /* SPXEncodingInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXEncodingInternals.h; path = Classes/SPXEncoding/SPXEncodingInternals.h; sourceTree = "<group>"; };
-		DC0CD2CD590FCA4265E333E0 /* SPXEncodingDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXEncodingDefines.h; path = Classes/SPXEncoding/SPXEncodingDefines.h; sourceTree = "<group>"; };
-		DCFB21BEFC8CAEDEA01C5835 /* Pods-Tests-SPXDataValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXDataValidators-prefix.pch"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-prefix.pch"; sourceTree = "<group>"; };
-		DDC9CC6E0746A6359A19BADA /* SPXRegexDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXRegexDataValidator.h; path = SPXDataValidator/Validators/SPXRegexDataValidator.h; sourceTree = "<group>"; };
-		DEA1F4E2BFAB5B6F759D88A4 /* Pods-SPXControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls.debug.xcconfig"; sourceTree = "<group>"; };
-		E304433290056EFFFCAF50FC /* SPXFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXFormValidator.h; path = SPXDataValidator/Form/SPXFormValidator.h; sourceTree = "<group>"; };
-		E5D281CD37175F3C204B5401 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E61BEE9249183C89972F1A46 /* UITextView+SPXDataValidatorAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+SPXDataValidatorAdditions.m"; path = "SPXDataValidator/Fields/UITextView+SPXDataValidatorAdditions.m"; sourceTree = "<group>"; };
-		E8E4568E9565CC584DC1A6E0 /* Pods-SPXControls-SPXControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXControls-Private.xcconfig"; sourceTree = "<group>"; };
-		EA9AA6EC7ACFD61AC3E42ABE /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDataValidators-Private.xcconfig"; sourceTree = "<group>"; };
-		EBE03CB096EF3F700849AA01 /* Pods-Tests-SPXControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXControls-prefix.pch"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch"; sourceTree = "<group>"; };
-		F3527DC615C25112ECB16103 /* SPXNonEmptyDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXNonEmptyDataValidator.h; path = SPXDataValidator/Validators/SPXNonEmptyDataValidator.h; sourceTree = "<group>"; };
-		F70D71D5E40ADA837BCB4700 /* SPXCompoundDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXCompoundDataValidator.h; path = SPXDataValidator/Validators/SPXCompoundDataValidator.h; sourceTree = "<group>"; };
-		FEC13B7703329C7E77BC6377 /* libPods-SPXControls-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04967CFEB98CD118EE0A0995 /* Pods-SPXControls-SPXDataValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXDataValidators-dummy.m"; sourceTree = "<group>"; };
+		06FDC7666C0499AFF8D1A008 /* SPXFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXFormValidator.h; path = SPXDataValidator/Form/SPXFormValidator.h; sourceTree = "<group>"; };
+		0705846DE51D047B8E01F93E /* Pods-Tests-SPXDefines-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDefines-Private.xcconfig"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-Private.xcconfig"; sourceTree = "<group>"; };
+		09B90427771A9BCACA6FDB31 /* Pods-SPXControls-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-environment.h"; sourceTree = "<group>"; };
+		0A2C64D4C0671FBD69842EA0 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C7AAF8CF0457E352F9BC920 /* Pods-SPXControls-SPXDefines.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDefines.xcconfig"; sourceTree = "<group>"; };
+		1048891C94A987BD930ABAD8 /* libPods-SPXControls-SPXDefines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXDefines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14110504A476B1741295F8AD /* Pods-Tests-SPXDefines.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDefines.xcconfig"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines.xcconfig"; sourceTree = "<group>"; };
+		16AF6F452A35096F8E45B763 /* SPXNonEmptyDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXNonEmptyDataValidator.h; path = SPXDataValidator/Validators/SPXNonEmptyDataValidator.h; sourceTree = "<group>"; };
+		18433613D52BDB773820C587 /* SPXAssertionsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXAssertionsInternal.h; path = Classes/SPXAsserts/SPXAssertionsInternal.h; sourceTree = "<group>"; };
+		1930BF3D2C0A698DAB948309 /* SPXDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDefines.h; path = Classes/SPXDefines.h; sourceTree = "<group>"; };
+		1EE994144B85888BD38B0AC8 /* SPXDefinesCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDefinesCommon.h; path = Classes/SPXDefinesCommon.h; sourceTree = "<group>"; };
+		239E58BA4EBCEFE478D7B92F /* libPods-SPXControls-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		278902B29F82141DF83346BF /* Pods-SPXControls-SPXDefines-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXDefines-prefix.pch"; sourceTree = "<group>"; };
+		2EBAFABED382AE7AFB2E0D59 /* Pods-Tests-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXControls-dummy.m"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-dummy.m"; sourceTree = "<group>"; };
+		3459909E6B7D63E6934A93B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39674F2AD61744CF7DCC4F9F /* libPods-SPXControls-SPXDataValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls-SPXDataValidators.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6DAD666ECFE1BE25A97AE2 /* Pods-SPXControls-SPXControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXControls-Private.xcconfig"; sourceTree = "<group>"; };
+		3EF9E77830047B40B361DAF2 /* SPXRegexDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXRegexDataValidator.m; path = SPXDataValidator/Validators/SPXRegexDataValidator.m; sourceTree = "<group>"; };
+		3F1B2B9D586C0183015E003B /* SPXLoggingDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXLoggingDefines.h; path = Classes/SPXLogging/SPXLoggingDefines.h; sourceTree = "<group>"; };
+		40501B1B92281356200BA477 /* Pods-SPXControls-SPXDefines-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDefines-Private.xcconfig"; sourceTree = "<group>"; };
+		43239E3DEBDFD68C5F16233C /* SPXTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SPXTextField.m; sourceTree = "<group>"; };
+		43C70675029077BCEDDFA109 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49F16843B8BB656C927E8434 /* UITextView+SPXDataValidatorAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+SPXDataValidatorAdditions.h"; path = "SPXDataValidator/Fields/UITextView+SPXDataValidatorAdditions.h"; sourceTree = "<group>"; };
+		4CF6FE27A7CCE69416706471 /* SPXAssertionsInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXAssertionsInternal.m; path = Classes/SPXAsserts/SPXAssertionsInternal.m; sourceTree = "<group>"; };
+		5092683C84F9AEB2182B4028 /* libPods-Tests-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C31069CFD28D751B631874 /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDataValidators-Private.xcconfig"; sourceTree = "<group>"; };
+		59AC221652E18CB20316381C /* SPXEncodingInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXEncodingInternals.h; path = Classes/SPXEncoding/SPXEncodingInternals.h; sourceTree = "<group>"; };
+		5C5CFD6A7EB4661EE68351BD /* Pods-SPXControls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPXControls-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D7DA8E7FC6AEC4E54E84FBD /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		601514524F2EBE62265B8E2D /* SPXCompoundDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXCompoundDataValidator.h; path = SPXDataValidator/Validators/SPXCompoundDataValidator.h; sourceTree = "<group>"; };
+		61A6D751D32329DDA1E949DA /* Pods-SPXControls-SPXControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXControls-prefix.pch"; sourceTree = "<group>"; };
+		61F0616B6811EECDF3F66009 /* SPXFormValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXFormValidator.m; path = SPXDataValidator/Form/SPXFormValidator.m; sourceTree = "<group>"; };
+		62ABB7EC8907932D74514BE6 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6310E144F7388BB1F85DF1A4 /* SPXEncodingDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXEncodingDefines.h; path = Classes/SPXEncoding/SPXEncodingDefines.h; sourceTree = "<group>"; };
+		63B5159F4300040579886FDD /* Pods-Tests-SPXDataValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXDataValidators-prefix.pch"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-prefix.pch"; sourceTree = "<group>"; };
+		669D6E060CF4720168660498 /* SPXLoggingInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXLoggingInternal.h; path = Classes/SPXLogging/SPXLoggingInternal.h; sourceTree = "<group>"; };
+		671F4A118B70015A81EDAB3D /* SPXDescriptionDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDescriptionDefines.h; path = Classes/SPXDescription/SPXDescriptionDefines.h; sourceTree = "<group>"; };
+		6AC80363A79F96605F4D5AA4 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		73B3098071A1D5B8B11946C9 /* Pods-Tests-SPXDefines-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXDefines-dummy.m"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-dummy.m"; sourceTree = "<group>"; };
+		789F4A1C9160CB893A7F51ED /* Pods-SPXControls-SPXControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXControls.xcconfig"; sourceTree = "<group>"; };
+		7B1FC22324AD6613940297F0 /* Pods-Tests-SPXDataValidators-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-SPXDataValidators-dummy.m"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-dummy.m"; sourceTree = "<group>"; };
+		7BD22915936BB467E1301B79 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD9D0B78CCE3366E057C6AA /* SPXBlockDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXBlockDataValidator.h; path = SPXDataValidator/Validators/SPXBlockDataValidator.h; sourceTree = "<group>"; };
+		7E2679798D08D663C541B742 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		7E359CEBBE9222A0971CD4F9 /* Pods-SPXControls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPXControls-resources.sh"; sourceTree = "<group>"; };
+		7F857D77DCEAB64307448996 /* SPXDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDataValidator.h; path = SPXDataValidator/SPXDataValidator.h; sourceTree = "<group>"; };
+		7F8AB649C112C9E641E40EFA /* Pods-Tests-SPXDataValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDataValidators.xcconfig"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators.xcconfig"; sourceTree = "<group>"; };
+		8EBD4F72452E54F358CAB8B9 /* libPods-Tests-SPXDataValidators.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXDataValidators.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93101CA67E4F315E7F37B438 /* libPods-Tests-SPXDefines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-SPXDefines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A7A5FD9B46A5D7E146357F /* SPXLoggingInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXLoggingInternal.m; path = Classes/SPXLogging/SPXLoggingInternal.m; sourceTree = "<group>"; };
+		95E0F8AF6E7F15E2542D2D36 /* SPXTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SPXTextField.h; sourceTree = "<group>"; };
+		970B21085CE3F58496693EDD /* Pods-SPXControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls.debug.xcconfig"; sourceTree = "<group>"; };
+		9ACCED3402DE28FC7F19AA0A /* Pods-SPXControls-SPXDataValidators.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls-SPXDataValidators.xcconfig"; sourceTree = "<group>"; };
+		9D2215B791BAA0C57CC1FB4E /* Pods-Tests-SPXControls-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXControls-Private.xcconfig"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-Private.xcconfig"; sourceTree = "<group>"; };
+		9DDD20EE12A022B15601B2BF /* SPXBlockDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXBlockDataValidator.m; path = SPXDataValidator/Validators/SPXBlockDataValidator.m; sourceTree = "<group>"; };
+		A56FD08F256A3F909974EC78 /* Pods-Tests-SPXControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXControls.xcconfig"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls.xcconfig"; sourceTree = "<group>"; };
+		ABBA9E99F5EA851CB33FC4FE /* Pods-SPXControls-SPXDataValidators-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPXControls-SPXDataValidators-prefix.pch"; sourceTree = "<group>"; };
+		AF9567F88B0FCB9E49098FD0 /* SPXDescriptionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDescriptionInternal.h; path = Classes/SPXDescription/SPXDescriptionInternal.h; sourceTree = "<group>"; };
+		C29748842491D70AA6B20EAE /* Pods-SPXControls-SPXDefines-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXDefines-dummy.m"; sourceTree = "<group>"; };
+		C709047C144E19FF8075F1F4 /* SPXRegexDataValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXRegexDataValidator.h; path = SPXDataValidator/Validators/SPXRegexDataValidator.h; sourceTree = "<group>"; };
+		C8094DD681520BA56AA72694 /* Pods-Tests-SPXDataValidators-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SPXDataValidators-Private.xcconfig"; path = "../Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-Private.xcconfig"; sourceTree = "<group>"; };
+		CBDFF0C9D07F527447651185 /* SPXNonEmptyDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXNonEmptyDataValidator.m; path = SPXDataValidator/Validators/SPXNonEmptyDataValidator.m; sourceTree = "<group>"; };
+		D09597C6A7420570DC81F80D /* SPXCompoundDataValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXCompoundDataValidator.m; path = SPXDataValidator/Validators/SPXCompoundDataValidator.m; sourceTree = "<group>"; };
+		D1ACDCDBD695555B5F1EC7AB /* Pods-SPXControls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPXControls-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D51EE33E9C790EF9BFD60E98 /* UITextView+SPXDataValidatorAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+SPXDataValidatorAdditions.m"; path = "SPXDataValidator/Fields/UITextView+SPXDataValidatorAdditions.m"; sourceTree = "<group>"; };
+		D530E4F644AAB3A4BEB6FBD1 /* UITextField+SPXDataValidatorAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+SPXDataValidatorAdditions.h"; path = "SPXDataValidator/Fields/UITextField+SPXDataValidatorAdditions.h"; sourceTree = "<group>"; };
+		DF1AABE6020BE69D09AC09F2 /* SPXPasswordValidationField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXPasswordValidationField.h; path = SPXDataValidator/Fields/SPXPasswordValidationField.h; sourceTree = "<group>"; };
+		E16D96685300B86B94F70DEA /* UITextField+SPXDataValidatorAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+SPXDataValidatorAdditions.m"; path = "SPXDataValidator/Fields/UITextField+SPXDataValidatorAdditions.m"; sourceTree = "<group>"; };
+		E67259AD3CF71A499460E01A /* SPXPasswordValidationField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPXPasswordValidationField.m; path = SPXDataValidator/Fields/SPXPasswordValidationField.m; sourceTree = "<group>"; };
+		E7CD886DC5956717A89ABD58 /* Pods-Tests-SPXDefines-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXDefines-prefix.pch"; path = "../Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-prefix.pch"; sourceTree = "<group>"; };
+		E86911B5139EBEB9F6F1DFE2 /* Pods-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-dummy.m"; sourceTree = "<group>"; };
+		E8D69D5532D77FE6546B7AA2 /* Pods-SPXControls-SPXControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPXControls-SPXControls-dummy.m"; sourceTree = "<group>"; };
+		EDC00004E954C5B46E1D258B /* Pods-SPXControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPXControls.release.xcconfig"; sourceTree = "<group>"; };
+		EE4174236417E17BD444D3BF /* Pods-Tests-SPXControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-SPXControls-prefix.pch"; path = "../Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch"; sourceTree = "<group>"; };
+		EECFABB26D43E293C9E74D02 /* libPods-SPXControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54FBDEAF577B848B57036DE /* SPXAssertionDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXAssertionDefines.h; path = Classes/SPXAsserts/SPXAssertionDefines.h; sourceTree = "<group>"; };
+		F7076F3F63A39A831046EA13 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F75B9A3C530B9A812FACC7AC /* SPXDataField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPXDataField.h; path = SPXDataValidator/Fields/SPXDataField.h; sourceTree = "<group>"; };
+		FFB8C92A7BF85CC6E4E37E15 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21DDD262CD4A8D7CD7369FFD /* Frameworks */ = {
+		23BA9C70442CB593CEF73CDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B6331E4A419443F027C92FD /* Foundation.framework in Frameworks */,
+				04AF895C6A65215580C6F142 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		407183C526048F338FA05BF7 /* Frameworks */ = {
+		2430C857559A6ACF820721F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186DDBCCBAECCC19B7519BFC /* Foundation.framework in Frameworks */,
+				BC91BA9170CE0BB1A77E35D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8789C6AEA2C48FB888192264 /* Frameworks */ = {
+		56597BD3A70F5C54765DC0B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E24E477CF9A940AE1C9C8D /* Foundation.framework in Frameworks */,
+				8ABAADD1E25EB17F50CD7CD3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3189C92D42FBC93844BA5D3 /* Frameworks */ = {
+		6443AE36136CB442AFA9F8C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1495EBC1034381897BE3B63D /* Foundation.framework in Frameworks */,
+				2A68860265BC56957DEB92AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7EA20B14BFD0849C6ADF782 /* Frameworks */ = {
+		BA606E82982CF026CCF5C096 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73CD463B45AB9D7A6125D710 /* Foundation.framework in Frameworks */,
+				E47AA0F7C210FAB84AD49217 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEFA5111D2B9255DDD9DA061 /* Frameworks */ = {
+		DB8E13C2BC4BEC3FE1C8907D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0224ACF7DBB4DA140879DC9 /* Foundation.framework in Frameworks */,
+				34D14BCA196B20F326464387 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF55D606DF17E994FA58E082 /* Frameworks */ = {
+		E6E6277D224A193F1657E516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982F6A8ED19A4735001C040F /* Foundation.framework in Frameworks */,
+				BB57534E201CDD09DE7D75D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA8A94BB4D44E8303349A9BE /* Frameworks */ = {
+		F6A0FA441566B8E9C048610B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				970F2B062262A9FD8E5228F4 /* Foundation.framework in Frameworks */,
+				52785181DE14C229FB6306BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06A1D14CEFA3B80A41F5B763 /* Logging */ = {
+		021AFABEC459F676E5554DB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1468E3E811AA428D14E60F0 /* SPXDataValidators */,
+				3638D03E2E9438B4C20E31FB /* SPXDefines */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0D43C165BAB4BE8636375311 /* Logging */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Logging;
 			sourceTree = "<group>";
 		};
-		0B9CE8B12C5026AB1A70C5FA /* Encoding */ = {
+		153140E9CFB3491D271A938B /* SPXControls */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Encoding;
-			sourceTree = "<group>";
-		};
-		0D213CDC888F533CC71605FE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A17CEAFB0CE6B9438FFEDBF4 /* libPods-SPXControls.a */,
-				FEC13B7703329C7E77BC6377 /* libPods-SPXControls-SPXControls.a */,
-				7E0A127C1C1AC388BD85316C /* libPods-SPXControls-SPXDataValidators.a */,
-				2906D6EF95814DD8DE8614E3 /* libPods-SPXControls-SPXDefines.a */,
-				E5D281CD37175F3C204B5401 /* libPods-Tests.a */,
-				54D739C308FB37FF88934559 /* libPods-Tests-SPXControls.a */,
-				0DA80AD1F49DD4C039C63650 /* libPods-Tests-SPXDataValidators.a */,
-				B875DFB407D9BDC0C34968CE /* libPods-Tests-SPXDefines.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		10077B1FB617A8CCD0EA0BF4 /* Description */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Description;
-			sourceTree = "<group>";
-		};
-		1603A89DA10D2E3A6A8DF6F0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				90B9ECF28979D4555893E409 /* SPXDataValidators */,
-				2E2936C3142AD017AB1FDCCE /* SPXDefines */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		1A2B295B3AA0B5E462B1FA0D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				30B4CB4FE980EF6A531C904B /* Pods-SPXControls */,
-				A1F6E0743B502C298B5DA430 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2E2936C3142AD017AB1FDCCE /* SPXDefines */ = {
-			isa = PBXGroup;
-			children = (
-				57F0E19F0A48FE20A1D3697E /* SPXAssertionDefines.h */,
-				444F0156993BB141C60F1BF5 /* SPXAssertionsInternal.h */,
-				A3D13A3F9B71B6655850D785 /* SPXAssertionsInternal.m */,
-				8F5CC3630E7B890D0AEEFB5C /* SPXDefines.h */,
-				D2E7B335A15870121AA24745 /* SPXDefinesCommon.h */,
-				B798E5F294381A8A3595DA06 /* SPXDescriptionDefines.h */,
-				5BCF8405C3EF0883795D9424 /* SPXDescriptionInternal.h */,
-				DC0CD2CD590FCA4265E333E0 /* SPXEncodingDefines.h */,
-				D94C856F5F837691B49D1E02 /* SPXEncodingInternals.h */,
-				5D8EED867E4F39A41BA46305 /* SPXLoggingDefines.h */,
-				370080C912195AAC1D603634 /* SPXLoggingInternal.h */,
-				11CC970EE70DD4A907DBE6B9 /* SPXLoggingInternal.m */,
-				C2B4A73D575811D0C606CD0E /* Asserts */,
-				10077B1FB617A8CCD0EA0BF4 /* Description */,
-				0B9CE8B12C5026AB1A70C5FA /* Encoding */,
-				06A1D14CEFA3B80A41F5B763 /* Logging */,
-				B03760C4FA10C589D5FAE919 /* Support Files */,
-			);
-			path = SPXDefines;
-			sourceTree = "<group>";
-		};
-		30B4CB4FE980EF6A531C904B /* Pods-SPXControls */ = {
-			isa = PBXGroup;
-			children = (
-				4F6E39F34E04403F18AF6B84 /* Pods-SPXControls-acknowledgements.markdown */,
-				7D2DD0DC2E507F86CB25F660 /* Pods-SPXControls-acknowledgements.plist */,
-				8603136C1764699D464C6C4B /* Pods-SPXControls-dummy.m */,
-				0DD3410AA18FABD1F003A410 /* Pods-SPXControls-environment.h */,
-				B0A79DDBE4BCCD19AF3BC1D8 /* Pods-SPXControls-resources.sh */,
-				DEA1F4E2BFAB5B6F759D88A4 /* Pods-SPXControls.debug.xcconfig */,
-				6CF4898BF24C37079CCB0A3E /* Pods-SPXControls.release.xcconfig */,
-			);
-			name = "Pods-SPXControls";
-			path = "Target Support Files/Pods-SPXControls";
-			sourceTree = "<group>";
-		};
-		45F701882275F350C63464BC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E73EE4EAE4B343D2B5EC940D /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		4C1563E7379E5E3C1CF9F143 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9B6235B0FC118A614148BA23 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		90B9ECF28979D4555893E409 /* SPXDataValidators */ = {
-			isa = PBXGroup;
-			children = (
-				B7AD9F0E61951319409FF0C7 /* SPXBlockDataValidator.h */,
-				3EC91EE13361CE59AC6EC46D /* SPXBlockDataValidator.m */,
-				F70D71D5E40ADA837BCB4700 /* SPXCompoundDataValidator.h */,
-				320EC1777BE1D7AA94E8F1C8 /* SPXCompoundDataValidator.m */,
-				79F94921D032429FB1D4380F /* SPXDataField.h */,
-				943478D0652D9F4AEEF2B4EE /* SPXDataValidator.h */,
-				E304433290056EFFFCAF50FC /* SPXFormValidator.h */,
-				05254E8DBDB5FB6AA2E8A5EA /* SPXFormValidator.m */,
-				F3527DC615C25112ECB16103 /* SPXNonEmptyDataValidator.h */,
-				9C111102DFD3D3F682F07205 /* SPXNonEmptyDataValidator.m */,
-				974636D07EFF84120381F1F6 /* SPXPasswordValidationField.h */,
-				45E5FACA0A1DE748535814E5 /* SPXPasswordValidationField.m */,
-				DDC9CC6E0746A6359A19BADA /* SPXRegexDataValidator.h */,
-				C45B2C038B1C07DDF1C023C6 /* SPXRegexDataValidator.m */,
-				D89AE7F2A0D951D0C045A559 /* UITextField+SPXDataValidatorAdditions.h */,
-				AE988A4A9FDEA4787ED8F41A /* UITextField+SPXDataValidatorAdditions.m */,
-				AA88D0C192BF2DD1BF02949D /* UITextView+SPXDataValidatorAdditions.h */,
-				E61BEE9249183C89972F1A46 /* UITextView+SPXDataValidatorAdditions.m */,
-				EC7DCF6893616CE865324F20 /* Support Files */,
-			);
-			path = SPXDataValidators;
-			sourceTree = "<group>";
-		};
-		9603D45E86FA5C60D423BA9F /* SPXControls */ = {
-			isa = PBXGroup;
-			children = (
-				45F701882275F350C63464BC /* Pod */,
-				BD1F9E37007AA643B0734897 /* Support Files */,
+				BA9504E0AA0727D11246D061 /* Pod */,
+				BD4CDA015B8FAE21F3AA2A0E /* Support Files */,
 			);
 			name = SPXControls;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		9B6235B0FC118A614148BA23 /* iOS */ = {
+		156DA46F49C0D83A59FC2B13 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CCD511826E4D1B3CE403E6AC /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9CE27C69AF5881760D88294F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9603D45E86FA5C60D423BA9F /* SPXControls */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A1F6E0743B502C298B5DA430 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2BC458615412A6DD59A205E5 /* Pods-Tests-acknowledgements.markdown */,
-				2744ED7E264CDC0C91A10562 /* Pods-Tests-acknowledgements.plist */,
-				514EFA8AAC5618623A0E4427 /* Pods-Tests-dummy.m */,
-				9C8465EEB39380BEC804313F /* Pods-Tests-environment.h */,
-				5337E3C044EB9D655B9FBA5D /* Pods-Tests-resources.sh */,
-				93FE9662EB7CA7042CB4020D /* Pods-Tests.debug.xcconfig */,
-				D59348DFD5DA486FCD43F3E1 /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		B03760C4FA10C589D5FAE919 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				631331D994B517FDB2C0F457 /* Pods-SPXControls-SPXDefines.xcconfig */,
-				802C02761C4D1EF6B66939D8 /* Pods-SPXControls-SPXDefines-Private.xcconfig */,
-				87145C873BEC9F3A979B5C29 /* Pods-SPXControls-SPXDefines-dummy.m */,
-				BC389DFD7DD16916F0962F90 /* Pods-SPXControls-SPXDefines-prefix.pch */,
-				7D2C1FE8E2F378C757C5595B /* Pods-Tests-SPXDefines.xcconfig */,
-				18A659CE50D7E28A2A586352 /* Pods-Tests-SPXDefines-Private.xcconfig */,
-				C24A1DBC66882F9D6A6B63CE /* Pods-Tests-SPXDefines-dummy.m */,
-				7390BADC9C2628EF6E3A5AB6 /* Pods-Tests-SPXDefines-prefix.pch */,
+				0C7AAF8CF0457E352F9BC920 /* Pods-SPXControls-SPXDefines.xcconfig */,
+				40501B1B92281356200BA477 /* Pods-SPXControls-SPXDefines-Private.xcconfig */,
+				C29748842491D70AA6B20EAE /* Pods-SPXControls-SPXDefines-dummy.m */,
+				278902B29F82141DF83346BF /* Pods-SPXControls-SPXDefines-prefix.pch */,
+				14110504A476B1741295F8AD /* Pods-Tests-SPXDefines.xcconfig */,
+				0705846DE51D047B8E01F93E /* Pods-Tests-SPXDefines-Private.xcconfig */,
+				73B3098071A1D5B8B11946C9 /* Pods-Tests-SPXDefines-dummy.m */,
+				E7CD886DC5956717A89ABD58 /* Pods-Tests-SPXDefines-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-SPXControls-SPXDefines";
 			sourceTree = "<group>";
 		};
-		BD1F9E37007AA643B0734897 /* Support Files */ = {
+		25A1D9E37DA3ED061BF3AC04 /* Pods-SPXControls */ = {
 			isa = PBXGroup;
 			children = (
-				18FAF9B5EF9ED32001DCD256 /* Pods-SPXControls-SPXControls.xcconfig */,
-				E8E4568E9565CC584DC1A6E0 /* Pods-SPXControls-SPXControls-Private.xcconfig */,
-				1D95AAE3444FF5818D52AC95 /* Pods-SPXControls-SPXControls-dummy.m */,
-				69EA1EFE0FEAC6961AF89F9C /* Pods-SPXControls-SPXControls-prefix.pch */,
-				308C1F75A8DC4A63AACB590B /* Pods-Tests-SPXControls.xcconfig */,
-				55BCD93FC8C6DA0B019B59B4 /* Pods-Tests-SPXControls-Private.xcconfig */,
-				2094507C3D3ADDB1385D39F0 /* Pods-Tests-SPXControls-dummy.m */,
-				EBE03CB096EF3F700849AA01 /* Pods-Tests-SPXControls-prefix.pch */,
+				D1ACDCDBD695555B5F1EC7AB /* Pods-SPXControls-acknowledgements.markdown */,
+				5C5CFD6A7EB4661EE68351BD /* Pods-SPXControls-acknowledgements.plist */,
+				E86911B5139EBEB9F6F1DFE2 /* Pods-SPXControls-dummy.m */,
+				09B90427771A9BCACA6FDB31 /* Pods-SPXControls-environment.h */,
+				7E359CEBBE9222A0971CD4F9 /* Pods-SPXControls-resources.sh */,
+				970B21085CE3F58496693EDD /* Pods-SPXControls.debug.xcconfig */,
+				EDC00004E954C5B46E1D258B /* Pods-SPXControls.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-SPXControls-SPXControls";
+			name = "Pods-SPXControls";
+			path = "Target Support Files/Pods-SPXControls";
 			sourceTree = "<group>";
 		};
-		C2B4A73D575811D0C606CD0E /* Asserts */ = {
+		3638D03E2E9438B4C20E31FB /* SPXDefines */ = {
+			isa = PBXGroup;
+			children = (
+				F54FBDEAF577B848B57036DE /* SPXAssertionDefines.h */,
+				18433613D52BDB773820C587 /* SPXAssertionsInternal.h */,
+				4CF6FE27A7CCE69416706471 /* SPXAssertionsInternal.m */,
+				1930BF3D2C0A698DAB948309 /* SPXDefines.h */,
+				1EE994144B85888BD38B0AC8 /* SPXDefinesCommon.h */,
+				671F4A118B70015A81EDAB3D /* SPXDescriptionDefines.h */,
+				AF9567F88B0FCB9E49098FD0 /* SPXDescriptionInternal.h */,
+				6310E144F7388BB1F85DF1A4 /* SPXEncodingDefines.h */,
+				59AC221652E18CB20316381C /* SPXEncodingInternals.h */,
+				3F1B2B9D586C0183015E003B /* SPXLoggingDefines.h */,
+				669D6E060CF4720168660498 /* SPXLoggingInternal.h */,
+				94A7A5FD9B46A5D7E146357F /* SPXLoggingInternal.m */,
+				4E24EF19AE13AD6C3F09CD6B /* Asserts */,
+				874651899C6D5373A8453026 /* Description */,
+				925B4981218BBB6023CB53DA /* Encoding */,
+				0D43C165BAB4BE8636375311 /* Logging */,
+				156DA46F49C0D83A59FC2B13 /* Support Files */,
+			);
+			path = SPXDefines;
+			sourceTree = "<group>";
+		};
+		4E24EF19AE13AD6C3F09CD6B /* Asserts */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Asserts;
 			sourceTree = "<group>";
 		};
-		C2FD468840F33B33E74512D5 = {
+		643BF5F0FC2AF28FBFEEB83B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F44E800535683CCB6493526 /* Podfile */,
-				9CE27C69AF5881760D88294F /* Development Pods */,
-				4C1563E7379E5E3C1CF9F143 /* Frameworks */,
-				1603A89DA10D2E3A6A8DF6F0 /* Pods */,
-				0D213CDC888F533CC71605FE /* Products */,
-				1A2B295B3AA0B5E462B1FA0D /* Targets Support Files */,
+				153140E9CFB3491D271A938B /* SPXControls */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6EAC8AA83FDE21760C421F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6C535605B9DE195A2C57A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE6C535605B9DE195A2C57A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3459909E6B7D63E6934A93B4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		874651899C6D5373A8453026 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Description;
+			sourceTree = "<group>";
+		};
+		925B4981218BBB6023CB53DA /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Encoding;
+			sourceTree = "<group>";
+		};
+		93B34E3C68925F72FACBF138 = {
+			isa = PBXGroup;
+			children = (
+				F7076F3F63A39A831046EA13 /* Podfile */,
+				643BF5F0FC2AF28FBFEEB83B /* Development Pods */,
+				6EAC8AA83FDE21760C421F97 /* Frameworks */,
+				021AFABEC459F676E5554DB2 /* Pods */,
+				C1D3DDC2F750175FCCCF6B37 /* Products */,
+				C11D4B521756037799E6E1B2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E73EE4EAE4B343D2B5EC940D /* Classes */ = {
+		B8B0000763BEACC40AA28E3D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				713EFB8E38107ED97A1A9D71 /* SPXTextField.h */,
-				A9A70328DD20856BF1273FF9 /* SPXTextField.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		EC7DCF6893616CE865324F20 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				411D02DC16F1E891B1A85A7B /* Pods-SPXControls-SPXDataValidators.xcconfig */,
-				EA9AA6EC7ACFD61AC3E42ABE /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */,
-				15019357B2F209296DE1DE2B /* Pods-SPXControls-SPXDataValidators-dummy.m */,
-				2CCB12D56441F43CCA4B0E64 /* Pods-SPXControls-SPXDataValidators-prefix.pch */,
-				402FD4D6466B74ACB82ACB59 /* Pods-Tests-SPXDataValidators.xcconfig */,
-				1FCE28EC002BDCEC903EDFA0 /* Pods-Tests-SPXDataValidators-Private.xcconfig */,
-				859E1E54FFFE606ACFEF35FB /* Pods-Tests-SPXDataValidators-dummy.m */,
-				DCFB21BEFC8CAEDEA01C5835 /* Pods-Tests-SPXDataValidators-prefix.pch */,
+				9ACCED3402DE28FC7F19AA0A /* Pods-SPXControls-SPXDataValidators.xcconfig */,
+				53C31069CFD28D751B631874 /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */,
+				04967CFEB98CD118EE0A0995 /* Pods-SPXControls-SPXDataValidators-dummy.m */,
+				ABBA9E99F5EA851CB33FC4FE /* Pods-SPXControls-SPXDataValidators-prefix.pch */,
+				7F8AB649C112C9E641E40EFA /* Pods-Tests-SPXDataValidators.xcconfig */,
+				C8094DD681520BA56AA72694 /* Pods-Tests-SPXDataValidators-Private.xcconfig */,
+				7B1FC22324AD6613940297F0 /* Pods-Tests-SPXDataValidators-dummy.m */,
+				63B5159F4300040579886FDD /* Pods-Tests-SPXDataValidators-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-SPXControls-SPXDataValidators";
 			sourceTree = "<group>";
 		};
+		BA9504E0AA0727D11246D061 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D625DA4647C3A653715147D5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BD4CDA015B8FAE21F3AA2A0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				789F4A1C9160CB893A7F51ED /* Pods-SPXControls-SPXControls.xcconfig */,
+				3A6DAD666ECFE1BE25A97AE2 /* Pods-SPXControls-SPXControls-Private.xcconfig */,
+				E8D69D5532D77FE6546B7AA2 /* Pods-SPXControls-SPXControls-dummy.m */,
+				61A6D751D32329DDA1E949DA /* Pods-SPXControls-SPXControls-prefix.pch */,
+				A56FD08F256A3F909974EC78 /* Pods-Tests-SPXControls.xcconfig */,
+				9D2215B791BAA0C57CC1FB4E /* Pods-Tests-SPXControls-Private.xcconfig */,
+				2EBAFABED382AE7AFB2E0D59 /* Pods-Tests-SPXControls-dummy.m */,
+				EE4174236417E17BD444D3BF /* Pods-Tests-SPXControls-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SPXControls-SPXControls";
+			sourceTree = "<group>";
+		};
+		C11D4B521756037799E6E1B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A1D9E37DA3ED061BF3AC04 /* Pods-SPXControls */,
+				EC44D50576EC86108A5EDB96 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1D3DDC2F750175FCCCF6B37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECFABB26D43E293C9E74D02 /* libPods-SPXControls.a */,
+				239E58BA4EBCEFE478D7B92F /* libPods-SPXControls-SPXControls.a */,
+				39674F2AD61744CF7DCC4F9F /* libPods-SPXControls-SPXDataValidators.a */,
+				1048891C94A987BD930ABAD8 /* libPods-SPXControls-SPXDefines.a */,
+				62ABB7EC8907932D74514BE6 /* libPods-Tests.a */,
+				5092683C84F9AEB2182B4028 /* libPods-Tests-SPXControls.a */,
+				8EBD4F72452E54F358CAB8B9 /* libPods-Tests-SPXDataValidators.a */,
+				93101CA67E4F315E7F37B438 /* libPods-Tests-SPXDefines.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D625DA4647C3A653715147D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95E0F8AF6E7F15E2542D2D36 /* SPXTextField.h */,
+				43239E3DEBDFD68C5F16233C /* SPXTextField.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E1468E3E811AA428D14E60F0 /* SPXDataValidators */ = {
+			isa = PBXGroup;
+			children = (
+				7BD9D0B78CCE3366E057C6AA /* SPXBlockDataValidator.h */,
+				9DDD20EE12A022B15601B2BF /* SPXBlockDataValidator.m */,
+				601514524F2EBE62265B8E2D /* SPXCompoundDataValidator.h */,
+				D09597C6A7420570DC81F80D /* SPXCompoundDataValidator.m */,
+				F75B9A3C530B9A812FACC7AC /* SPXDataField.h */,
+				7F857D77DCEAB64307448996 /* SPXDataValidator.h */,
+				06FDC7666C0499AFF8D1A008 /* SPXFormValidator.h */,
+				61F0616B6811EECDF3F66009 /* SPXFormValidator.m */,
+				16AF6F452A35096F8E45B763 /* SPXNonEmptyDataValidator.h */,
+				CBDFF0C9D07F527447651185 /* SPXNonEmptyDataValidator.m */,
+				DF1AABE6020BE69D09AC09F2 /* SPXPasswordValidationField.h */,
+				E67259AD3CF71A499460E01A /* SPXPasswordValidationField.m */,
+				C709047C144E19FF8075F1F4 /* SPXRegexDataValidator.h */,
+				3EF9E77830047B40B361DAF2 /* SPXRegexDataValidator.m */,
+				D530E4F644AAB3A4BEB6FBD1 /* UITextField+SPXDataValidatorAdditions.h */,
+				E16D96685300B86B94F70DEA /* UITextField+SPXDataValidatorAdditions.m */,
+				49F16843B8BB656C927E8434 /* UITextView+SPXDataValidatorAdditions.h */,
+				D51EE33E9C790EF9BFD60E98 /* UITextView+SPXDataValidatorAdditions.m */,
+				B8B0000763BEACC40AA28E3D /* Support Files */,
+			);
+			path = SPXDataValidators;
+			sourceTree = "<group>";
+		};
+		EC44D50576EC86108A5EDB96 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43C70675029077BCEDDFA109 /* Pods-Tests-acknowledgements.markdown */,
+				0A2C64D4C0671FBD69842EA0 /* Pods-Tests-acknowledgements.plist */,
+				7E2679798D08D663C541B742 /* Pods-Tests-dummy.m */,
+				FFB8C92A7BF85CC6E4E37E15 /* Pods-Tests-environment.h */,
+				6AC80363A79F96605F4D5AA4 /* Pods-Tests-resources.sh */,
+				7BD22915936BB467E1301B79 /* Pods-Tests.debug.xcconfig */,
+				5D7DA8E7FC6AEC4E54E84FBD /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0809C25D996056E7E25680EC /* Headers */ = {
+		32A7A9CEA7467A4D3278C3CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48A9A1276F4B0C0DAB2A400D /* SPXBlockDataValidator.h in Headers */,
-				260DE286A9EE7BC9B75F3281 /* SPXCompoundDataValidator.h in Headers */,
-				F7926A46DA399F9808F9A0C4 /* SPXDataField.h in Headers */,
-				33EF416DAA1106BD894B93A0 /* SPXDataValidator.h in Headers */,
-				3D3EF0FCC6A9E7686D4781E0 /* SPXFormValidator.h in Headers */,
-				5A412D014BB87120FD4A2454 /* SPXNonEmptyDataValidator.h in Headers */,
-				51C364B5B6E05E24C76CE41E /* SPXPasswordValidationField.h in Headers */,
-				1579D1F2D60E72FDE209C180 /* SPXRegexDataValidator.h in Headers */,
-				7C1D9DA0C6520B59E43F5B1E /* UITextField+SPXDataValidatorAdditions.h in Headers */,
-				1928894116E2E71D35F77EE7 /* UITextView+SPXDataValidatorAdditions.h in Headers */,
+				4222CA459CB79569565DFAC3 /* SPXBlockDataValidator.h in Headers */,
+				C7D50370A8F7160F4992A984 /* SPXCompoundDataValidator.h in Headers */,
+				0FBAAE27505A2A867DB48CDE /* SPXDataField.h in Headers */,
+				BDC993DCCAC9DB33C7717BD6 /* SPXDataValidator.h in Headers */,
+				80E09A3CE0CC8E1A0A7DAF28 /* SPXFormValidator.h in Headers */,
+				6072C3C803CB337C699FBDD7 /* SPXNonEmptyDataValidator.h in Headers */,
+				4F4595B91B1682D0C90517A3 /* SPXPasswordValidationField.h in Headers */,
+				9537C7CA2F7E41233771C3D2 /* SPXRegexDataValidator.h in Headers */,
+				420961AD4CA8060BD4E41882 /* UITextField+SPXDataValidatorAdditions.h in Headers */,
+				0128DDE26081BDF6A34FF669 /* UITextView+SPXDataValidatorAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60136EF5825429872A876DA8 /* Headers */ = {
+		37B62391F77BA4246B713CAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A411747BFB99324342DE6873 /* SPXAssertionDefines.h in Headers */,
-				919D1B9D21CF1C2976578B5B /* SPXAssertionsInternal.h in Headers */,
-				4B29406B5439EA4063FEC274 /* SPXDefines.h in Headers */,
-				EF73451A55F310AC14429432 /* SPXDefinesCommon.h in Headers */,
-				B6013EE0683E5B9AA139CDB3 /* SPXDescriptionDefines.h in Headers */,
-				B734E1ACDA7C9382BAF5F3B2 /* SPXDescriptionInternal.h in Headers */,
-				4EF1DD489FEE49E8632BD9AB /* SPXEncodingDefines.h in Headers */,
-				C337DFFBF80651CAC9FF1DFD /* SPXEncodingInternals.h in Headers */,
-				F9ACF77D9B935C26A65ECC67 /* SPXLoggingDefines.h in Headers */,
-				CEC59B2057D5B6181CE25C6C /* SPXLoggingInternal.h in Headers */,
+				C236CE901CF53E646DB6BEC0 /* SPXAssertionDefines.h in Headers */,
+				79818E91230E9B1DED6C0C18 /* SPXAssertionsInternal.h in Headers */,
+				B591F8F68E38297794E6D378 /* SPXDefines.h in Headers */,
+				CD4A384135DDF262DD814B5F /* SPXDefinesCommon.h in Headers */,
+				210B0CBC8C2526CF87672518 /* SPXDescriptionDefines.h in Headers */,
+				047893709098D7F526B7635D /* SPXDescriptionInternal.h in Headers */,
+				6D650AB0C846F070BFE8B927 /* SPXEncodingDefines.h in Headers */,
+				B104EC70D70C75F34C8F4F76 /* SPXEncodingInternals.h in Headers */,
+				939EB837A2AE7CEA37D4A793 /* SPXLoggingDefines.h in Headers */,
+				A1ACE65608C006B95D4084E1 /* SPXLoggingInternal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63C0474593CB7CD06FE576F5 /* Headers */ = {
+		39689B3A3E49C5C7B97A5EFE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1413D218BA7408192BF39CE6 /* SPXAssertionDefines.h in Headers */,
-				C8AE41892959D524AED2A518 /* SPXAssertionsInternal.h in Headers */,
-				21929CEEE27DD05575CEE7E8 /* SPXDefines.h in Headers */,
-				3ABDE2C9F03A06531BDC52E0 /* SPXDefinesCommon.h in Headers */,
-				2668FC54377AC7431FB987A4 /* SPXDescriptionDefines.h in Headers */,
-				108AC6D16B491F8523A02FA5 /* SPXDescriptionInternal.h in Headers */,
-				2A35638E6AC90CCB5122C48A /* SPXEncodingDefines.h in Headers */,
-				D56E343D35562B78A11F4C68 /* SPXEncodingInternals.h in Headers */,
-				8C19992CF9A81DB93BA8ED50 /* SPXLoggingDefines.h in Headers */,
-				653B1C76C3E170B5034D72A7 /* SPXLoggingInternal.h in Headers */,
+				E53AD752647651FEBE989ED1 /* SPXAssertionDefines.h in Headers */,
+				9D94022203963AB9ABE93AEF /* SPXAssertionsInternal.h in Headers */,
+				3EC247D6983248874DE49EDC /* SPXDefines.h in Headers */,
+				7C57FEB6B14FA5E53F21F3FD /* SPXDefinesCommon.h in Headers */,
+				7B54D63CE232D805E8827C6A /* SPXDescriptionDefines.h in Headers */,
+				A5311C4F0FCEE8D18BE4A753 /* SPXDescriptionInternal.h in Headers */,
+				5C9566F5E8A48F6D9C1940D6 /* SPXEncodingDefines.h in Headers */,
+				8EF22AC9608C9C8483DFDC87 /* SPXEncodingInternals.h in Headers */,
+				A28AFC5915357C993BF06CCA /* SPXLoggingDefines.h in Headers */,
+				13699C7970542D6708015860 /* SPXLoggingInternal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82E9A93079080F34B9D5CF9D /* Headers */ = {
+		52A1AD21BA6FB1C90764170A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA253EBFD7F79BC59A8576B0 /* SPXTextField.h in Headers */,
+				ADC3B47E3197F17E92E4D935 /* SPXBlockDataValidator.h in Headers */,
+				C9EA62DF23F7728A1DA31E07 /* SPXCompoundDataValidator.h in Headers */,
+				54E8B9BCD24655F1E9506C45 /* SPXDataField.h in Headers */,
+				3BB322E76804016E40CF9B07 /* SPXDataValidator.h in Headers */,
+				B9DED52ED1291E282FBC8391 /* SPXFormValidator.h in Headers */,
+				60BE2CBCEF03DE750E8DA2C3 /* SPXNonEmptyDataValidator.h in Headers */,
+				C705FEB92B88E20B71F0DDCB /* SPXPasswordValidationField.h in Headers */,
+				6F10488A9E61823BD23E5630 /* SPXRegexDataValidator.h in Headers */,
+				ADBF8FEE088F474BFCEFFD10 /* UITextField+SPXDataValidatorAdditions.h in Headers */,
+				71020BFEC3CCF806B15583D8 /* UITextView+SPXDataValidatorAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2BFC444C95281E3DB3915F /* Headers */ = {
+		B05F1F032CA71D1E06E1B24A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B85052D4DA559FC6D7C907 /* SPXBlockDataValidator.h in Headers */,
-				6B13C229BF9B8757AD16DE71 /* SPXCompoundDataValidator.h in Headers */,
-				031090762434B178667249A9 /* SPXDataField.h in Headers */,
-				5A7AD29F588A8352CE3EEE7F /* SPXDataValidator.h in Headers */,
-				BA1A04A4110515AA06D03AAD /* SPXFormValidator.h in Headers */,
-				2C745979C0BF2FAB10DF37FF /* SPXNonEmptyDataValidator.h in Headers */,
-				198F6A7FCCF4F86B0ECA1D92 /* SPXPasswordValidationField.h in Headers */,
-				437E9A0376F3D6A98813E8CE /* SPXRegexDataValidator.h in Headers */,
-				201B7A70674F9258D595CD26 /* UITextField+SPXDataValidatorAdditions.h in Headers */,
-				AF635905DAD84B7094E8F875 /* UITextView+SPXDataValidatorAdditions.h in Headers */,
+				931F83FF124AED8F6BE267C9 /* SPXTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9FF71972931EA4BF2FD02F2 /* Headers */ = {
+		C78B6C8A7E9BD9616A790C15 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE135712E41373A3D9410E50 /* SPXTextField.h in Headers */,
+				7BA02D5C3CE6DBBCAC72C0AE /* SPXTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		192553CCE8100943FA589050 /* Pods-Tests-SPXDataValidators */ = {
+		1F7AE4A6C05EE58759504E5A /* Pods-Tests-SPXDefines */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64F54ECB2AA7ABE0522D59C5 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDataValidators" */;
+			buildConfigurationList = 7E5239722F2AADB91E2054F4 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDefines" */;
 			buildPhases = (
-				F4C459E9A77A8DD4D678947C /* Sources */,
-				A7EA20B14BFD0849C6ADF782 /* Frameworks */,
-				CB2BFC444C95281E3DB3915F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Tests-SPXDataValidators";
-			productName = "Pods-Tests-SPXDataValidators";
-			productReference = 0DA80AD1F49DD4C039C63650 /* libPods-Tests-SPXDataValidators.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		3C82B482DCAE4FDA227A90F4 /* Pods-SPXControls-SPXDefines */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3F9A483D3BBC1CDB57D4D66 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDefines" */;
-			buildPhases = (
-				1F8262393174BD79676BFC7E /* Sources */,
-				BEFA5111D2B9255DDD9DA061 /* Frameworks */,
-				63C0474593CB7CD06FE576F5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-SPXControls-SPXDefines";
-			productName = "Pods-SPXControls-SPXDefines";
-			productReference = 2906D6EF95814DD8DE8614E3 /* libPods-SPXControls-SPXDefines.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		3F3ADA34799ECAA088208B4B /* Pods-SPXControls-SPXControls */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8358000E1279F62ECBAAED95 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXControls" */;
-			buildPhases = (
-				729B4B7EF65E16D7B4B7DC65 /* Sources */,
-				A3189C92D42FBC93844BA5D3 /* Frameworks */,
-				F9FF71972931EA4BF2FD02F2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4869EBC69E234D26ED8242D7 /* PBXTargetDependency */,
-				1D6A0F977302ACBFE6B7DDFA /* PBXTargetDependency */,
-			);
-			name = "Pods-SPXControls-SPXControls";
-			productName = "Pods-SPXControls-SPXControls";
-			productReference = FEC13B7703329C7E77BC6377 /* libPods-SPXControls-SPXControls.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		55BE41502DB7C691FA828A78 /* Pods-Tests-SPXControls */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA90878C7D5DBEA7EA8040B0 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXControls" */;
-			buildPhases = (
-				2AE75707348D47A439BA7252 /* Sources */,
-				FA8A94BB4D44E8303349A9BE /* Frameworks */,
-				82E9A93079080F34B9D5CF9D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9BCD6C047E3203743F735674 /* PBXTargetDependency */,
-				196277962E871F80135E9365 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-SPXControls";
-			productName = "Pods-Tests-SPXControls";
-			productReference = 54D739C308FB37FF88934559 /* libPods-Tests-SPXControls.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		77E39204BCCA1C82B0D5C93E /* Pods-SPXControls-SPXDataValidators */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A868AB921EB4F22491E535C4 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDataValidators" */;
-			buildPhases = (
-				23F2F6B01E88A8739A66F44B /* Sources */,
-				21DDD262CD4A8D7CD7369FFD /* Frameworks */,
-				0809C25D996056E7E25680EC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-SPXControls-SPXDataValidators";
-			productName = "Pods-SPXControls-SPXDataValidators";
-			productReference = 7E0A127C1C1AC388BD85316C /* libPods-SPXControls-SPXDataValidators.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		89F80B45C1C2741A64A1D45B /* Pods-Tests-SPXDefines */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E36D7B73085B4ADCD1AE781 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDefines" */;
-			buildPhases = (
-				1C885B55E1CCBE7649FDAFED /* Sources */,
-				DF55D606DF17E994FA58E082 /* Frameworks */,
-				60136EF5825429872A876DA8 /* Headers */,
+				F941199FC31157D9E0C99035 /* Sources */,
+				23BA9C70442CB593CEF73CDF /* Frameworks */,
+				39689B3A3E49C5C7B97A5EFE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -758,270 +669,327 @@
 			);
 			name = "Pods-Tests-SPXDefines";
 			productName = "Pods-Tests-SPXDefines";
-			productReference = B875DFB407D9BDC0C34968CE /* libPods-Tests-SPXDefines.a */;
+			productReference = 93101CA67E4F315E7F37B438 /* libPods-Tests-SPXDefines.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BFD02468FE06DB18AF02176D /* Pods-SPXControls */ = {
+		46C39CBE3E31EB1FF22F26EA /* Pods-Tests-SPXDataValidators */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C210E27E37DA093E8678C7AE /* Build configuration list for PBXNativeTarget "Pods-SPXControls" */;
+			buildConfigurationList = FFCCAFD2F6A6D25A1845CD60 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDataValidators" */;
 			buildPhases = (
-				037E7381BED1F7D03A4AF83D /* Sources */,
-				407183C526048F338FA05BF7 /* Frameworks */,
+				3A8C4DF406FCC22E3D6E2317 /* Sources */,
+				56597BD3A70F5C54765DC0B6 /* Frameworks */,
+				52A1AD21BA6FB1C90764170A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FA62B40753FE9D1ED3368DBC /* PBXTargetDependency */,
-				8A5DFB6D3A23810F081E92CE /* PBXTargetDependency */,
-				521FA0913F98A4AD34B78AB5 /* PBXTargetDependency */,
 			);
-			name = "Pods-SPXControls";
-			productName = "Pods-SPXControls";
-			productReference = A17CEAFB0CE6B9438FFEDBF4 /* libPods-SPXControls.a */;
+			name = "Pods-Tests-SPXDataValidators";
+			productName = "Pods-Tests-SPXDataValidators";
+			productReference = 8EBD4F72452E54F358CAB8B9 /* libPods-Tests-SPXDataValidators.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C83EB8B76EA102DE5686225A /* Pods-Tests */ = {
+		6F0910235F3CFA52FA6353BA /* Pods-SPXControls-SPXDefines */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCEB1F3DE76AA93FC4717CAF /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 41EB3B8DA56D398D4AE2292F /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDefines" */;
 			buildPhases = (
-				BBC05F19E0912ECDB9A07216 /* Sources */,
-				8789C6AEA2C48FB888192264 /* Frameworks */,
+				3F0D08BD983663AEA8B0A8D1 /* Sources */,
+				F6A0FA441566B8E9C048610B /* Frameworks */,
+				37B62391F77BA4246B713CAC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1995470F0816898F230281D5 /* PBXTargetDependency */,
-				6F1C6278A0ADB3E56B86A7FD /* PBXTargetDependency */,
-				8855BF31810424F86150D94F /* PBXTargetDependency */,
+			);
+			name = "Pods-SPXControls-SPXDefines";
+			productName = "Pods-SPXControls-SPXDefines";
+			productReference = 1048891C94A987BD930ABAD8 /* libPods-SPXControls-SPXDefines.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		99B0A7EAAB16CEF5985AA3F9 /* Pods-SPXControls-SPXControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FE4C9440BC3107B01A5805 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXControls" */;
+			buildPhases = (
+				CF6533D238E628315A2BF74F /* Sources */,
+				2430C857559A6ACF820721F5 /* Frameworks */,
+				B05F1F032CA71D1E06E1B24A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52C7493023FBC8666E1B978 /* PBXTargetDependency */,
+				1AC8BB3870957B10997FCA30 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPXControls-SPXControls";
+			productName = "Pods-SPXControls-SPXControls";
+			productReference = 239E58BA4EBCEFE478D7B92F /* libPods-SPXControls-SPXControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB3A776A2DFE264944DBC71B /* Pods-SPXControls-SPXDataValidators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D30A61FD6C03B2A9CFC8EA6 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDataValidators" */;
+			buildPhases = (
+				F336F466DD6B025E6B9AA225 /* Sources */,
+				BA606E82982CF026CCF5C096 /* Frameworks */,
+				32A7A9CEA7467A4D3278C3CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SPXControls-SPXDataValidators";
+			productName = "Pods-SPXControls-SPXDataValidators";
+			productReference = 39674F2AD61744CF7DCC4F9F /* libPods-SPXControls-SPXDataValidators.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B780E262284D8018C3452AB9 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF154568F0277026CADD5C1B /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				E6CE4DEAF6FC1FF7C35D62E2 /* Sources */,
+				E6E6277D224A193F1657E516 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80177E58C70C805381C5765 /* PBXTargetDependency */,
+				8AA0D4B355F445F69016FAAD /* PBXTargetDependency */,
+				34AF0D0121D542DFFA060FDC /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = E5D281CD37175F3C204B5401 /* libPods-Tests.a */;
+			productReference = 62ABB7EC8907932D74514BE6 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F04CD695301FE5F700A22EAD /* Pods-Tests-SPXControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5E20E662157D7DF8B89061 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXControls" */;
+			buildPhases = (
+				E05BC6248EB320A00AE8EC04 /* Sources */,
+				DB8E13C2BC4BEC3FE1C8907D /* Frameworks */,
+				C78B6C8A7E9BD9616A790C15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA52C51C2B4C0F4609716327 /* PBXTargetDependency */,
+				59B4EA04D805FA93A9A608F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-SPXControls";
+			productName = "Pods-Tests-SPXControls";
+			productReference = 5092683C84F9AEB2182B4028 /* libPods-Tests-SPXControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F62A55CD713476F2DA159005 /* Pods-SPXControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A900E6FC9346294DA63F4D3A /* Build configuration list for PBXNativeTarget "Pods-SPXControls" */;
+			buildPhases = (
+				8E0F5E9F1C8B7B3B3FD79928 /* Sources */,
+				6443AE36136CB442AFA9F8C7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A2A1C8F9CA07CA5F4ADD848 /* PBXTargetDependency */,
+				17B965F59C353F97623055F0 /* PBXTargetDependency */,
+				9CAA1205479366483D9ABD03 /* PBXTargetDependency */,
+			);
+			name = "Pods-SPXControls";
+			productName = "Pods-SPXControls";
+			productReference = EECFABB26D43E293C9E74D02 /* libPods-SPXControls.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EB71018608D4E33BB9538FF8 /* Project object */ = {
+		52BAC1E3C42CA583ABD55B79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 			};
-			buildConfigurationList = 169534BB789CC962EFB46406 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 3EE51DC6EBD24A0992876956 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C2FD468840F33B33E74512D5;
-			productRefGroup = 0D213CDC888F533CC71605FE /* Products */;
+			mainGroup = 93B34E3C68925F72FACBF138;
+			productRefGroup = C1D3DDC2F750175FCCCF6B37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFD02468FE06DB18AF02176D /* Pods-SPXControls */,
-				3F3ADA34799ECAA088208B4B /* Pods-SPXControls-SPXControls */,
-				77E39204BCCA1C82B0D5C93E /* Pods-SPXControls-SPXDataValidators */,
-				3C82B482DCAE4FDA227A90F4 /* Pods-SPXControls-SPXDefines */,
-				C83EB8B76EA102DE5686225A /* Pods-Tests */,
-				55BE41502DB7C691FA828A78 /* Pods-Tests-SPXControls */,
-				192553CCE8100943FA589050 /* Pods-Tests-SPXDataValidators */,
-				89F80B45C1C2741A64A1D45B /* Pods-Tests-SPXDefines */,
+				F62A55CD713476F2DA159005 /* Pods-SPXControls */,
+				99B0A7EAAB16CEF5985AA3F9 /* Pods-SPXControls-SPXControls */,
+				AB3A776A2DFE264944DBC71B /* Pods-SPXControls-SPXDataValidators */,
+				6F0910235F3CFA52FA6353BA /* Pods-SPXControls-SPXDefines */,
+				B780E262284D8018C3452AB9 /* Pods-Tests */,
+				F04CD695301FE5F700A22EAD /* Pods-Tests-SPXControls */,
+				46C39CBE3E31EB1FF22F26EA /* Pods-Tests-SPXDataValidators */,
+				1F7AE4A6C05EE58759504E5A /* Pods-Tests-SPXDefines */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		037E7381BED1F7D03A4AF83D /* Sources */ = {
+		3A8C4DF406FCC22E3D6E2317 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E52C7059AF711FC22735DB /* Pods-SPXControls-dummy.m in Sources */,
+				E245D1F26C39214EAA5424A9 /* Pods-Tests-SPXDataValidators-dummy.m in Sources */,
+				B6E7CC4C56ED70ED96EE768B /* SPXBlockDataValidator.m in Sources */,
+				0B055D46FCF1A2D0CC5AEDAA /* SPXCompoundDataValidator.m in Sources */,
+				348DA7749BEE4F428F85B682 /* SPXFormValidator.m in Sources */,
+				558FC0AB7D94CA4FF29A2988 /* SPXNonEmptyDataValidator.m in Sources */,
+				728BFE65A4033122D2DE0C30 /* SPXPasswordValidationField.m in Sources */,
+				6FD56F07A68F63292E783E27 /* SPXRegexDataValidator.m in Sources */,
+				66966000A6D97DAE7A226BF8 /* UITextField+SPXDataValidatorAdditions.m in Sources */,
+				F446EE30B6DA0B8D561E9BB2 /* UITextView+SPXDataValidatorAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C885B55E1CCBE7649FDAFED /* Sources */ = {
+		3F0D08BD983663AEA8B0A8D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA79B06EDC511D8B62E3212 /* Pods-Tests-SPXDefines-dummy.m in Sources */,
-				0CAA0FD87E19538CC6AF47B5 /* SPXAssertionsInternal.m in Sources */,
-				CEC27B78370237A2772387BE /* SPXLoggingInternal.m in Sources */,
+				213F1E9CAA456235978E4D45 /* Pods-SPXControls-SPXDefines-dummy.m in Sources */,
+				BF6E89BCF088BB0F8BA6A74F /* SPXAssertionsInternal.m in Sources */,
+				9B3A5AB9C02C5CAC68B557E8 /* SPXLoggingInternal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F8262393174BD79676BFC7E /* Sources */ = {
+		8E0F5E9F1C8B7B3B3FD79928 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0A21B229BBFA29C1B1231C /* Pods-SPXControls-SPXDefines-dummy.m in Sources */,
-				5B3DB79084847F344FFE8D29 /* SPXAssertionsInternal.m in Sources */,
-				7E76E14E9DE31B60CB798692 /* SPXLoggingInternal.m in Sources */,
+				9A15C0D3D8959E2A66B80374 /* Pods-SPXControls-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23F2F6B01E88A8739A66F44B /* Sources */ = {
+		CF6533D238E628315A2BF74F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1757900B77AA535D620C11B /* Pods-SPXControls-SPXDataValidators-dummy.m in Sources */,
-				78461723B2BE5C9B108617A3 /* SPXBlockDataValidator.m in Sources */,
-				E76D6C2269FF7C1C7308F96C /* SPXCompoundDataValidator.m in Sources */,
-				7ED62CF960F6B8D36D541231 /* SPXFormValidator.m in Sources */,
-				9BB9077DAA8A9FAB0F235C1C /* SPXNonEmptyDataValidator.m in Sources */,
-				EB243906DAC1B1DCD07017CB /* SPXPasswordValidationField.m in Sources */,
-				ECC5E3D84B647B549B868CCA /* SPXRegexDataValidator.m in Sources */,
-				62E3D1F044BE27B638A02781 /* UITextField+SPXDataValidatorAdditions.m in Sources */,
-				21DC965DB71773A97367B462 /* UITextView+SPXDataValidatorAdditions.m in Sources */,
+				38805263F4E782A7DEC4EB48 /* Pods-SPXControls-SPXControls-dummy.m in Sources */,
+				4A19D57203831480F7ED06FB /* SPXTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AE75707348D47A439BA7252 /* Sources */ = {
+		E05BC6248EB320A00AE8EC04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67CB3964A47A600B3DE04FC7 /* Pods-Tests-SPXControls-dummy.m in Sources */,
-				33D1D052DD8DCEB660FF2D14 /* SPXTextField.m in Sources */,
+				48E58247D8416623DEB5AFB9 /* Pods-Tests-SPXControls-dummy.m in Sources */,
+				AA023B7E031402CEE87C9383 /* SPXTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		729B4B7EF65E16D7B4B7DC65 /* Sources */ = {
+		E6CE4DEAF6FC1FF7C35D62E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBD1F43A6F6119AE32D7EFF /* Pods-SPXControls-SPXControls-dummy.m in Sources */,
-				8EDFB2B87C577AC92DB5FCD7 /* SPXTextField.m in Sources */,
+				4A84509C0B7DD59F419CC7D0 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBC05F19E0912ECDB9A07216 /* Sources */ = {
+		F336F466DD6B025E6B9AA225 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED437AEED92BFB6E05A6884 /* Pods-Tests-dummy.m in Sources */,
+				84CA961D1F74F1E3FFDA2AB4 /* Pods-SPXControls-SPXDataValidators-dummy.m in Sources */,
+				3C663EA099E2A905A405FA92 /* SPXBlockDataValidator.m in Sources */,
+				CE48C90F6097A8D9E135307A /* SPXCompoundDataValidator.m in Sources */,
+				53CEF3BBD30DCBCD78844F91 /* SPXFormValidator.m in Sources */,
+				770F409FDB5EF3A96377F1FB /* SPXNonEmptyDataValidator.m in Sources */,
+				58F520063694A6A7A254139A /* SPXPasswordValidationField.m in Sources */,
+				D8568C729DC6383B81768BF5 /* SPXRegexDataValidator.m in Sources */,
+				032B541648881C28F4B14E2F /* UITextField+SPXDataValidatorAdditions.m in Sources */,
+				F96FE57AEFAE5FC6EE8F65C7 /* UITextView+SPXDataValidatorAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4C459E9A77A8DD4D678947C /* Sources */ = {
+		F941199FC31157D9E0C99035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F69EFD1797FB3E19A379B3 /* Pods-Tests-SPXDataValidators-dummy.m in Sources */,
-				A46FE1DA128FBD19993959AF /* SPXBlockDataValidator.m in Sources */,
-				F049E7D61E077905CD22BF01 /* SPXCompoundDataValidator.m in Sources */,
-				CC1DD70A969A8C41B7EB5313 /* SPXFormValidator.m in Sources */,
-				5AABC75B725EF7CBA7E57C87 /* SPXNonEmptyDataValidator.m in Sources */,
-				9C6FF839272E1F3E0A730C50 /* SPXPasswordValidationField.m in Sources */,
-				2BBEC8E00DD3774582602BC4 /* SPXRegexDataValidator.m in Sources */,
-				A4E1EA40368A357E261EE270 /* UITextField+SPXDataValidatorAdditions.m in Sources */,
-				DC0EF5AB8EA6745E346EB9FA /* UITextView+SPXDataValidatorAdditions.m in Sources */,
+				7FC57D3F337452E1B0A5FE44 /* Pods-Tests-SPXDefines-dummy.m in Sources */,
+				4157AAC94147CE645F32770A /* SPXAssertionsInternal.m in Sources */,
+				2F39D3F4ED59B4CF990676F4 /* SPXLoggingInternal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		196277962E871F80135E9365 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-SPXDefines";
-			target = 89F80B45C1C2741A64A1D45B /* Pods-Tests-SPXDefines */;
-			targetProxy = 4410B78A918C01C2813FAFA0 /* PBXContainerItemProxy */;
-		};
-		1995470F0816898F230281D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-SPXControls";
-			target = 55BE41502DB7C691FA828A78 /* Pods-Tests-SPXControls */;
-			targetProxy = 61752DD9A919D8D1F1B3A8E8 /* PBXContainerItemProxy */;
-		};
-		1D6A0F977302ACBFE6B7DDFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SPXControls-SPXDefines";
-			target = 3C82B482DCAE4FDA227A90F4 /* Pods-SPXControls-SPXDefines */;
-			targetProxy = 0CCA6257F755FF33CD7666F2 /* PBXContainerItemProxy */;
-		};
-		4869EBC69E234D26ED8242D7 /* PBXTargetDependency */ = {
+		17B965F59C353F97623055F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SPXControls-SPXDataValidators";
-			target = 77E39204BCCA1C82B0D5C93E /* Pods-SPXControls-SPXDataValidators */;
-			targetProxy = F9F28E1C148B5A8878995D17 /* PBXContainerItemProxy */;
+			target = AB3A776A2DFE264944DBC71B /* Pods-SPXControls-SPXDataValidators */;
+			targetProxy = CAA55CDD58F187FB9E32FE7C /* PBXContainerItemProxy */;
 		};
-		521FA0913F98A4AD34B78AB5 /* PBXTargetDependency */ = {
+		1AC8BB3870957B10997FCA30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SPXControls-SPXDefines";
-			target = 3C82B482DCAE4FDA227A90F4 /* Pods-SPXControls-SPXDefines */;
-			targetProxy = 8051966BE941065CF14C96C2 /* PBXContainerItemProxy */;
+			target = 6F0910235F3CFA52FA6353BA /* Pods-SPXControls-SPXDefines */;
+			targetProxy = 4010737AE2E36CCF16161E74 /* PBXContainerItemProxy */;
 		};
-		6F1C6278A0ADB3E56B86A7FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-SPXDataValidators";
-			target = 192553CCE8100943FA589050 /* Pods-Tests-SPXDataValidators */;
-			targetProxy = D4F6C1CB1FB77596DF454FE9 /* PBXContainerItemProxy */;
-		};
-		8855BF31810424F86150D94F /* PBXTargetDependency */ = {
+		34AF0D0121D542DFFA060FDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-SPXDefines";
-			target = 89F80B45C1C2741A64A1D45B /* Pods-Tests-SPXDefines */;
-			targetProxy = B345233B07A875F03818334B /* PBXContainerItemProxy */;
+			target = 1F7AE4A6C05EE58759504E5A /* Pods-Tests-SPXDefines */;
+			targetProxy = 408DDFF2D1C99803602F66F3 /* PBXContainerItemProxy */;
 		};
-		8A5DFB6D3A23810F081E92CE /* PBXTargetDependency */ = {
+		59B4EA04D805FA93A9A608F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-SPXControls-SPXDataValidators";
-			target = 77E39204BCCA1C82B0D5C93E /* Pods-SPXControls-SPXDataValidators */;
-			targetProxy = 1125D4864EB8D6EA3951F93E /* PBXContainerItemProxy */;
+			name = "Pods-Tests-SPXDefines";
+			target = 1F7AE4A6C05EE58759504E5A /* Pods-Tests-SPXDefines */;
+			targetProxy = 22A49EAAB09F9DB0DDEF7610 /* PBXContainerItemProxy */;
 		};
-		9BCD6C047E3203743F735674 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-SPXDataValidators";
-			target = 192553CCE8100943FA589050 /* Pods-Tests-SPXDataValidators */;
-			targetProxy = 81F303AE4A5567137DEEFDE6 /* PBXContainerItemProxy */;
-		};
-		FA62B40753FE9D1ED3368DBC /* PBXTargetDependency */ = {
+		7A2A1C8F9CA07CA5F4ADD848 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SPXControls-SPXControls";
-			target = 3F3ADA34799ECAA088208B4B /* Pods-SPXControls-SPXControls */;
-			targetProxy = 5B7C8AA967AC5665FA110D07 /* PBXContainerItemProxy */;
+			target = 99B0A7EAAB16CEF5985AA3F9 /* Pods-SPXControls-SPXControls */;
+			targetProxy = A78CE30147190035C17C1B9C /* PBXContainerItemProxy */;
+		};
+		8AA0D4B355F445F69016FAAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SPXDataValidators";
+			target = 46C39CBE3E31EB1FF22F26EA /* Pods-Tests-SPXDataValidators */;
+			targetProxy = C8313BB1C57591D7EBD0C4A7 /* PBXContainerItemProxy */;
+		};
+		9CAA1205479366483D9ABD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPXControls-SPXDefines";
+			target = 6F0910235F3CFA52FA6353BA /* Pods-SPXControls-SPXDefines */;
+			targetProxy = 11D439F59EB9BB7AA659BA28 /* PBXContainerItemProxy */;
+		};
+		A52C7493023FBC8666E1B978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SPXControls-SPXDataValidators";
+			target = AB3A776A2DFE264944DBC71B /* Pods-SPXControls-SPXDataValidators */;
+			targetProxy = A8E9567638671917B2ABD60E /* PBXContainerItemProxy */;
+		};
+		A80177E58C70C805381C5765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SPXControls";
+			target = F04CD695301FE5F700A22EAD /* Pods-Tests-SPXControls */;
+			targetProxy = 41FDC6DB468AD327840113F2 /* PBXContainerItemProxy */;
+		};
+		DA52C51C2B4C0F4609716327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-SPXDataValidators";
+			target = 46C39CBE3E31EB1FF22F26EA /* Pods-Tests-SPXDataValidators */;
+			targetProxy = 7DA36F1340622ED9567865AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1AA9EF8938B9BE8F21EAD241 /* Release */ = {
+		00F022840D8E4B9E04E321AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D59348DFD5DA486FCD43F3E1 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 0705846DE51D047B8E01F93E /* Pods-Tests-SPXDefines-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		2281B815BE05326BB38D0E54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA9AA6EC7ACFD61AC3E42ABE /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDataValidators/Pods-SPXControls-SPXDataValidators-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		373A116EB34B0BC0BF3968EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55BCD93FC8C6DA0B019B59B4 /* Pods-Tests-SPXControls-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1032,41 +1000,9 @@
 			};
 			name = Debug;
 		};
-		39950434956067B204E5F94A /* Release */ = {
+		03A16C824462BEEE0BBD795D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8E4568E9565CC584DC1A6E0 /* Pods-SPXControls-SPXControls-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXControls/Pods-SPXControls-SPXControls-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		43C91BDD222FABDC10E94EAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FCE28EC002BDCEC903EDFA0 /* Pods-Tests-SPXDataValidators-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		582ACB6BD1C01EFBEDEAC7AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA9AA6EC7ACFD61AC3E42ABE /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */;
+			baseConfigurationReference = 53C31069CFD28D751B631874 /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDataValidators/Pods-SPXControls-SPXDataValidators-prefix.pch";
@@ -1080,9 +1016,9 @@
 			};
 			name = Debug;
 		};
-		6E4AB1501636C9845A3C85BF /* Release */ = {
+		062E1F3337ECD3D2BC959645 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18A659CE50D7E28A2A586352 /* Pods-Tests-SPXDefines-Private.xcconfig */;
+			baseConfigurationReference = 0705846DE51D047B8E01F93E /* Pods-Tests-SPXDefines-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-prefix.pch";
@@ -1096,25 +1032,9 @@
 			};
 			name = Release;
 		};
-		909936A0BBC1C555FFF78200 /* Debug */ = {
+		08F6BF9986F2A7D40790B29C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8E4568E9565CC584DC1A6E0 /* Pods-SPXControls-SPXControls-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXControls/Pods-SPXControls-SPXControls-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		93B33D50957C38DA88452610 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55BCD93FC8C6DA0B019B59B4 /* Pods-Tests-SPXControls-Private.xcconfig */;
+			baseConfigurationReference = 9D2215B791BAA0C57CC1FB4E /* Pods-Tests-SPXControls-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch";
@@ -1128,7 +1048,119 @@
 			};
 			name = Release;
 		};
-		AB77FB32D2381BC63E9A06CA /* Release */ = {
+		0AFF03CFDDF414E1876F38B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40501B1B92281356200BA477 /* Pods-SPXControls-SPXDefines-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDefines/Pods-SPXControls-SPXDefines-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		19A41709EBAEC907818517BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2215B791BAA0C57CC1FB4E /* Pods-Tests-SPXControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXControls/Pods-Tests-SPXControls-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		62FB63F179CA4C56E1BD06A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970B21085CE3F58496693EDD /* Pods-SPXControls.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7963CF17D0C981DA8784CF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6DAD666ECFE1BE25A97AE2 /* Pods-SPXControls-SPXControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXControls/Pods-SPXControls-SPXControls-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7FD62A9A3050AF6672533C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6DAD666ECFE1BE25A97AE2 /* Pods-SPXControls-SPXControls-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXControls/Pods-SPXControls-SPXControls-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8562CAC48E307EF9A2EA54EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40501B1B92281356200BA477 /* Pods-SPXControls-SPXDefines-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDefines/Pods-SPXControls-SPXDefines-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		990CA993B4F530B34C3801B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C31069CFD28D751B631874 /* Pods-SPXControls-SPXDataValidators-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDataValidators/Pods-SPXControls-SPXDataValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A938B344D911C82CCF2BE28F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1161,13 +1193,13 @@
 			};
 			name = Release;
 		};
-		B23E85EA4F1440DE50804127 /* Debug */ = {
+		BA53E5AC6D37D1DFCC75AE5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEA1F4E2BFAB5B6F759D88A4 /* Pods-SPXControls.debug.xcconfig */;
+			baseConfigurationReference = 5D7DA8E7FC6AEC4E54E84FBD /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1175,9 +1207,25 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
+			name = Release;
+		};
+		D37E519333B09198021D441A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8094DD681520BA56AA72694 /* Pods-Tests-SPXDataValidators-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
 			name = Debug;
 		};
-		B3C9108C5CD45A4C01A4C6CD /* Debug */ = {
+		DD3613F4324C347CECC9BBD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1215,45 +1263,13 @@
 			};
 			name = Debug;
 		};
-		B649EE09CED707777938E817 /* Release */ = {
+		E4009555810DD10A70C352C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 802C02761C4D1EF6B66939D8 /* Pods-SPXControls-SPXDefines-Private.xcconfig */;
+			baseConfigurationReference = 7BD22915936BB467E1301B79 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDefines/Pods-SPXControls-SPXDefines-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C2899CB0215ED7A6D614A004 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18A659CE50D7E28A2A586352 /* Pods-Tests-SPXDefines-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDefines/Pods-Tests-SPXDefines-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C70B472A18E671D51E652E67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CF4898BF24C37079CCB0A3E /* Pods-SPXControls.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1261,47 +1277,31 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
-		};
-		F393DD75A20D6A2BC7D84CB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 802C02761C4D1EF6B66939D8 /* Pods-SPXControls-SPXDefines-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SPXControls-SPXDefines/Pods-SPXControls-SPXDefines-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
 			name = Debug;
 		};
-		F5FFAEBE46DAE7973DB359CD /* Debug */ = {
+		ED68C32070C3DF80D5289B9D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FCE28EC002BDCEC903EDFA0 /* Pods-Tests-SPXDataValidators-Private.xcconfig */;
+			baseConfigurationReference = C8094DD681520BA56AA72694 /* Pods-Tests-SPXDataValidators-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-SPXDataValidators/Pods-Tests-SPXDataValidators-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		FD8893184280E56893706E44 /* Debug */ = {
+		F55005C9A880C1FDA7AEC3A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93FE9662EB7CA7042CB4020D /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = EDC00004E954C5B46E1D258B /* Pods-SPXControls.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1309,93 +1309,93 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		169534BB789CC962EFB46406 /* Build configuration list for PBXProject "Pods" */ = {
+		3EE51DC6EBD24A0992876956 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3C9108C5CD45A4C01A4C6CD /* Debug */,
-				AB77FB32D2381BC63E9A06CA /* Release */,
+				DD3613F4324C347CECC9BBD2 /* Debug */,
+				A938B344D911C82CCF2BE28F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E36D7B73085B4ADCD1AE781 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDefines" */ = {
+		41EB3B8DA56D398D4AE2292F /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDefines" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2899CB0215ED7A6D614A004 /* Debug */,
-				6E4AB1501636C9845A3C85BF /* Release */,
+				8562CAC48E307EF9A2EA54EE /* Debug */,
+				0AFF03CFDDF414E1876F38B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64F54ECB2AA7ABE0522D59C5 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDataValidators" */ = {
+		7E5239722F2AADB91E2054F4 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDefines" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5FFAEBE46DAE7973DB359CD /* Debug */,
-				43C91BDD222FABDC10E94EAC /* Release */,
+				00F022840D8E4B9E04E321AF /* Debug */,
+				062E1F3337ECD3D2BC959645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8358000E1279F62ECBAAED95 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXControls" */ = {
+		9D30A61FD6C03B2A9CFC8EA6 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDataValidators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				909936A0BBC1C555FFF78200 /* Debug */,
-				39950434956067B204E5F94A /* Release */,
+				03A16C824462BEEE0BBD795D /* Debug */,
+				990CA993B4F530B34C3801B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A868AB921EB4F22491E535C4 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDataValidators" */ = {
+		A900E6FC9346294DA63F4D3A /* Build configuration list for PBXNativeTarget "Pods-SPXControls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				582ACB6BD1C01EFBEDEAC7AA /* Debug */,
-				2281B815BE05326BB38D0E54 /* Release */,
+				62FB63F179CA4C56E1BD06A5 /* Debug */,
+				F55005C9A880C1FDA7AEC3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA90878C7D5DBEA7EA8040B0 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXControls" */ = {
+		CF154568F0277026CADD5C1B /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				373A116EB34B0BC0BF3968EA /* Debug */,
-				93B33D50957C38DA88452610 /* Release */,
+				E4009555810DD10A70C352C8 /* Debug */,
+				BA53E5AC6D37D1DFCC75AE5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C210E27E37DA093E8678C7AE /* Build configuration list for PBXNativeTarget "Pods-SPXControls" */ = {
+		E7FE4C9440BC3107B01A5805 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXControls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B23E85EA4F1440DE50804127 /* Debug */,
-				C70B472A18E671D51E652E67 /* Release */,
+				7FD62A9A3050AF6672533C20 /* Debug */,
+				7963CF17D0C981DA8784CF32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3F9A483D3BBC1CDB57D4D66 /* Build configuration list for PBXNativeTarget "Pods-SPXControls-SPXDefines" */ = {
+		FD5E20E662157D7DF8B89061 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXControls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F393DD75A20D6A2BC7D84CB9 /* Debug */,
-				B649EE09CED707777938E817 /* Release */,
+				19A41709EBAEC907818517BE /* Debug */,
+				08F6BF9986F2A7D40790B29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCEB1F3DE76AA93FC4717CAF /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		FFCCAFD2F6A6D25A1845CD60 /* Build configuration list for PBXNativeTarget "Pods-Tests-SPXDataValidators" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD8893184280E56893706E44 /* Debug */,
-				1AA9EF8938B9BE8F21EAD241 /* Release */,
+				D37E519333B09198021D441A /* Debug */,
+				ED68C32070C3DF80D5289B9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EB71018608D4E33BB9538FF8 /* Project object */;
+	rootObject = 52BAC1E3C42CA583ABD55B79 /* Project object */;
 }

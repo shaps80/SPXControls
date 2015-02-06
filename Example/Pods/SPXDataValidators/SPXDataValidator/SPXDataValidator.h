@@ -12,6 +12,7 @@
 /**
  *  Defines a protocol for validating data. Common usage would include form validation
  */
+IB_DESIGNABLE
 @protocol SPXDataValidator <NSObject>
 
 

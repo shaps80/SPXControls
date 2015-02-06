@@ -1,49 +1,101 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gu2-La-c2f">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Sign In-->
+        <scene sceneID="bp8-eK-K7b">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="SPXViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <tableViewController id="b05-R6-eZE" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="5zf-t4-rBS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="placeholder" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3vb-yd-KJ2" customClass="SPXTextField">
-                                <rect key="frame" x="46" y="44" width="134" height="40"/>
-                                <color key="backgroundColor" red="0.9716710453539823" green="0.9716710453539823" blue="0.9716710453539823" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="placeholder" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="pag-C5-sGC" customClass="SPXTextField">
-                                <rect key="frame" x="46" y="189" width="134" height="50"/>
-                                <color key="backgroundColor" red="0.97167104540000004" green="0.97167104540000004" blue="0.97167104540000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="placeholder" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="5eU-4P-Ze9" customClass="SPXTextField">
-                                <rect key="frame" x="46" y="110" width="134" height="44"/>
-                                <color key="backgroundColor" red="0.97167104540000004" green="0.97167104540000004" blue="0.97167104540000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="textField" destination="3vb-yd-KJ2" id="ZIq-QK-IUB"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="dHq-m7-7aC">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="kWC-Y7-yL5">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kWC-Y7-yL5" id="xoX-7w-9Jx">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WsM-89-PoY" customClass="SPXTextField">
+                                                    <rect key="frame" x="15" y="0.0" width="297" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <outlet property="dataValidator" destination="r7s-1z-8za" id="4gD-hz-Mju"/>
+                                                    </connections>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="WsM-89-PoY" firstAttribute="leading" secondItem="xoX-7w-9Jx" secondAttribute="leading" constant="15" id="1Bo-3c-FnT"/>
+                                                <constraint firstAttribute="trailing" secondItem="WsM-89-PoY" secondAttribute="trailing" constant="8" id="2nE-3m-R8c"/>
+                                                <constraint firstAttribute="bottom" secondItem="WsM-89-PoY" secondAttribute="bottom" id="5fx-fx-ZsG"/>
+                                                <constraint firstItem="WsM-89-PoY" firstAttribute="top" secondItem="xoX-7w-9Jx" secondAttribute="top" id="xxf-xx-bk3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="wgd-Mb-5bJ">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wgd-Mb-5bJ" id="PFo-FY-FmF">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ke6-Hu-zRr" customClass="SPXTextField">
+                                                    <rect key="frame" x="15" y="0.0" width="297" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <outlet property="dataValidator" destination="bs1-uW-EAH" id="eOb-nu-zFc"/>
+                                                    </connections>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="Ke6-Hu-zRr" secondAttribute="bottom" id="1SY-vP-7zy"/>
+                                                <constraint firstItem="Ke6-Hu-zRr" firstAttribute="leading" secondItem="PFo-FY-FmF" secondAttribute="leading" constant="15" id="Vyo-2G-p3w"/>
+                                                <constraint firstAttribute="trailing" secondItem="Ke6-Hu-zRr" secondAttribute="trailing" constant="8" id="kog-Xs-reo"/>
+                                                <constraint firstItem="Ke6-Hu-zRr" firstAttribute="top" secondItem="PFo-FY-FmF" secondAttribute="top" id="ufP-vi-QtI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="b05-R6-eZE" id="86f-fv-s5h"/>
+                            <outlet property="delegate" destination="b05-R6-eZE" id="27a-lW-pnR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Sign In" id="dhK-IO-BZ0"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FDz-gv-uXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="r7s-1z-8za" userLabel="Email Validator" customClass="SPXEmailDataValidator"/>
+                <customObject id="bs1-uW-EAH" userLabel="Password Validator" customClass="SPXRegexDataValidator">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="invalidErrorString" value="Requires a min of 6 characters, at least one letter"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="regexPattern" value="^(?=.*[A-Za-z]).{6,32}$"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
             </objects>
+            <point key="canvasLocation" x="742" y="204"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rL5-U1-62B">
+            <objects>
+                <navigationController id="gu2-La-c2f" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ssf-dm-kpH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="b05-R6-eZE" kind="relationship" relationship="rootViewController" id="GQg-oa-f0J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jfy-LF-zwj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311" y="204"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

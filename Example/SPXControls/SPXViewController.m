@@ -12,7 +12,8 @@
 #import "SPXRegexDataValidator.h"
 
 @interface SPXViewController ()
-@property (nonatomic, weak) IBOutlet SPXTextField *textField;
+@property (nonatomic, weak) IBOutlet SPXTextField *usernameField;
+@property (nonatomic, weak) IBOutlet SPXTextField *passwordField;
 @end
 
 @implementation SPXViewController
@@ -20,11 +21,6 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
-  
-  self.textField.text = @"Shaps Server";
-  self.textField.placeholder = @"Server name";
-  self.textField.verticalSpacing = 10;
-  [self.textField applyValidator:[SPXRegexDataValidator emailValidator]];
 }
 
 @end

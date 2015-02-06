@@ -23,13 +23,15 @@
  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
+#import "UITextField+SPXDataValidatorAdditions.h"
 
+IB_DESIGNABLE
 @interface SPXTextField : UITextField
 
-@property (nonatomic, strong) UIColor *activeTintColor;
-@property (nonatomic, strong) UIColor *inactiveTintColor;
-@property (nonatomic, strong) UIColor *invalidTintColor;
-@property (nonatomic, assign) CGFloat verticalSpacing;
+@property (nonatomic, strong) IBInspectable UIColor *activeTintColor;
+@property (nonatomic, strong) IBInspectable UIColor *inactiveTintColor;
+@property (nonatomic, strong) IBInspectable UIColor *invalidTintColor;
+@property (nonatomic, assign) IBInspectable CGFloat verticalSpacing;
+@property (nonatomic, assign) IBInspectable BOOL capitalizeFloatingLabel;
 
 @end
