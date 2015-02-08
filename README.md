@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Shaps Mohsenin, shaps@theappbusiness.com
+Shaps Mohsenin, [@shaps](http://twitter.com/shaps)
 
 ## License
 
