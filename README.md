@@ -5,11 +5,24 @@
 [![License](https://img.shields.io/cocoapods/l/SPXControls.svg?style=flat)](http://cocoadocs.org/docsets/SPXControls)
 [![Platform](https://img.shields.io/cocoapods/p/SPXControls.svg?style=flat)](http://cocoadocs.org/docsets/SPXControls)
 
+This is just a simple library providing some UI components that I sometimes use across projects.
+
+## What's inside?
+
+__SPXTextField__
+
+* Includes a really simple floating labels implementation
+* IBInspectable attributes for configuring your label in Interface Builder
+* Seamless integration with [SPXDataValidator](https://github.com/shaps80/SPXDataValidators/)
+	* If you're using `SPXData`Validators, everything will just work ;)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+Xcode 6 is a minimum requirement as many controls provide IBInspectable attributes.
 
 ## Installation
 
