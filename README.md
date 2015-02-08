@@ -14,7 +14,7 @@ __SPXTextField__
 * Includes a really simple floating labels implementation
 * IBInspectable attributes for configuring your label in Interface Builder
 * Seamless integration with [SPXDataValidator](https://github.com/shaps80/SPXDataValidators/)
-	* If you're using `SPXData`Validators, everything will just work ;)
+	* If you're using `SPXDataValidators`, everything will just work ;)
 
 ## Usage
 
