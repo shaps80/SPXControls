@@ -7,13 +7,9 @@
 //
 
 #import "SPXViewController.h"
-#import "SPXTextField.h"
-#import "UITextField+SPXDataValidatorAdditions.h"
-#import "SPXRegexDataValidator.h"
+#import "SPXAlertController.h"
 
 @interface SPXViewController ()
-@property (nonatomic, weak) IBOutlet SPXTextField *usernameField;
-@property (nonatomic, weak) IBOutlet SPXTextField *passwordField;
 @end
 
 @implementation SPXViewController
@@ -21,6 +17,37 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+  [self presentViewController:[UIViewController new] animated:YES completion:nil];
+  
+  dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    [self dismissViewControllerAnimated:YES completion:nil];
+  });
+}
+
+- (IBAction)handleButton:(id)sender
+{
+  SPXAlertController *controller = [SPXAlertController alertControllerWithTitle:@"Title" message:@"Message" preferredStyle:SPXAlertControllerStyleActionSheet];
+  
+  SPXAlertAction *ok = [SPXAlertAction actionWithTitle:@"OK" style:SPXAlertActionStyleDefault handler:^(SPXAlertAction *action) {
+    NSLog(@"%@", action.title);
+  }];
+  
+  SPXAlertAction *cancel = [SPXAlertAction actionWithTitle:@"Cancel" style:SPXAlertActionStyleCancel handler:^(SPXAlertAction *action) {
+    NSLog(@"%@", action.title);
+  }];
+  
+  SPXAlertAction *delete = [SPXAlertAction actionWithTitle:@"Delete" style:SPXAlertActionStyleDestructive handler:^(SPXAlertAction *action) {
+    NSLog(@"%@", action.title);
+  }];
+
+  
+  [controller addAction:ok];
+  [controller addAction:cancel];
+  [controller addAction:delete];
+  
+  [self presentViewController:controller animated:YES completion:^{
+    
+  }];
 }
 
 @end

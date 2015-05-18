@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gu2-La-c2f">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gu2-La-c2f">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Sign In-->
@@ -12,7 +12,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="5zf-t4-rBS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection id="dHq-m7-7aC">
                                 <cells>
@@ -22,7 +22,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WsM-89-PoY" customClass="SPXTextField">
-                                                    <rect key="frame" x="15" y="0.0" width="297" height="44"/>
+                                                    <rect key="frame" x="15" y="0.0" width="297" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                     <connections>
@@ -44,7 +44,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="enter your password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ke6-Hu-zRr" customClass="SPXTextField">
-                                                    <rect key="frame" x="15" y="0.0" width="297" height="44"/>
+                                                    <rect key="frame" x="15" y="0.0" width="297" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                     <userDefinedRuntimeAttributes>
@@ -73,7 +73,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Sign In" id="dhK-IO-BZ0"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FDz-gv-uXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="r7s-1z-8za" userLabel="Email Validator" customClass="SPXEmailDataValidator"/>
                 <customObject id="bs1-uW-EAH" userLabel="Password Validator" customClass="SPXRegexDataValidator">
                     <userDefinedRuntimeAttributes>
@@ -81,8 +80,39 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="regexPattern" value="^(?=.*[A-Za-z]).{6,32}$"/>
                     </userDefinedRuntimeAttributes>
                 </customObject>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FDz-gv-uXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="742" y="204"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1q4-Ta-apt">
+            <objects>
+                <viewController id="NZc-Mw-AcH" customClass="SPXViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gFD-Zo-0Sh"/>
+                        <viewControllerLayoutGuide type="bottom" id="cks-Kc-BK6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A8a-pl-kNl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sed-0d-Lt1">
+                                <rect key="frame" x="137" y="138" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleButton:" destination="NZc-Mw-AcH" eventType="touchUpInside" id="D0R-Dn-gs0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VJo-mg-D0K"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yoS-9O-Jq1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="742" y="839"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rL5-U1-62B">
@@ -93,7 +123,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="b05-R6-eZE" kind="relationship" relationship="rootViewController" id="GQg-oa-f0J"/>
+                        <segue destination="NZc-Mw-AcH" kind="relationship" relationship="rootViewController" id="J2a-pM-Ph6"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfy-LF-zwj" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -6,6 +6,12 @@
 // project.
 
 
+// LoremIpsum
+#define COCOAPODS_POD_AVAILABLE_LoremIpsum
+#define COCOAPODS_VERSION_MAJOR_LoremIpsum 1
+#define COCOAPODS_VERSION_MINOR_LoremIpsum 0
+#define COCOAPODS_VERSION_PATCH_LoremIpsum 0
+
 // SPXControls
 #define COCOAPODS_POD_AVAILABLE_SPXControls
 #define COCOAPODS_VERSION_MAJOR_SPXControls 1

@@ -2,6 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'SPXControls', :exclusive => true do
   pod "SPXControls", :path => "../"
+  pod "LoremIpsum"
 end
 
 target 'Tests', :exclusive => true do
