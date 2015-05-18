@@ -5,85 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--Sign In-->
-        <scene sceneID="bp8-eK-K7b">
-            <objects>
-                <tableViewController id="b05-R6-eZE" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="5zf-t4-rBS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
-                        <sections>
-                            <tableViewSection id="dHq-m7-7aC">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="kWC-Y7-yL5">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kWC-Y7-yL5" id="xoX-7w-9Jx">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WsM-89-PoY" customClass="SPXTextField">
-                                                    <rect key="frame" x="15" y="0.0" width="297" height="43"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
-                                                    <connections>
-                                                        <outlet property="dataValidator" destination="r7s-1z-8za" id="GLJ-Zt-jQy"/>
-                                                    </connections>
-                                                </textField>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="WsM-89-PoY" firstAttribute="leading" secondItem="xoX-7w-9Jx" secondAttribute="leading" constant="15" id="1Bo-3c-FnT"/>
-                                                <constraint firstAttribute="trailing" secondItem="WsM-89-PoY" secondAttribute="trailing" constant="8" id="2nE-3m-R8c"/>
-                                                <constraint firstAttribute="bottom" secondItem="WsM-89-PoY" secondAttribute="bottom" id="5fx-fx-ZsG"/>
-                                                <constraint firstItem="WsM-89-PoY" firstAttribute="top" secondItem="xoX-7w-9Jx" secondAttribute="top" id="xxf-xx-bk3"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="wgd-Mb-5bJ">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wgd-Mb-5bJ" id="PFo-FY-FmF">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="enter your password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ke6-Hu-zRr" customClass="SPXTextField">
-                                                    <rect key="frame" x="15" y="0.0" width="297" height="43"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="floatingText" value="password"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                    <connections>
-                                                        <outlet property="dataValidator" destination="bs1-uW-EAH" id="eOb-nu-zFc"/>
-                                                    </connections>
-                                                </textField>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="Ke6-Hu-zRr" secondAttribute="bottom" id="1SY-vP-7zy"/>
-                                                <constraint firstItem="Ke6-Hu-zRr" firstAttribute="leading" secondItem="PFo-FY-FmF" secondAttribute="leading" constant="15" id="Vyo-2G-p3w"/>
-                                                <constraint firstAttribute="trailing" secondItem="Ke6-Hu-zRr" secondAttribute="trailing" constant="8" id="kog-Xs-reo"/>
-                                                <constraint firstItem="Ke6-Hu-zRr" firstAttribute="top" secondItem="PFo-FY-FmF" secondAttribute="top" id="ufP-vi-QtI"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
-                        <connections>
-                            <outlet property="dataSource" destination="b05-R6-eZE" id="86f-fv-s5h"/>
-                            <outlet property="delegate" destination="b05-R6-eZE" id="27a-lW-pnR"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Sign In" id="dhK-IO-BZ0"/>
-                </tableViewController>
-                <customObject id="r7s-1z-8za" userLabel="Email Validator" customClass="SPXEmailDataValidator"/>
-                <customObject id="bs1-uW-EAH" userLabel="Password Validator" customClass="SPXRegexDataValidator">
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="invalidErrorString" value="Requires a min of 6 characters, at least one letter"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="regexPattern" value="^(?=.*[A-Za-z]).{6,32}$"/>
-                    </userDefinedRuntimeAttributes>
-                </customObject>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FDz-gv-uXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="742" y="204"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="1q4-Ta-apt">
             <objects>
@@ -112,7 +33,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yoS-9O-Jq1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="742" y="839"/>
+            <point key="canvasLocation" x="681" y="204"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rL5-U1-62B">

@@ -26,6 +26,7 @@
 #import "SPXAlertController.h"
 #import "SPXDefines.h"
 
+static SPXAlertController *__controller = nil;
 
 @interface SPXAlertAction ()
 @property (nonatomic, strong) NSString *title;
@@ -84,6 +85,8 @@
 
 - (void)presentFromViewController:(UIViewController *)controller completion:(void (^)(void))completion
 {
+  __controller = self;
+  
   NSString *cancelTitle = nil, *destructiveTitle = nil;
   NSMutableArray *otherTitles = [NSMutableArray new];
   
@@ -174,8 +177,7 @@
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
   NSString *buttonTitle = [alertView buttonTitleAtIndex:buttonIndex];
-  SPXAlertAction *action = self.alertActions[buttonTitle];
-  !action.handler ?: action.handler(action);
+  [self dismissWithButtonTitle:buttonTitle];
 }
 
 #pragma mark - UIActionSheetDelegate
@@ -183,8 +185,14 @@
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
   NSString *buttonTitle = [actionSheet buttonTitleAtIndex:buttonIndex];
+  [self dismissWithButtonTitle:buttonTitle];
+}
+
+- (void)dismissWithButtonTitle:(NSString *)buttonTitle
+{
   SPXAlertAction *action = self.alertActions[buttonTitle];
   !action.handler ?: action.handler(action);
+  __controller = nil;
 }
 
 #pragma mark - Debugging
