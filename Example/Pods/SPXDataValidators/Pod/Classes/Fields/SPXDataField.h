@@ -20,6 +20,12 @@
 
 
 /**
+ *  You can provide dependent fields that must be validated in order for this field to validate -- useful in password confirmations
+ */
+@property (nonatomic, strong) IBOutletCollection(NSObject /* id<SPXDataField> */) NSArray *dependentFields;
+
+
+/**
  *  Validates the current value of this view
  *
  *  @param error A pointer to an NSError object (optional)
@@ -27,6 +33,12 @@
  *  @return Returns the result from [self.validator validateValue:self.text error:&error]. If no validator has been applied, this method will always return YES
  */
 - (BOOL)validateWithError:(out NSError * __autoreleasing *)error;
+
+
+/**
+ *  Gets the text for this field
+ */
+- (NSString *)text;
 
 
 @end

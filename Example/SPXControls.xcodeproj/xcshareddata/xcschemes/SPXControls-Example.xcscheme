@@ -20,6 +20,20 @@
                ReferencedContainer = "container:SPXControls.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "547EADD01B0A6F6D0049648D"
+               BuildableName = "SPXControlsExtension.appex"
+               BlueprintName = "SPXControlsExtension"
+               ReferencedContainer = "container:SPXControls.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

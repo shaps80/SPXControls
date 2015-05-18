@@ -7,6 +7,7 @@
 //
 
 #import "UITextField+SPXDataValidatorAdditions.h"
+#import "SPXDefines.h"
 #import <objc/runtime.h>
 
 
@@ -15,6 +16,22 @@
 @end
 
 @implementation UITextField (SPXDataValidatorAdditions)
+
+- (void)setDependentFields:(NSArray *)dependentFields
+{
+  @synchronized(self) {
+    for (id <SPXDataField> field in dependentFields) {
+      SPXAssertTrueOrReturn([field conformsToProtocol:@protocol(SPXDataField)]);
+    }
+    
+    objc_setAssociatedObject(self, @selector(dependentFields), dependentFields, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+  }
+}
+
+- (NSArray *)dependentFields
+{
+  return objc_getAssociatedObject(self, @selector(dependentFields));
+}
 
 - (void)setDataValidator:(id<SPXDataValidator>)dataValidator
 {

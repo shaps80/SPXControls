@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0B6FB34E301F71F07F2FA919 /* libPods-SPXControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2210AA2D76BF741E4876E97A /* libPods-SPXControls.a */; };
+		547EADD31B0A6F6D0049648D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547EADD21B0A6F6D0049648D /* NotificationCenter.framework */; };
+		547EADD91B0A6F6D0049648D /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547EADD81B0A6F6D0049648D /* TodayViewController.m */; };
+		547EADDB1B0A6F6D0049648D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547EADDA1B0A6F6D0049648D /* MainInterface.storyboard */; };
+		547EADDE1B0A6F6D0049648D /* SPXControlsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 547EADD11B0A6F6D0049648D /* SPXControlsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		54A82B271B09E60100B8945D /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54A82B261B09E60100B8945D /* Cell.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -28,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		547EADDC1B0A6F6D0049648D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547EADD01B0A6F6D0049648D;
+			remoteInfo = SPXControlsExtension;
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -36,6 +47,20 @@
 			remoteInfo = SPXControls;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		547EADE21B0A6F6D0049648D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				547EADDE1B0A6F6D0049648D /* SPXControlsExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		07DA57B093197BE371B92575 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -52,6 +77,12 @@
 		546872C11B09CD7C00AACD2B /* SPXSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPXSelectionController.m; sourceTree = "<group>"; };
 		547EADB31B09EDFA0049648D /* UIViewController+SPXAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SPXAdditions.h"; sourceTree = "<group>"; };
 		547EADB41B09EDFA0049648D /* UIViewController+SPXAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SPXAdditions.m"; sourceTree = "<group>"; };
+		547EADD11B0A6F6D0049648D /* SPXControlsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SPXControlsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		547EADD21B0A6F6D0049648D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		547EADD61B0A6F6D0049648D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547EADD71B0A6F6D0049648D /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		547EADD81B0A6F6D0049648D /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		547EADDA1B0A6F6D0049648D /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		54A82B261B09E60100B8945D /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SPXControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPXControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +111,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		547EADCE1B0A6F6D0049648D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547EADD31B0A6F6D0049648D /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,6 +168,25 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		547EADD41B0A6F6D0049648D /* SPXControlsExtension */ = {
+			isa = PBXGroup;
+			children = (
+				547EADD71B0A6F6D0049648D /* TodayViewController.h */,
+				547EADD81B0A6F6D0049648D /* TodayViewController.m */,
+				547EADDA1B0A6F6D0049648D /* MainInterface.storyboard */,
+				547EADD51B0A6F6D0049648D /* Supporting Files */,
+			);
+			path = SPXControlsExtension;
+			sourceTree = "<group>";
+		};
+		547EADD51B0A6F6D0049648D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547EADD61B0A6F6D0049648D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +194,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* SPXControls */,
 				6003F5B5195388D20070C39A /* Tests */,
+				547EADD41B0A6F6D0049648D /* SPXControlsExtension */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				956D04C1A2CC4C619031CA93 /* Pods */,
@@ -147,6 +206,7 @@
 			children = (
 				6003F58A195388D20070C39A /* SPXControls.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
+				547EADD11B0A6F6D0049648D /* SPXControlsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +220,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				2210AA2D76BF741E4876E97A /* libPods-SPXControls.a */,
 				18B138F161B35B2A7D7EC2E5 /* libPods-Tests.a */,
+				547EADD21B0A6F6D0049648D /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,6 +295,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		547EADD01B0A6F6D0049648D /* SPXControlsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547EADE11B0A6F6D0049648D /* Build configuration list for PBXNativeTarget "SPXControlsExtension" */;
+			buildPhases = (
+				547EADCD1B0A6F6D0049648D /* Sources */,
+				547EADCE1B0A6F6D0049648D /* Frameworks */,
+				547EADCF1B0A6F6D0049648D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPXControlsExtension;
+			productName = SPXControlsExtension;
+			productReference = 547EADD11B0A6F6D0049648D /* SPXControlsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		6003F589195388D20070C39A /* SPXControls */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SPXControls" */;
@@ -243,10 +321,12 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				47B86DF4E757C92174AF6AB0 /* Copy Pods Resources */,
+				547EADE21B0A6F6D0049648D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				547EADDD1B0A6F6D0049648D /* PBXTargetDependency */,
 			);
 			name = SPXControls;
 			productName = SPXControls;
@@ -283,6 +363,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Shaps Mohsenin";
 				TargetAttributes = {
+					547EADD01B0A6F6D0049648D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -302,12 +385,21 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* SPXControls */,
+				547EADD01B0A6F6D0049648D /* SPXControlsExtension */,
 				6003F5AD195388D20070C39A /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		547EADCF1B0A6F6D0049648D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547EADDB1B0A6F6D0049648D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +486,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		547EADCD1B0A6F6D0049648D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547EADD91B0A6F6D0049648D /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,6 +515,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		547EADDD1B0A6F6D0049648D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547EADD01B0A6F6D0049648D /* SPXControlsExtension */;
+			targetProxy = 547EADDC1B0A6F6D0049648D /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* SPXControls */;
@@ -458,6 +563,43 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		547EADDF1B0A6F6D0049648D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SPXControlsExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		547EADE01B0A6F6D0049648D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SPXControlsExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -603,6 +745,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		547EADE11B0A6F6D0049648D /* Build configuration list for PBXNativeTarget "SPXControlsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547EADDF1B0A6F6D0049648D /* Debug */,
+				547EADE01B0A6F6D0049648D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "SPXControls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

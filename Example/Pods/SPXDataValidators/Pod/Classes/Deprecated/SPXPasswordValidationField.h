@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "UITextField+SPXDataValidatorAdditions.h"
 #import "SPXDataField.h"
-
+#import "SPXDefines.h"
 
 /**
  *  This custom field demonstrates password (as well as confirmation) validation through composition
  *  This class will first validate each field, and then additionally validate itself if both fields are valid
  */
+SPX_DEPRECATED("Use -dependentFields on your id <SPXDataField> instance")
 @interface SPXPasswordValidationField : NSObject <SPXDataField>
 
 
@@ -26,7 +27,14 @@
  *
  *  @return A new password validation field
  */
-+ (instancetype)fieldForPasswordField:(UITextField <SPXDataField> *)passwordField confirmationField:(UITextField <SPXDataField> *)confirmationField;
++ (instancetype)fieldForPasswordField:(id <SPXDataField>)passwordField confirmationField:(id <SPXDataField>)confirmationField;
+
+
+/**
+ *  If both fields are validated, the resulting text is returned. Otherwise nil.
+ */
+- (NSString *)text;
 
 
 @end
+

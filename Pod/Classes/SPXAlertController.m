@@ -50,7 +50,7 @@ static SPXAlertController *__controller = nil;
 
 + (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(SPXAlertControllerStyle)preferredStyle
 {
-  if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1) {
+  if (objc_getClass("UIAlertController") != nil) {
     return (SPXAlertController *)[UIAlertController alertControllerWithTitle:title message:message preferredStyle:(UIAlertControllerStyle)preferredStyle];
   }
   
@@ -232,7 +232,7 @@ static SPXAlertController *__controller = nil;
 {
   SPXAssertTrueOrReturnNil(title);
   
-  if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1) {
+  if (objc_getClass("UIAlertController") != nil) {
     return (SPXAlertAction *)[UIAlertAction actionWithTitle:title style:(UIAlertActionStyle)style handler:(void (^)(UIAlertAction *action))handler];
   }
   
