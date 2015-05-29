@@ -26,13 +26,29 @@
     NSLog(@"%@", action.title);
   }];
   
+  SPXAlertAction *one = [SPXAlertAction actionWithTitle:@"One" style:SPXAlertActionStyleDefault handler:^(SPXAlertAction *action) {
+    
+  }];
+  
+  SPXAlertAction *another = [SPXAlertAction actionWithTitle:@"Another" style:SPXAlertActionStyleDefault handler:^(SPXAlertAction *action) {
+    
+  }];
+  
+  
+  SPXAlertAction *poo = [SPXAlertAction actionWithTitle:@"Poo" style:SPXAlertActionStyleDefault handler:^(SPXAlertAction *action) {
+    
+  }];
+  
   SPXAlertAction *delete = [SPXAlertAction actionWithTitle:@"Delete" style:SPXAlertActionStyleDestructive handler:^(SPXAlertAction *action) {
     NSLog(@"%@", action.title);
   }];
 
   [controller addAction:ok];
+  [controller addAction:poo];
   [controller addAction:cancel];
   [controller addAction:delete];
+  [controller addAction:one];
+  [controller addAction:another];
   
   [self presentViewController:controller animated:YES completion:^{
     

@@ -39,6 +39,7 @@ static SPXAlertController *__controller = nil;
 
 @property (nonatomic, assign) SPXAlertControllerStyle preferredStyle;
 @property (nonatomic, strong) NSMutableDictionary *alertActions;
+@property (nonatomic, strong) NSMutableArray *orderedActions;
 
 @end
 
@@ -65,6 +66,11 @@ static SPXAlertController *__controller = nil;
 
 #pragma mark - Actions
 
+- (NSMutableArray *)orderedActions
+{
+  return _orderedActions ?: (_orderedActions = [NSMutableArray new]);
+}
+
 - (NSMutableDictionary *)alertActions
 {
   return _alertActions ?: (_alertActions = [NSMutableDictionary new]);
@@ -78,6 +84,7 @@ static SPXAlertController *__controller = nil;
 - (void)addAction:(SPXAlertAction *)action
 {
   SPXAssertTrueOrReturn(action.title);
+  [self.orderedActions addObject:action];
   self.alertActions[action.title] = action;
 }
 
@@ -90,7 +97,7 @@ static SPXAlertController *__controller = nil;
   NSString *cancelTitle = nil, *destructiveTitle = nil;
   NSMutableArray *otherTitles = [NSMutableArray new];
   
-  for (SPXAlertAction *action in self.alertActions.allValues) {
+  for (SPXAlertAction *action in self.orderedActions) {
     switch (action.style) {
       case SPXAlertActionStyleCancel:
         cancelTitle = action.title;
@@ -106,9 +113,9 @@ static SPXAlertController *__controller = nil;
   }
   
   if (self.preferredStyle == SPXAlertControllerStyleAlert) {
-    [self presentAlertViewWithCancelTitle:cancelTitle destructiveTitle:destructiveTitle otherTitles:otherTitles];
+    [self presentAlertViewWithCancelTitle:cancelTitle destructiveTitle:destructiveTitle];
   } else {
-    [self presentActionSheetFromViewController:controller cancelTitle:cancelTitle destructiveTitle:destructiveTitle otherTitles:otherTitles];
+    [self presentActionSheetFromViewController:controller cancelTitle:cancelTitle destructiveTitle:destructiveTitle];
   }
   
   dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -116,23 +123,27 @@ static SPXAlertController *__controller = nil;
   });
 }
 
-- (void)presentActionSheetFromViewController:(UIViewController *)controller cancelTitle:(NSString *)cancelTitle destructiveTitle:(NSString *)destructiveTitle otherTitles:(NSArray *)otherTitles
+- (void)presentActionSheetFromViewController:(UIViewController *)controller cancelTitle:(NSString *)cancelTitle destructiveTitle:(NSString *)destructiveTitle
 {
   NSString *sheetTitle = [self.title stringByAppendingString:self.message ? [NSString stringWithFormat:@"\n\n%@", self.message] : @""];
   UIActionSheet *sheet = [UIActionSheet new];
   sheet.title = sheetTitle;
   sheet.delegate = self;
   
-  for (NSString *buttonTitle in otherTitles) {
-    [sheet addButtonWithTitle:buttonTitle];
+  for (SPXAlertAction *action in self.orderedActions) {
+    if (action.style == SPXAlertActionStyleCancel) {
+      continue;
+    }
+    
+    if (action.style == SPXAlertActionStyleDestructive) {
+      sheet.destructiveButtonIndex = [sheet addButtonWithTitle:action.title];
+      continue;
+    }
+    
+    [sheet addButtonWithTitle:action.title];
   }
   
   NSUInteger index = -1;
-  
-  if (destructiveTitle) {
-    index = [sheet addButtonWithTitle:destructiveTitle];
-    sheet.destructiveButtonIndex = index;
-  }
   
   if (cancelTitle) {
     index = [sheet addButtonWithTitle:cancelTitle];
@@ -165,23 +176,22 @@ static SPXAlertController *__controller = nil;
   }
 }
 
-- (void)presentAlertViewWithCancelTitle:(NSString *)cancelTitle destructiveTitle:(NSString *)destructiveTitle otherTitles:(NSArray *)otherTitles
+- (void)presentAlertViewWithCancelTitle:(NSString *)cancelTitle destructiveTitle:(NSString *)destructiveTitle
 {
   UIAlertView *alert = [UIAlertView new];
   alert.title = self.title;
   alert.message = self.message;
   
+  for (SPXAlertAction *action in self.orderedActions) {
+    if (action.style == SPXAlertActionStyleCancel) {
+      continue;
+    }
+    
+    [alert addButtonWithTitle:action.title];
+  }
+  
   if (cancelTitle) {
-    NSUInteger index = [alert addButtonWithTitle:cancelTitle];
-    alert.cancelButtonIndex = index;
-  }
-  
-  for (NSString *buttonTitle in otherTitles) {
-    [alert addButtonWithTitle:buttonTitle];
-  }
-  
-  if (destructiveTitle) {
-    [alert addButtonWithTitle:destructiveTitle];
+    alert.cancelButtonIndex = [alert addButtonWithTitle:cancelTitle];
   }
   
   [alert show];
