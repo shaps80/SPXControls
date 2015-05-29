@@ -119,17 +119,25 @@ static SPXAlertController *__controller = nil;
 - (void)presentActionSheetFromViewController:(UIViewController *)controller cancelTitle:(NSString *)cancelTitle destructiveTitle:(NSString *)destructiveTitle otherTitles:(NSArray *)otherTitles
 {
   NSString *sheetTitle = [self.title stringByAppendingString:self.message ? [NSString stringWithFormat:@"\n\n%@", self.message] : @""];
-  UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:sheetTitle delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
+  UIActionSheet *sheet = [UIActionSheet new];
+  sheet.title = sheetTitle;
+  sheet.delegate = self;
   
   for (NSString *buttonTitle in otherTitles) {
     [sheet addButtonWithTitle:buttonTitle];
   }
   
-  NSUInteger index = [sheet addButtonWithTitle:destructiveTitle];
-  sheet.destructiveButtonIndex = index;
+  NSUInteger index = -1;
   
-  index = [sheet addButtonWithTitle:cancelTitle];
-  sheet.cancelButtonIndex = index;
+  if (destructiveTitle) {
+    index = [sheet addButtonWithTitle:destructiveTitle];
+    sheet.destructiveButtonIndex = index;
+  }
+  
+  if (cancelTitle) {
+    index = [sheet addButtonWithTitle:cancelTitle];
+    sheet.cancelButtonIndex = index;
+  }
   
   UIView *view = controller.view;
   
@@ -159,7 +167,14 @@ static SPXAlertController *__controller = nil;
 
 - (void)presentAlertViewWithCancelTitle:(NSString *)cancelTitle destructiveTitle:(NSString *)destructiveTitle otherTitles:(NSArray *)otherTitles
 {
-  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:self.title message:self.message delegate:self cancelButtonTitle:cancelTitle otherButtonTitles:nil];
+  UIAlertView *alert = [UIAlertView new];
+  alert.title = self.title;
+  alert.message = self.message;
+  
+  if (cancelTitle) {
+    NSUInteger index = [alert addButtonWithTitle:cancelTitle];
+    alert.cancelButtonIndex = index;
+  }
   
   for (NSString *buttonTitle in otherTitles) {
     [alert addButtonWithTitle:buttonTitle];

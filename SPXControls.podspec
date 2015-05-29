@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SPXControls"
-  s.version          = "1.1.1"
+  s.version          = "1.1.2"
   s.summary          = "Provides custom controls used throughout my applications."
   s.homepage         = "https://github.com/shaps80/SPXControls"
 #s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
